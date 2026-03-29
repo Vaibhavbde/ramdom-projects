@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    color: #fff;
+}
+
+table button{
+    width: 60px;
+    height: 60px;
+    border: 0;
+    margin: 3px;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+table button:disabled{
+    /* background: #fff;
+    color: #333;
+    font-weight: bold;
+    outline: none;
+    border: 0; */
+    border: 0;
+    padding: 0;
+    margin: 3px;
+}
+
+#reset{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 0;
+    margin: 5px 0;
+}

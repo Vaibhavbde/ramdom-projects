@@ -1,0 +1,13 @@
+.earningWishperLogo {
+    
+}
+.earningText,
+.wishperText {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.earningText::first-letter ,
+.wishperText::first-letter {
+    font-size: 32px;
+}

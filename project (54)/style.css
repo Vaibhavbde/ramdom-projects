@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 600px;
+    border: 1px solid #000;
+    margin: 50px auto;
+}
+
+form > div{
+    margin: 20px;
+}
+
+form label{
+    text-transform: capitalize;
+    font-weight: bold;
+}

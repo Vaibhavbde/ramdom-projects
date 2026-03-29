@@ -1,0 +1,10 @@
+@import "./base/reset.css";
+@import "./base/typography.css";
+
+/* importing utility */
+@import "./utility/variable.css";
+
+/* importing layout css */
+@import "./layout/main-layout.css";
+@import "./layout/header.css";
+@import "./layout/sidebar.css";

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HTML CSS Header</title>
+    <script src="https://kit.fontawesome.com/f80024fe91.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="nav-header">
+            <button id="menu-opener-btn" class="menu-opener-btn d-none"><i class="fa-solid fa-bars"></i></button>
+            <ul class="nav-1 p-font">
+                <li><a href="#">Find talent</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Learn design</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Go Pro</a></li>
+            </ul>
+            <a href="#" class="logo">Coding Insanely</a>
+            <div class="nav-2">
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="search">
+                </form>
+                <a href="#" class="login">Logi in</a>
+                <button class="btn reverse">Sign up</button>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="sidebar-menu">
+        <div class="side-menu">
+            <button id="menu-close-btn" class="menu-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <ul>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+            <h2>Most Popular</h2>
+            <ul>
+                <li><a href="#">Find talents</a></li>
+                <li><a href="#">Inspiration</a></li>
+                <li><a href="#">Learn design</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Go Pro</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <section class="hero"></section>
+
+    <section class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate laboriosam dolores, tempora suscipit delectus similique saepe facilis ipsum officia, aliquam fugiat doloribus. Voluptate dolorum facere non natus iure vero?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate laboriosam dolores, tempora suscipit delectus similique saepe facilis ipsum officia, aliquam fugiat doloribus. Voluptate dolorum facere non natus iure vero?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate laboriosam dolores, tempora suscipit delectus similique saepe facilis ipsum officia, aliquam fugiat doloribus. Voluptate dolorum facere non natus iure vero?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate laboriosam dolores, tempora suscipit delectus similique saepe facilis ipsum officia, aliquam fugiat doloribus. Voluptate dolorum facere non natus iure vero?</p>
+    </section>
+
+    <script>
+        const menuOpenerBtn = document.getElementById("menu-opener-btn");
+        const menuCloseBtn = document.getElementById("menu-close-btn");
+        const sidebarMenu = document.querySelector('.sidebar-menu');
+        menuOpenerBtn.addEventListener('click', (e) => {
+            sidebarMenu.classList.add('active');
+        });
+        menuCloseBtn.addEventListener('click', (e) => {
+            sidebarMenu.classList.remove('active');
+        })
+    </script>
+    
+</body>
+</html>

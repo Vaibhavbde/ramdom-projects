@@ -1,0 +1,55 @@
+/* Reset CSS */
+
+/* Box sizing */
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.4rem;
+}
+
+/* Reset margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dd, ol, ul, figure, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset form elements */
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    font: inherit;
+}
+
+/* Reset headings */
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Reset links */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Reset media elements */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional resets or customizations can be added below */

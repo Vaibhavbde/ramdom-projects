@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Note</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Yanone+Kaffeesatz:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div ondragover="allowdrop(event)" ondrop="drop(event)" class="note-container">
+        <!-- <div id="1" ondragstart="drag(event)" draggable="true" class="note">
+            <div class="note-heading">
+                Note #1
+            </div>
+
+            <textarea class="notes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque dolorem veniam excepturi atque quo cumque odio quaerat ipsum exercitationem, accusamus, facilis vitae hic ratione ab beatae deleniti deserunt iure.</textarea>
+        </div>
+
+        <div id="2" ondragstart="drag(event)"  draggable="true" class="note">
+            <div class="note-heading">
+                Note #2
+            </div>
+
+            <textarea class="notes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque dolorem veniam excepturi atque quo cumque odio quaerat ipsum exercitationem, accusamus, facilis vitae hic ratione ab beatae deleniti deserunt iure.</textarea>
+        </div>
+
+        <div id="3" ondragstart="drag(event)"  draggable="true" class="note">
+            <div class="note-heading">
+                Note #3
+            </div>
+
+            <textarea class="notes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eaque dolorem veniam excepturi atque quo cumque odio quaerat ipsum exercitationem, accusamus, facilis vitae hic ratione ab beatae deleniti deserunt iure.</textarea>
+        </div> -->
+    </div>
+
+
+    <button id="add-new-note">+</button>
+
+
+    
+
+
+    <script>
+        let x = 0, y = 0;
+        function drop(e){
+            console.log(e);
+            const id = e.dataTransfer.getData("id");
+
+            const { clientX, clientY } = e;
+            console.log({ clientX, clientY });
+
+            //const x = clientX > 300 ? 300 - clientX : clientX;
+            //const y = clientY > 300 ? 300 - clientY : clientY;
+
+            const el = document.getElementById(id);
+            
+            el.style.left = `${clientX - 150}px`;
+            el.style.top = `${clientY - 150}px`;
+        }
+
+        function allowdrop(e){
+            e.preventDefault();
+        }
+
+        function drag(e){
+            const id = e.target.getAttribute("id");
+            e.dataTransfer.setData("id", id);
+        }
+
+        const addNote = document.getElementById("add-new-note");
+
+        addNote.addEventListener('click', (e) => {
+            createAndAppendNoteTemplate();
+        });
+
+        const createAndAppendNoteTemplate = () => { 
+           const div = document.createElement('div');
+           const len = document.querySelector('.note-container').children.length;
+           div.setAttribute('id', len + 1);
+           div.addEventListener('dragstart', drag);
+           div.setAttribute('draggable', true);
+           div.classList.add('note');
+
+           const innerDiv = document.createElement('div');
+           innerDiv.classList.add('note-heading');
+           innerDiv.textContent = `Note #${len + 1}`;
+
+           const textarea = document.createElement('textarea');
+           textarea.classList.add('notes');
+
+           div.appendChild(innerDiv);
+           div.appendChild(textarea);
+
+           document.querySelector('.note-container')
+           .appendChild(div);
+        }
+    </script>
+
+    
+</body>
+</html>

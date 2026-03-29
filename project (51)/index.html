@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag n Drop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="container">
+
+        <h1>Drag N Drop</h1>
+
+        <section class="sub-container">
+            <div class="drag-elements">
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/html.png" alt="html" />
+                </div>
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/css-3.png" alt="css" />
+                </div>
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/js.png" alt="html" />
+                </div>
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/react.png" alt="html" />
+                </div>
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/nodejs.png" alt="html" />
+                </div>
+                <div draggable="true" class="icon">
+                    <img draggable="false" src="./assets/bootstrap.png" alt="html" />
+                </div>
+            </div>
+    
+            <div class="dropped-elements drop-zone">
+    
+            </div>
+        </section>
+
+
+        
+        
+    </section>
+    
+
+    <script>
+        let draggedEl;
+
+        document.querySelectorAll('.icon')
+        .forEach(draggableItem => {
+            draggableItem.addEventListener('drag', (e) => {
+                //console.log(e);
+            })
+
+            draggableItem.addEventListener('dragstart', (e) => {
+                console.log('dragstart', e);
+                draggedEl = e.target;
+            })
+        })
+
+        document.querySelector('.drop-zone')
+        .addEventListener('dragover', (e) => {
+            e.preventDefault();
+        })
+
+        document.querySelector('.drop-zone')
+        .addEventListener('drop', (e) => {
+            e.preventDefault();
+            console.log(e);
+
+            e.target.appendChild(draggedEl);
+        })
+
+    </script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,56 @@
+.main-header {
+    width: 100%;
+    height: 50px;
+    background: var(--primary-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-header .logo {
+    width: 40px;
+    height: 40px;
+}
+.main-header .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-nav-menu {
+    display: flex;
+    align-items: center;
+}
+.header-nav-menu button,
+.header-nav-menu .more {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.header-nav-menu button img,
+.header-nav-menu .more img{
+    width: 100%;
+    height: 100%;
+}
+
+.search-form {
+    width: 300px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #faf7f7;
+    padding: 5px;
+}
+.search-form input {
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+.search-form input::placeholder {
+    text-align: center;
+}
+

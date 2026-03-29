@@ -1,0 +1,58 @@
+.sidebar-nav {
+    width: 90px;
+    background: #e2dfdf;
+    padding: 10px 0;
+}
+.sidebar-nav-item {
+    cursor: pointer;
+}
+.sidebar-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #4f4e4e;
+    font-size: 1.2rem;
+    padding: 5px 0;
+}
+.sidebar-widget img {
+    width: 25px;
+    margin: 5px 0;
+}
+
+
+.chat-user-list {
+    background: #d9d7d7;
+    width: 300px;
+}
+.chat-user-list ul {
+    flex: 1;
+}
+.chat-user-list .chat-user-item {
+    cursor: pointer;
+    transition: all .2s ease-out;
+}
+.chat-user-list .chat-user-item:hover {
+    background: rgb(92, 91, 91);
+}
+
+.user-details {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.user-info {
+    flex: 1;
+    margin-left: 10px;
+}
+.user-details .user-avatar {
+    width: 40px;
+    height: 40px;
+    background: grey;
+    border-radius: 50%;
+}
+.user-name {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}

@@ -1,0 +1,39 @@
+.columnContainer { 
+    display: flex;
+    background: white;
+    width: 190px;
+    height: 100%;
+    overflow-y: scroll;
+}
+.beforeOpenContainer { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 3px;
+}
+.companyContainer { 
+    width: 96px;
+}
+.companyName { 
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.companyName span {
+    border: 1px solid lightgray;
+    margin: 2px 0;
+}
+.companyLogo {
+    width: 90px;
+    margin: 0 3px;
+    height: 50px;
+}
+.companyLink{ 
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.companyLogoImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
