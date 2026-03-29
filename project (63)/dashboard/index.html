@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AEGIS — AI-Enabled Guard for Insurance & Sensitive Data</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --tata-blue: #005BAC;
+      --tata-light: #0078D4;
+      --tata-pale: #E8F2FC;
+      --tata-accent: #00A3E0;
+      --success: #0D7A4E;
+      --success-bg: #E6F4EE;
+      --warn: #B45309;
+      --warn-bg: #FEF3C7;
+      --danger: #C0392B;
+      --danger-bg: #FDECEA;
+      --border: #D6E4F0;
+      --surface: #F4F8FD;
+      --white: #FFFFFF;
+      --text: #0F2340;
+      --text-2: #3A5272;
+      --text-3: #7A95B0;
+      --mono: 'DM Mono', monospace;
+      --sans: 'DM Sans', sans-serif;
+      --radius: 10px;
+      --radius-lg: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--surface);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--tata-blue);
+      color: white;
+      padding: 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 12px rgba(0, 91, 172, 0.18);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-badge {
+      background: white;
+      color: var(--tata-blue);
+      font-weight: 600;
+      font-size: 13px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      letter-spacing: .5px;
+    }
+
+    .logo-name {
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .3px;
+    }
+
+    .logo-sub {
+      font-size: 11px;
+      opacity: .7;
+      margin-top: -2px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .status-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 99px;
+      padding: 4px 12px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background .2s;
+    }
+
+    .status-pill:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .pulse {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #4ade80;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+
+      0%,
+      100% {
+        opacity: 1;
+        transform: scale(1)
+      }
+
+      50% {
+        opacity: .6;
+        transform: scale(.85)
+      }
+    }
+
+    /* ── Layout ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 0;
+      min-height: calc(100vh - 60px);
+    }
+
+    .main {
+      padding: 24px 28px;
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+    }
+
+    .sidebar {
+      padding: 24px 20px;
+      background: var(--white);
+      overflow-y: auto;
+    }
+
+    /* ── Section title ── */
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-3);
+      margin-bottom: 12px;
+    }
+
+    /* ── Card ── */
+    .card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      margin-bottom: 18px;
+      overflow: hidden;
+    }
+
+    .card-head {
+      padding: 14px 18px 10px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--tata-blue);
+    }
+
+    .card-body {
+      padding: 16px 18px;
+    }
+
+    /* ── Layer pills ── */
+    .layers {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .layer-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid var(--border);
+      border-radius: 99px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--white);
+      cursor: default;
+      transition: box-shadow .15s;
+    }
+
+    .layer-pill.ok {
+      border-color: #86efac;
+      color: var(--success);
+      background: var(--success-bg);
+    }
+
+    .layer-pill.warn {
+      border-color: #fcd34d;
+      color: var(--warn);
+      background: var(--warn-bg);
+    }
+
+    .layer-pill.off {
+      color: var(--text-3);
+      background: #F1F5F9;
+    }
+
+    .layer-pill .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    /* ── Input area ── */
+    .input-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .input-field {
+      flex: 1;
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: var(--sans);
+      font-size: 13px;
+      color: var(--text);
+      background: var(--surface);
+      transition: border-color .15s;
+      outline: none;
+    }
+
+    .input-field:focus {
+      border-color: var(--tata-light);
+      background: white;
+    }
+
+    textarea.input-field {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    .btn {
+      padding: 8px 18px;
+      border-radius: var(--radius);
+      border: none;
+      font-family: var(--sans);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--tata-blue);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--tata-light);
+    }
+
+    .btn-primary:disabled {
+      opacity: .5;
+      cursor: not-allowed;
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--tata-blue);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover {
+      background: var(--tata-pale);
+    }
+
+    .options-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+
+    .toggle-label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      color: var(--text-2);
+      cursor: pointer;
+    }
+
+    toggle-label input {
+      cursor: pointer;
+    }
+
+    /* ── Output ── */
+    .output-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      font-family: var(--mono);
+      font-size: 12.5px;
+      line-height: 1.7;
+      min-height: 80px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: var(--text);
+    }
+
+    .output-box .entity-NAME {
+      background: #DBEAFE;
+      color: #1E40AF;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    .output-box .entity-AADHAAR {
+      background: #FCE7F3;
+      color: #9D174D;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    .output-box .entity-PAN {
+      background: #FEF9C3;
+      color: #854D0E;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    .output-box .entity-PHONE {
+      background: #D1FAE5;
+      color: #065F46;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    .output-box .entity-EMAIL {
+      background: #EDE9FE;
+      color: #4C1D95;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    .output-box .entity-CC {
+      background: #FFE4E6;
+      color: #9F1239;
+      border-radius: 3px;
+      padding: 0 3px;
+    }
+
+    /* ── Entity tags ── */
+    .tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .tag {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 3px 9px;
+      border-radius: 99px;
+    }
+
+    .tag-NAME {
+      background: #DBEAFE;
+      color: #1E40AF;
+    }
+
+    .tag-AADHAAR {
+      background: #FCE7F3;
+      color: #9D174D;
+    }
+
+    .tag-PAN {
+      background: #FEF9C3;
+      color: #854D0E;
+    }
+
+    .tag-PHONE {
+      background: #D1FAE5;
+      color: #065F46;
+    }
+
+    .tag-EMAIL {
+      background: #EDE9FE;
+      color: #4C1D95;
+    }
+
+    .tag-CC {
+      background: #FFE4E6;
+      color: #9F1239;
+    }
+
+    /* ── Consent panel ── */
+    .consent-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .consent-card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 12px;
+      cursor: pointer;
+      transition: all .15s;
+      background: var(--white);
+    }
+
+    .consent-card:hover {
+      border-color: var(--tata-light);
+      background: var(--tata-pale);
+    }
+
+    .consent-card.selected {
+      border-color: var(--tata-blue);
+      background: var(--tata-pale);
+    }
+
+    .consent-card .c-level {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--tata-blue);
+      margin-bottom: 2px;
+    }
+
+    .consent-card .c-desc {
+      font-size: 11px;
+      color: var(--text-3);
+    }
+
+    /* ── Audit log ── */
+    .audit-log {
+      max-height: 340px;
+      overflow-y: auto;
+    }
+
+    .audit-entry {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 9px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .audit-entry:last-child {
+      border-bottom: none;
+    }
+
+    .audit-source {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 4px;
+      white-space: nowrap;
+      margin-top: 1px;
+      flex-shrink: 0;
+    }
+
+    .src-anomaly {
+      background: #EDE9FE;
+      color: #4C1D95;
+    }
+
+    .src-consent {
+      background: var(--tata-pale);
+      color: var(--tata-blue);
+    }
+
+    .src-detector {
+      background: #D1FAE5;
+      color: #065F46;
+    }
+
+    .audit-detail {
+      flex: 1;
+    }
+
+    .audit-action {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .audit-meta {
+      font-size: 11px;
+      color: var(--text-3);
+      margin-top: 1px;
+    }
+
+    .audit-time {
+      font-size: 10px;
+      color: var(--text-3);
+      font-family: var(--mono);
+      white-space: nowrap;
+      margin-top: 2px;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 28px 0;
+      color: var(--text-3);
+      font-size: 13px;
+    }
+
+    /* ── Loader ── */
+    .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border);
+      border-top-color: var(--tata-blue);
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      display: inline-block;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 99px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        border-top: 1px solid var(--border);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="logo-badge">AEGIS</div>
+      <div>
+        <div class="logo-name">AI-Enabled Guard for Insurance & Sensitive Data</div>
+        <div class="logo-sub">TATA AIA · PS-S24 · Vidyalankar Polytechnic Hackathon 2026</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="status-pill" onclick="checkAllHealth()">
+        <div class="pulse" id="global-pulse"></div>
+        <span id="global-status">Checking...</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- ── MAIN ── -->
+    <div class="main">
+
+      <!-- Layer status -->
+      <div class="section-title">System Layers</div>
+      <div class="layers">
+        <div class="layer-pill off" id="pill-l1">
+          <div class="dot"></div>L1 · Detector
+        </div>
+        <div class="layer-pill off" id="pill-l2">
+          <div class="dot"></div>L2 · Vault
+        </div>
+        <div class="layer-pill off" id="pill-l3">
+          <div class="dot"></div>L3 · Consent
+        </div>
+        <div class="layer-pill off" id="pill-l4">
+          <div class="dot"></div>L4 · Shamir
+        </div>
+        <div class="layer-pill off" id="pill-l5">
+          <div class="dot"></div>L5 · Anomaly
+        </div>
+      </div>
+
+      <!-- Detect & Mask -->
+      <div class="card">
+        <div class="card-head">
+          <span class="card-title">Detect & Mask PII</span>
+          <div style="display:flex;gap:8px">
+            <input type="file" id="file-input" accept=".txt,.csv,.pdf" style="display:none"
+              onchange="handleFile(event)">
+            <button class="btn btn-ghost" onclick="document.getElementById('file-input').click()">Upload file</button>
+            <button class="btn btn-primary" id="detect-btn" onclick="runDetect()">Detect & Mask</button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="input-row">
+            <input class="input-field" id="user-id-input" placeholder="User ID (e.g. demo_user)" value="demo_user"
+              style="max-width:180px">
+          </div>
+          <div class="options-row">
+            <label class="toggle-label">
+              <input type="checkbox" id="smart-mask" checked>
+              Generic-mask (XXXX XXXX 9012)
+            </label>
+          </div>
+          <textarea class="input-field" id="input-text"
+            placeholder="Paste text with PII — Aadhaar, PAN, phone, email, credit card, names...&#10;&#10;e.g. My name is Riya Sharma, Aadhaar: 2345 6789 0123, PAN: ABCDE1234F, email: riya@gmail.com"></textarea>
+          <div style="margin-top:14px">
+            <div class="section-title">Masked Output</div>
+            <div class="output-box" id="output-box">Masked text will appear here...</div>
+            <div class="tags" id="entity-tags"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Layer 3: Consent Management -->
+      <div class="card">
+        <div class="card-head">
+          <span class="card-title">Layer 3 — Consent Management</span>
+          <span style="font-size:11px;color:var(--text-3)">Port 8000</span>
+        </div>
+        <div class="card-body">
+          <div class="input-row" style="margin-bottom:10px">
+            <input class="input-field" id="consent-user-id" placeholder="User ID" value="demo_user"
+              style="max-width:180px">
+          </div>
+          <div class="consent-grid" id="consent-grid">
+            <div class="consent-card" data-level="0" onclick="selectConsent(0)">
+              <div class="c-level">Level 0 — None</div>
+              <div class="c-desc">Block all processing</div>
+            </div>
+            <div class="consent-card selected" data-level="1" onclick="selectConsent(1)">
+              <div class="c-level">Level 1 — Mask only</div>
+              <div class="c-desc">Detect & mask, no storage</div>
+            </div>
+            <div class="consent-card" data-level="2" onclick="selectConsent(2)">
+              <div class="c-level">Level 2 — Mask & store</div>
+              <div class="c-desc">Masking + encrypted vault</div>
+            </div>
+            <div class="consent-card" data-level="3" onclick="selectConsent(3)">
+              <div class="c-level">Level 3 — Full</div>
+              <div class="c-desc">All layers + anomaly</div>
+            </div>
+          </div>
+          <div style="display:flex;gap:8px;align-items:center">
+            <button class="btn btn-primary" onclick="grantConsent()">Grant consent</button>
+            <button class="btn btn-ghost" onclick="revokeConsent()">Revoke</button>
+            <button class="btn btn-ghost" onclick="checkConsent()">Check status</button>
+            <span id="consent-status" style="font-size:12px;color:var(--text-3);margin-left:4px"></span>
+          </div>
+          <div id="consent-result" style="margin-top:10px;font-size:12px;color:var(--text-2);font-family:var(--mono)">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── SIDEBAR ── -->
+    <div class="sidebar">
+
+      <!-- Service health -->
+      <div class="section-title">Service Health</div>
+      <div class="card" style="margin-bottom:18px">
+        <div class="card-body" style="padding:10px 14px">
+          <div id="health-list">
+            <div style="color:var(--text-3);font-size:13px">Checking services...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Audit log -->
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+        <div class="section-title" style="margin:0">Live Audit Log</div>
+        <button class="btn btn-ghost" style="padding:4px 10px;font-size:11px" onclick="refreshAudit()">Refresh</button>
+      </div>
+      <div class="card">
+        <div class="card-body" style="padding:8px 14px">
+          <div class="audit-log" id="audit-log">
+            <div class="empty-state">Loading audit entries...</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // ─── Config — update these IPs before demo ───────────────────────────────────
+    const SERVICES = {
+      detector: "http://localhost:8000",   // Bhavesh's IP:8000
+      vault: "http://localhost:8001",   // Pranav's IP:8001
+      anomaly: "http://localhost:8002",   // Atharva's IP:8002 (172.16.252.6)
+    };
+
+    let selectedConsentLevel = 1;
+    let auditInterval = null;
+
+    // ─── Consent UI ──────────────────────────────────────────────────────────────
+    function selectConsent(level) {
+      selectedConsentLevel = level;
+      document.querySelectorAll('.consent-card').forEach(c => {
+        c.classList.toggle('selected', parseInt(c.dataset.level) === level);
+      });
+    }
+
+    async function grantConsent() {
+      const userId = document.getElementById('consent-user-id').value.trim() || 'anonymous';
+      const el = document.getElementById('consent-status');
+      el.textContent = 'Granting...';
+      try {
+        const r = await fetch(`${SERVICES.detector}/consent/grant`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ user_id: userId, level: selectedConsentLevel, note: 'set via dashboard' })
+        });
+        const d = await r.json();
+        el.textContent = `✓ ${d.consent.level_label}`;
+        el.style.color = 'var(--success)';
+        document.getElementById('consent-result').textContent =
+          `user_id: ${d.consent.user_id}  |  level: ${d.consent.level} (${d.consent.level_label})`;
+        refreshAudit();
+      } catch (e) {
+        el.textContent = '✗ Failed'; el.style.color = 'var(--danger)';
+      }
+    }
+
+    async function revokeConsent() {
+      const userId = document.getElementById('consent-user-id').value.trim() || 'anonymous';
+      const el = document.getElementById('consent-status');
+      try {
+        const r = await fetch(`${SERVICES.detector}/consent/revoke`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ user_id: userId })
+        });
+        const d = await r.json();
+        el.textContent = '✓ Revoked'; el.style.color = 'var(--warn)';
+        document.getElementById('consent-result').textContent =
+          `user_id: ${d.consent.user_id}  |  level: 0 (none)`;
+        refreshAudit();
+      } catch (e) {
+        el.textContent = '✗ Failed'; el.style.color = 'var(--danger)';
+      }
+    }
+
+    async function checkConsent() {
+      const userId = document.getElementById('consent-user-id').value.trim() || 'anonymous';
+      try {
+        const r = await fetch(`${SERVICES.detector}/consent/${encodeURIComponent(userId)}`);
+        const d = await r.json();
+        const el = document.getElementById('consent-result');
+        if (d.level === null) {
+          el.textContent = `No record for ${userId}`;
+        } else {
+          el.textContent = `user_id: ${d.user_id}  |  level: ${d.level} (${d.level_label})`;
+        }
+      } catch (e) {
+        document.getElementById('consent-result').textContent = 'Could not reach detector';
+      }
+    }
+
+    // ─── Detect & Mask ────────────────────────────────────────────────────────────
+    async function runDetect() {
+      const text = document.getElementById('input-text').value.trim();
+      if (!text) return;
+      const userId = document.getElementById('user-id-input').value.trim() || 'anonymous';
+      const smart = document.getElementById('smart-mask').checked;
+      const btn = document.getElementById('detect-btn');
+      const outBox = document.getElementById('output-box');
+      const tagsEl = document.getElementById('entity-tags');
+
+      btn.disabled = true;
+      btn.innerHTML = '<span class="spinner"></span>';
+      outBox.textContent = 'Detecting...';
+      tagsEl.innerHTML = '';
+
+      try {
+        const r = await fetch(`${SERVICES.detector}/analyze`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            text,
+            user_id: userId,
+            mode: "generic",
+            consent_level: smart ? "mask_only" : "full"
+          })
+        });
+        if (r.status === 403) {
+          const r = await fetch(`${SERVICES.detector}/analyze`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              text,
+              user_id: userId,
+              mode: "generic",
+              consent_level: smart ? "mask_only" : "full"
+            })
+          });
+        }
+        const d = await r.json();
+        outBox.style.color = '';
+
+        // Render masked with coloured entity highlights
+        let rendered = d.masked;
+        if (d.entities && d.entities.length) {
+          // Show entity count tags
+          const counts = {};
+          d.entities.forEach(e => { counts[e.type] = (counts[e.type] || 0) + 1; });
+          tagsEl.innerHTML = Object.entries(counts).map(([type, count]) =>
+            `<span class="tag tag-${type}">${type} ×${count}</span>`
+          ).join('');
+        }
+        outBox.textContent = rendered;
+
+        // Log a detect event to local audit
+        appendLocalAuditEntry({
+          source: 'detector',
+          action: `Masked ${d.entities?.length || 0} entities`,
+          detail: `user=${userId}, consent=${d.consent_level}`,
+          ts: Date.now() / 1000,
+        });
+      } catch (e) {
+        outBox.textContent = `Error: Could not reach detector at ${SERVICES.detector}`;
+        outBox.style.color = 'var(--danger)';
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Detect & Mask';
+      }
+    }
+
+    async function handleFile(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const userId = document.getElementById('user-id-input').value.trim() || 'anonymous';
+      const smart = document.getElementById('smart-mask').checked;
+      const outBox = document.getElementById('output-box');
+      outBox.textContent = `Reading ${file.name}...`;
+
+      const form = new FormData();
+      form.append('file', file);
+      form.append('user_id', userId);
+      form.append('smart_mask', smart);
+
+      try {
+        const r = await fetch(`${SERVICES.detector}/detect/file`, { method: 'POST', body: form });
+        const d = await r.json();
+        outBox.style.color = '';
+        outBox.textContent = d.masked;
+        if (d.entities?.length) {
+          const counts = {};
+          d.entities.forEach(e => { counts[e.type] = (counts[e.type] || 0) + 1; });
+          document.getElementById('entity-tags').innerHTML = Object.entries(counts).map(([type, count]) =>
+            `<span class="tag tag-${type}">${type} ×${count}</span>`
+          ).join('');
+        }
+      } catch (e) {
+        outBox.textContent = `Error uploading file.`;
+        outBox.style.color = 'var(--danger)';
+      }
+    }
+
+    // ─── Audit log ────────────────────────────────────────────────────────────────
+    let localAuditEntries = [];
+
+    function appendLocalAuditEntry(entry) {
+      localAuditEntries.unshift(entry);
+      if (localAuditEntries.length > 50) localAuditEntries.pop();
+      renderAuditLog([...localAuditEntries]);
+    }
+
+    async function refreshAudit() {
+      const el = document.getElementById('audit-log');
+      let entries = [...localAuditEntries];
+
+      // Try detector /audit (consent log — always available)
+      try {
+        const r = await fetch(`${SERVICES.detector}/audit?limit=30`);
+        const d = await r.json();
+        if (d.entries) {
+          entries = [...entries, ...d.entries];
+        }
+      } catch (_) { }
+
+      // Try anomaly /audit (best effort — may be unreachable)
+      try {
+        const r = await fetch(`${SERVICES.anomaly}/audit?limit=20`, { signal: AbortSignal.timeout(2000) });
+        const d = await r.json();
+        if (d.events || d.entries) {
+          const anomalyEntries = (d.events || d.entries || []).map(e => ({
+            source: 'anomaly',
+            action: e.action || e.event_type || 'access',
+            detail: e.detail || e.user_id || '',
+            ts: e.ts || e.timestamp || (Date.now() / 1000),
+          }));
+          entries = [...entries, ...anomalyEntries];
+        }
+      } catch (_) {
+        // Anomaly server unreachable — that's OK, we still show consent events
+      }
+
+      // Deduplicate and sort by timestamp
+      const seen = new Set();
+      const unique = entries.filter(e => {
+        const key = `${e.ts}-${e.source}-${e.action}`;
+        if (seen.has(key)) return false;
+        seen.add(key); return true;
+      });
+      unique.sort((a, b) => b.ts - a.ts);
+      renderAuditLog(unique.slice(0, 50));
+    }
+
+    function renderAuditLog(entries) {
+      const el = document.getElementById('audit-log');
+      if (!entries || entries.length === 0) {
+        el.innerHTML = `<div class="empty-state">No audit entries yet.<br>Run a detection or change consent to see events.</div>`;
+        return;
+      }
+      el.innerHTML = entries.map(e => {
+        const d = new Date(e.ts * 1000);
+        const time = d.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        const srcClass = `src-${e.source || 'detector'}`;
+        return `
+      <div class="audit-entry">
+        <span class="audit-source ${srcClass}">${(e.source || 'det').toUpperCase()}</span>
+        <div class="audit-detail">
+          <div class="audit-action">${e.action || ''}</div>
+          ${e.detail ? `<div class="audit-meta">${e.detail}</div>` : ''}
+        </div>
+        <div class="audit-time">${time}</div>
+      </div>`;
+      }).join('');
+    }
+
+    // ─── Health checks ────────────────────────────────────────────────────────────
+    const SERVICE_DEFS = [
+      { key: 'detector', label: 'L1+L3 Detector', url: SERVICES.detector, port: 8000 },
+      { key: 'vault', label: 'L2+L4 Vault', url: SERVICES.vault, port: 8001 },
+      { key: 'anomaly', label: 'L5 Anomaly', url: SERVICES.anomaly, port: 8002 },
+    ];
+
+    async function checkAllHealth() {
+      const listEl = document.getElementById('health-list');
+      listEl.innerHTML = SERVICE_DEFS.map(s =>
+        `<div style="display:flex;align-items:center;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border)">
+      <span style="font-size:13px;color:var(--text-2)">${s.label}</span>
+      <span class="spinner"></span>
+    </div>`
+      ).join('');
+
+      let allOk = true;
+      const results = await Promise.all(SERVICE_DEFS.map(async s => {
+        try {
+          const r = await fetch(`${s.url}/health`, { signal: AbortSignal.timeout(3000) });
+          const ok = r.ok;
+          if (!ok) allOk = false;
+          return { ...s, ok };
+        } catch (_) {
+          allOk = false;
+          return { ...s, ok: false };
+        }
+      }));
+
+      listEl.innerHTML = results.map(s => `
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border)">
+      <div>
+        <div style="font-size:13px;color:var(--text)">${s.label}</div>
+        <div style="font-size:11px;color:var(--text-3)">:${s.port}</div>
+      </div>
+      <span style="font-size:11px;font-weight:600;padding:3px 10px;border-radius:99px;${s.ok
+          ? 'background:var(--success-bg);color:var(--success)'
+          : 'background:var(--danger-bg);color:var(--danger)'
+        }">${s.ok ? 'Online' : 'Offline'}</span>
+    </div>
+  `).join('');
+
+      // Update layer pills
+      const l1l3ok = results.find(s => s.key === 'detector')?.ok;
+      const l2l4ok = results.find(s => s.key === 'vault')?.ok;
+      const l5ok = results.find(s => s.key === 'anomaly')?.ok;
+
+      setPill('pill-l1', l1l3ok); setPill('pill-l2', l2l4ok);
+      setPill('pill-l3', l1l3ok); setPill('pill-l4', l2l4ok);
+      setPill('pill-l5', l5ok);
+
+      const globalPulse = document.getElementById('global-pulse');
+      const globalStatus = document.getElementById('global-status');
+      globalPulse.style.background = allOk ? '#4ade80' : '#f87171';
+      globalStatus.textContent = allOk ? 'All systems live' : 'Partial — check sidebar';
+    }
+
+    function setPill(id, ok) {
+      const el = document.getElementById(id);
+      el.className = 'layer-pill ' + (ok === true ? 'ok' : ok === false ? 'warn' : 'off');
+    }
+
+    // ─── Init ─────────────────────────────────────────────────────────────────────
+    checkAllHealth();
+    refreshAudit();
+    auditInterval = setInterval(refreshAudit, 8000);   // auto-refresh every 8s
+  </script>
+</body>
+
+</html>
