@@ -1,182 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO -->
-    <meta name="description" content="Vaibhav Badade - Web Development Student Portfolio">
-    <meta name="keywords" content="Web Developer, HTML, CSS, JavaScript, Portfolio">
-    <meta name="author" content="Vaibhav Badade">
-
     <title>Vaibhav Badade | Portfolio</title>
-</head>
 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="home.css">
+</head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Vaibhav Badade</h1>
+  <header>
+    <h1>Vaibhav Badade</h1>
 
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#goals">Goals</a> |
-            <a href="#schedule">Schedule</a> |
-            <a href="#contact">Contact</a>
-        </nav>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#goals">Goals</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <hr>
-    </header>
+  <main>
 
-    <!-- Main Content -->
-    <main>
+    <section>
+      <img src="https://via.placeholder.com/200" alt="Profile Photo">
+    </section>
 
-        <!-- Profile -->
-        <section>
-            <img src="https://via.placeholder.com/200"
-                alt="Profile photo of Vaibhav Badade"
-                width="200"
-                height="200">
-        </section>
+    <section id="about">
+      <h2>About Me</h2>
 
-        <!-- About -->
-        <section id="about">
-            <h2>About Me</h2>
+      <p>
+        Hello! My name is Vaibhav Badade. I am learning Full-Stack Web Development
+        and UI/UX Design. My goal is to become an industry-ready developer by
+        building real-world projects and improving my coding skills every day.
+      </p>
+    </section>
 
-            <p>
-                Hello! My name is Vaibhav Badade.
-                I am learning Full-Stack Web Development and UI/UX Design.
-                My goal is to become an industry-ready developer by building
-                real-world projects and improving my coding skills every day.
-            </p>
-        </section>
+    <section id="skills">
+      <h2>My Skills</h2>
 
-        <hr>
+      <ul class="skills-list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Figma</li>
+        <li>UI/UX Fundamentals</li>
+        <li>Git & GitHub Basics</li>
+      </ul>
+    </section>
 
-        <!-- Skills -->
-        <section id="skills">
-            <h2>My Skills</h2>
+    <section id="goals">
+      <h2>My 3-Month Goals</h2>
 
-            <ul>
-                <li>HTML5</li>
-                <li>Figma</li>
-                <li>UI/UX Fundamentals</li>
-                <li>Git & GitHub Basics</li>
-            </ul>
-        </section>
+      <ol>
+        <li>Master HTML and CSS</li>
+        <li>Learn JavaScript</li>
+        <li>Build 5 Portfolio Projects</li>
+        <li>Learn Backend Development</li>
+        <li>Get Internship Ready</li>
+      </ol>
+    </section>
 
-        <hr>
+    <section id="schedule">
+      <h2>Weekly Study Schedule</h2>
 
-        <!-- Goals -->
-        <section id="goals">
-            <h2>My 3-Month Goals</h2>
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Topic</th>
+          <th>Hours</th>
+        </tr>
 
-            <ol>
-                <li>Master HTML and CSS</li>
-                <li>Learn JavaScript</li>
-                <li>Build 5 Portfolio Projects</li>
-                <li>Learn Backend Development</li>
-                <li>Get Internship Ready</li>
-            </ol>
-        </section>
+        <tr>
+          <td>Monday</td>
+          <td>HTML Basics</td>
+          <td>1.5</td>
+        </tr>
 
-        <hr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Semantic HTML</td>
+          <td>1.5</td>
+        </tr>
 
-        <!-- Bonus Table -->
-        <section id="schedule">
-            <h2>Weekly Study Schedule</h2>
+        <tr>
+          <td>Wednesday</td>
+          <td>Forms & Tables</td>
+          <td>1.5</td>
+        </tr>
 
-            <table border="1">
-                <tr>
-                    <th>Day</th>
-                    <th>Topic</th>
-                    <th>Hours</th>
-                </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Accessibility & SEO</td>
+          <td>1.5</td>
+        </tr>
 
-                <tr>
-                    <td>Monday</td>
-                    <td>HTML Basics</td>
-                    <td>1.5</td>
-                </tr>
+        <tr>
+          <td>Friday</td>
+          <td>Portfolio Practice</td>
+          <td>2</td>
+        </tr>
+      </table>
+    </section>
 
-                <tr>
-                    <td>Tuesday</td>
-                    <td>Semantic HTML</td>
-                    <td>1.5</td>
-                </tr>
+    <section id="contact">
+      <h2>Contact Me</h2>
 
-                <tr>
-                    <td>Wednesday</td>
-                    <td>Forms & Tables</td>
-                    <td>1.5</td>
-                </tr>
+      <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
 
-                <tr>
-                    <td>Thursday</td>
-                    <td>Accessibility & SEO</td>
-                    <td>1.5</td>
-                </tr>
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
 
-                <tr>
-                    <td>Friday</td>
-                    <td>Portfolio Practice</td>
-                    <td>2</td>
-                </tr>
-            </table>
-        </section>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write your message"></textarea>
 
-        <hr>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
 
-        <!-- Contact -->
-        <section id="contact">
-            <h2>Contact Me</h2>
+  </main>
 
-            <form>
-
-                <label for="name">Your Name:</label>
-                <br>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your name">
-                <br><br>
-
-                <label for="email">Your Email:</label>
-                <br>
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Enter your email">
-                <br><br>
-
-                <label for="message">Message:</label>
-                <br>
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    cols="30"
-                    placeholder="Write your message"></textarea>
-                <br><br>
-
-                <button type="submit">Send Message</button>
-
-            </form>
-        </section>
-
-    </main>
-
-    <hr>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Vaibhav Badade. All Rights Reserved.</p>
-    </footer>
+  <footer>
+    <p>© 2026 Vaibhav Badade. All Rights Reserved.</p>
+  </footer>
 
 </body>
-
 </html>
