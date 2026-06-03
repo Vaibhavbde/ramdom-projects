@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notes App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-wrap">
+
+    <header>
+      <h1>My <span>Notes</span></h1>
+      <span class="count-badge" id="countBadge">0 notes</span>
+    </header>
+
+    <div class="composer">
+      <textarea
+        id="noteInput"
+        placeholder="Write something worth remembering…"
+        maxlength="1000"
+      ></textarea>
+      <div class="composer-footer">
+        <span class="char-count"><span id="charCount">0</span> / 1000</span>
+        <button id="addBtn">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="8" y1="2" x2="8" y2="14"/>
+            <line x1="2" y1="8" x2="14" y2="8"/>
+          </svg>
+          Add Note
+        </button>
+      </div>
+    </div>
+
+    <div class="notes-grid" id="notesGrid"></div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

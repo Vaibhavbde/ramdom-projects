@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skycast — Weather App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="header">
+    <h1>SKYCAST</h1>
+    <p>Real-time weather — no API key needed</p>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" id="cityInput" placeholder="Enter city name..." autocomplete="off" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <p class="prompt-hint">Press Enter or click Search</p>
+
+  <div id="result"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

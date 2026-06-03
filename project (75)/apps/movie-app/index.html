@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ScreenVault — Movie &amp; TV Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Hero / Search ── -->
+  <div class="hero">
+    <div class="logo">SCREEN<span>VAULT</span></div>
+    <div class="tagline">Movies &amp; Shows — no key required</div>
+
+    <div class="tabs">
+      <button class="tab active" data-mode="movie" onclick="setMode('movie', this)">Movies</button>
+      <button class="tab" data-mode="tv" onclick="setMode('tv', this)">TV Shows</button>
+    </div>
+
+    <div class="search-wrap">
+      <input
+        id="q"
+        type="text"
+        placeholder="Search any title…"
+        autocomplete="off"
+        onkeydown="if(event.key==='Enter') doSearch()"
+      />
+      <button onclick="doSearch()">Search</button>
+    </div>
+
+
+  </div>
+
+  <!-- ── Results ── -->
+  <div class="container">
+    <div id="meta" class="meta" style="display:none"></div>
+    <div id="results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
