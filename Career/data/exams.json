@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "exam-001",
+    "name": "Joint Entrance Examination Main (JEE Main)",
+    "basic": {
+      "conductedBy": "National Testing Agency (NTA)",
+      "level": "National",
+      "type": "Undergraduate",
+      "frequency": "Twice a year",
+      "mode": "Online (CBT)",
+      "website": "https://jeemain.nta.ac.in/"
+    },
+    "overview": {
+      "description": "JEE Main is conducted for admission to NITs, IIITs, GFTIs, and acts as eligibility for JEE Advanced.",
+      "importance": "Mandatory for engineering aspirants in India.",
+      "competition": "High",
+      "languages": ["English", "Hindi", "Regional"]
+    },
+    "eligibility": {
+      "academic": "Class 12 with Physics, Chemistry, and Mathematics",
+      "percentage": "75% for General, 65% for SC/ST",
+      "age": "No upper age limit",
+      "nationality": "Indian / OCI / PIO",
+      "attempts": "6 attempts (3 years)"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "May 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "Physics, Chemistry, Mathematics",
+      "questions": "90",
+      "marks": "300",
+      "marking": "+4 for correct, -1 for wrong",
+      "medium": "English, Hindi, Regional"
+    },
+    "syllabus": ["Physics (NCERT XI-XII)", "Chemistry (NCERT XI-XII)", "Mathematics (NCERT XI-XII)"],
+    "application": {
+      "steps": "Register → Fill form → Upload docs → Pay fee → Submit",
+      "fee": "₹1000 (General), ₹500 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Follow NCERTs strictly", "Attempt mock tests", "Revise PYQs", "Focus on weak areas"],
+    "references": ["HC Verma Physics", "NCERT Chemistry", "RD Sharma Maths", "Allen/Aakash modules"],
+    "cutoff": "General ~ 90 percentile, OBC ~ 75 percentile, SC/ST ~ 50 percentile",
+    "colleges": ["NIT Trichy", "IIIT Hyderabad", "NIT Surathkal"],
+    "careers": ["B.Tech in CSE", "Mechanical Engg", "Civil Engg", "Electronics"],
+    "faqs": [
+      "Q: Is JEE Main compulsory for IITs? → Yes, for JEE Advanced eligibility.",
+      "Q: How many times can I attempt? → 6 times in 3 years."
+    ]
+  },
+  {
+    "id": "exam-002",
+    "name": "National Eligibility cum Entrance Test (NEET UG)",
+    "basic": {
+      "conductedBy": "National Testing Agency (NTA)",
+      "level": "National",
+      "type": "Undergraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://neet.nta.nic.in/"
+    },
+    "overview": {
+      "description": "NEET UG is the single entrance exam for MBBS/BDS courses across India.",
+      "importance": "Mandatory for medical aspirants.",
+      "competition": "Very High",
+      "languages": ["English", "Hindi", "Regional"]
+    },
+    "eligibility": {
+      "academic": "Class 12 with Physics, Chemistry, Biology",
+      "percentage": "50% for General, 40% for SC/ST/OBC",
+      "age": "17-25 years (General), 17-30 (OBC/SC/ST)",
+      "nationality": "Indian / OCI / PIO",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Dec 2025",
+      "last_date": "Jan 2026",
+      "admit_card": "March 2026",
+      "exam_date": "May 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "Physics, Chemistry, Biology",
+      "questions": "180",
+      "marks": "720",
+      "marking": "+4 for correct, -1 for wrong",
+      "medium": "English, Hindi, Regional"
+    },
+    "syllabus": ["Physics (NCERT XI-XII)", "Chemistry (NCERT XI-XII)", "Biology (NCERT XI-XII)"],
+    "application": {
+      "steps": "Register → Fill form → Upload docs → Pay fee → Submit",
+      "fee": "₹1600 (General), ₹850 (SC/ST/OBC)",
+      "correction": "Available"
+    },
+    "preparation": ["Study NCERT books thoroughly", "Practice mock tests", "Revise previous years’ papers"],
+    "references": ["NCERT Physics/Chemistry/Biology", "MTG NEET Guide", "Aakash Modules"],
+    "cutoff": "General ~ 720-600 marks, OBC ~ 600-500, SC/ST ~ 500-400",
+    "colleges": ["AIIMS Delhi", "CMC Vellore", "Maulana Azad Medical College"],
+    "careers": ["MBBS", "BDS", "BAMS", "BUMS"],
+    "faqs": [
+      "Q: Can I take NEET in regional language? → Yes",
+      "Q: How many attempts are allowed? → No limit"
+    ]
+  },
+  {
+    "id": "exam-003",
+    "name": "Graduate Aptitude Test in Engineering (GATE)",
+    "basic": {
+      "conductedBy": "IITs (Rotating)",
+      "level": "National",
+      "type": "Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://gate.iitkgp.ac.in/"
+    },
+    "overview": {
+      "description": "GATE evaluates engineering graduates for admission to M.Tech/PhD programs and PSU jobs.",
+      "importance": "Essential for postgraduate engineering education and PSU recruitment.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Bachelor’s in Engineering/Technology/Architecture",
+      "percentage": "No minimum marks",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Sept 2025",
+      "last_date": "Oct 2025",
+      "admit_card": "Jan 2026",
+      "exam_date": "Feb 2026",
+      "result": "March 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "General Aptitude + Subject-specific Paper",
+      "questions": "65",
+      "marks": "100",
+      "marking": "+1/+2 for correct, -1/3 for wrong (depending on question)",
+      "medium": "English"
+    },
+    "syllabus": ["Engineering Mathematics", "General Aptitude", "Discipline-specific topics"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹1500 (General), ₹750 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer standard textbooks", "Solve previous years’ papers", "Mock tests"],
+    "references": ["NCERTs, Standard Engineering Texts", "GATE Guide by Made Easy", "Previous Year Papers"],
+    "cutoff": "Varies by branch and category; typically 25-40 marks for General",
+    "colleges": ["IIT Delhi", "IIT Bombay", "IISc Bangalore"],
+    "careers": ["M.Tech", "PhD", "PSU jobs"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is there an age limit? → No"
+    ]
+  },
+  {
+    "id": "exam-004",
+    "name": "Common University Entrance Test (CUET UG)",
+    "basic": {
+      "conductedBy": "National Testing Agency (NTA)",
+      "level": "National",
+      "type": "Undergraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://cuet.samarth.ac.in/"
+    },
+    "overview": {
+      "description": "CUET UG is used for admission to undergraduate programs in central universities across India.",
+      "importance": "Mandatory for admissions in participating universities.",
+      "competition": "Moderate to High",
+      "languages": ["English", "Hindi", "Regional"]
+    },
+    "eligibility": {
+      "academic": "Class 12 completed or appearing",
+      "percentage": "Varies by university",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / PIO",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Feb 2026",
+      "last_date": "Mar 2026",
+      "admit_card": "April 2026",
+      "exam_date": "May 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "1.5-3 hours (depends on subjects)",
+      "sections": "Language, Domain, General Test",
+      "questions": "Varies (50-200)",
+      "marks": "Varies",
+      "marking": "+1 for correct, 0 for wrong",
+      "medium": "English, Hindi, Regional"
+    },
+    "syllabus": ["Class 12 NCERT relevant subjects depending on chosen domain"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹650-800 per domain",
+      "correction": "Available"
+    },
+    "preparation": ["Study NCERTs", "Practice previous papers", "Take mock tests"],
+    "references": ["NCERT Textbooks", "Previous CUET Papers", "Reference Guides by Arihant/MTG"],
+    "cutoff": "Varies by university and course",
+    "colleges": ["University of Delhi", "Jawaharlal Nehru University", "Banaras Hindu University"],
+    "careers": ["BA, BSc, BCom, BTech (some universities)", "Law, Arts, Science courses"],
+    "faqs": [
+      "Q: Is CUET compulsory for central universities? → Yes",
+      "Q: How many times can I attempt? → No limit"
+    ]
+  },
+  {
+    "id": "exam-005",
+    "name": "Indian Institute of Management Common Admission Test (CAT)",
+    "basic": {
+      "conductedBy": "IIMs (Rotating)",
+      "level": "National",
+      "type": "Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://iimcat.ac.in/"
+    },
+    "overview": {
+      "description": "CAT is used for admission to MBA/PGDM programs in Indian Institutes of Management and other business schools.",
+      "importance": "Mandatory for top management colleges in India.",
+      "competition": "Very High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Bachelor’s degree with minimum 50% (45% for SC/ST/PwD)",
+      "percentage": "Minimum 50% marks (General)",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Aug 2025",
+      "last_date": "Sep 2025",
+      "admit_card": "Oct 2025",
+      "exam_date": "Nov 2025",
+      "result": "Dec 2025"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "VARC, DILR, QA",
+      "questions": "100",
+      "marks": "300",
+      "marking": "+3 for correct, 0 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["Quantitative Ability", "Data Interpretation & Logical Reasoning", "Verbal Ability & Reading Comprehension"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹2300 (General), ₹1150 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Practice mock tests", "Refer standard CAT books", "Analyze previous papers"],
+    "references": ["Arun Sharma (Quant), Nishit K. Sinha (DI/LR), Word Power Made Easy (Verbal)"],
+    "cutoff": "Varies by IIM and category, typically 95-99 percentile for top IIMs",
+    "colleges": ["IIM Ahmedabad", "IIM Bangalore", "IIM Calcutta"],
+    "careers": ["MBA/PGDM", "Management roles in Corporates", "Entrepreneurship"],
+    "faqs": [
+      "Q: Can a final year graduate apply? → Yes",
+      "Q: Is there a negative marking? → No for wrong answers"
+    ]
+  },
+  {
+    "id": "exam-006",
+    "name": "Staff Selection Commission – Combined Graduate Level (SSC CGL)",
+    "basic": {
+      "conductedBy": "Staff Selection Commission (SSC)",
+      "level": "National",
+      "type": "Undergraduate/Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://ssc.nic.in/"
+    },
+    "overview": {
+      "description": "SSC CGL selects candidates for various Group B and C posts in Ministries/Departments of Government of India.",
+      "importance": "Major gateway for government jobs in India.",
+      "competition": "High",
+      "languages": ["English", "Hindi"]
+    },
+    "eligibility": {
+      "academic": "Bachelor’s degree from a recognized university",
+      "percentage": "No minimum marks",
+      "age": "18-32 years (varies by post and category)",
+      "nationality": "Indian",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Feb 2026",
+      "last_date": "Mar 2026",
+      "admit_card": "May 2026",
+      "exam_date": "June 2026",
+      "result": "Aug 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "Tier 1: 60 mins, Tier 2: 120 mins",
+      "sections": "Quant, English, Reasoning, General Awareness",
+      "questions": "100 per tier",
+      "marks": "200 per tier",
+      "marking": "+2 for correct, -0.5 for wrong",
+      "medium": "English/Hindi"
+    },
+    "syllabus": ["Quantitative Aptitude", "Reasoning Ability", "English Comprehension", "General Awareness"],
+    "application": {
+      "steps": "Register → Fill form → Upload docs → Pay fee → Submit",
+      "fee": "₹100-200 (General), ₹0 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer SSC CGL guidebooks", "Solve previous papers", "Mock tests"],
+    "references": ["Kiran’s SSC CGL Guide", "Rakesh Yadav’s Quant & Reasoning"],
+    "cutoff": "Varies by post and category; typically 130-150 for General Tier 1",
+    "colleges": ["N/A – Government recruitment exam"],
+    "careers": ["Income Tax Inspector", "Auditor", "Assistant Section Officer", "Statistical Investigator"],
+    "faqs": [
+      "Q: Can final year graduates apply? → Yes",
+      "Q: Is there a negative marking? → Yes, 0.5 marks per wrong answer"
+    ]
+  },
+  {
+    "id": "exam-007",
+    "name": "Indian Institutes of Management – Common Admission Test (IIM CAT)",
+    "basic": {
+      "conductedBy": "IIMs (Rotating)",
+      "level": "National",
+      "type": "Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://iimcat.ac.in/"
+    },
+    "overview": {
+      "description": "CAT is for admission to MBA/PGDM programs in IIMs and other top B-schools in India.",
+      "importance": "Mandatory for top management programs.",
+      "competition": "Very High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Bachelor’s degree with minimum 50% (45% SC/ST/PwD)",
+      "percentage": "50% for General, 45% for SC/ST/PwD",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Aug 2025",
+      "last_date": "Sep 2025",
+      "admit_card": "Oct 2025",
+      "exam_date": "Nov 2025",
+      "result": "Dec 2025"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "VARC, DILR, QA",
+      "questions": "100",
+      "marks": "300",
+      "marking": "+3 for correct, 0 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["Quantitative Ability", "Data Interpretation & Logical Reasoning", "Verbal Ability & Reading Comprehension"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹2300 (General), ₹1150 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Practice mock tests", "Refer standard CAT books", "Analyze previous papers"],
+    "references": ["Arun Sharma (Quant)", "Nishit K. Sinha (DI/LR)", "Word Power Made Easy (Verbal)"],
+    "cutoff": "Varies by IIM and category, typically 95-99 percentile for top IIMs",
+    "colleges": ["IIM Ahmedabad", "IIM Bangalore", "IIM Calcutta"],
+    "careers": ["MBA/PGDM", "Management roles in Corporates", "Entrepreneurship"],
+    "faqs": [
+      "Q: Can a final year graduate apply? → Yes",
+      "Q: Is there negative marking? → No"
+    ]
+  },
+  {
+    "id": "exam-008",
+    "name": "National Institute of Fashion Technology Entrance Exam (NIFT)",
+    "basic": {
+      "conductedBy": "National Institute of Fashion Technology (NIFT)",
+      "level": "National",
+      "type": "Undergraduate/Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Offline/Online (varies by city)",
+      "website": "https://nift.ac.in/"
+    },
+    "overview": {
+      "description": "NIFT entrance is for admission to fashion, design, management, and technology courses.",
+      "importance": "Mandatory for NIFT admissions.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Class 12 for UG, Bachelor’s degree for PG",
+      "percentage": "Minimum 50%",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Nov 2025",
+      "last_date": "Dec 2025",
+      "admit_card": "Jan 2026",
+      "exam_date": "Feb 2026",
+      "result": "March 2026"
+    },
+    "pattern": {
+      "mode": "Online/Offline",
+      "duration": "3-4 hours",
+      "sections": "Creative Ability Test (CAT), General Ability Test (GAT), Situation Test",
+      "questions": "Varies",
+      "marks": "100+",
+      "marking": "Varies by section",
+      "medium": "English"
+    },
+    "syllabus": ["Design Principles", "General Knowledge", "Creative Aptitude", "Analytical Skills"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹2000 (General), ₹1000 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Practice sketches & design problems", "Mock tests", "Study general knowledge"],
+    "references": ["NIFT official prep guide", "Design tutorials online"],
+    "cutoff": "Varies by course and category",
+    "colleges": ["NIFT Delhi", "NIFT Mumbai", "NIFT Bangalore"],
+    "careers": ["Fashion Designer", "Textile Designer", "Fashion Management"],
+    "faqs": [
+      "Q: Is portfolio mandatory? → Yes, for some courses",
+      "Q: Can final year students apply? → Yes"
+    ]
+  },
+  {
+    "id": "exam-009",
+    "name": "Indian Statistical Institute – Admission Test (ISI CAT / B.Stat / M.Stat)",
+    "basic": {
+      "conductedBy": "Indian Statistical Institute",
+      "level": "National",
+      "type": "Undergraduate/Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Offline/Online (varies)",
+      "website": "https://www.isical.ac.in/"
+    },
+    "overview": {
+      "description": "ISI entrance is for undergraduate and postgraduate courses in statistics, mathematics, and related fields.",
+      "importance": "Highly reputed for statistics and mathematics programs.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Class 12 (UG) / Bachelor’s (PG)",
+      "percentage": "No minimum marks",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Dec 2025",
+      "last_date": "Jan 2026",
+      "admit_card": "Feb 2026",
+      "exam_date": "March 2026",
+      "result": "April 2026"
+    },
+    "pattern": {
+      "mode": "Offline/Online",
+      "duration": "3 hours",
+      "sections": "Mathematics, Statistics, General Knowledge (varies by course)",
+      "questions": "Varies",
+      "marks": "Varies",
+      "marking": "Varies",
+      "medium": "English"
+    },
+    "syllabus": ["Mathematics", "Statistics", "Logical Reasoning", "General Knowledge"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹1000-2000 (varies)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer ISI syllabus", "Practice previous years’ papers", "Solve mock tests"],
+    "references": ["ISI Official Guides", "Mathematics & Statistics books"],
+    "cutoff": "Varies by course and category",
+    "colleges": ["ISI Kolkata", "ISI Delhi", "ISI Bangalore"],
+    "careers": ["Statistician", "Data Scientist", "Researcher"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is age limit there? → No"
+    ]
+  },
+  {
+    "id": "exam-010",
+    "name": "Jawaharlal Nehru University Entrance Exam (JNU CEEB / Entrance Test)",
+    "basic": {
+      "conductedBy": "Jawaharlal Nehru University",
+      "level": "National",
+      "type": "Undergraduate/Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online/Offline",
+      "website": "https://www.jnu.ac.in/"
+    },
+    "overview": {
+      "description": "JNU entrance exams are for admission to various UG/PG programs in arts, sciences, social sciences, and languages.",
+      "importance": "Mandatory for admission to JNU programs.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Class 12 (UG) / Bachelor’s (PG)",
+      "percentage": "No minimum marks",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Feb 2026",
+      "last_date": "Mar 2026",
+      "admit_card": "April 2026",
+      "exam_date": "May 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Online/Offline",
+      "duration": "2-3 hours",
+      "sections": "Subject-specific (varies by course)",
+      "questions": "Varies",
+      "marks": "Varies",
+      "marking": "Varies",
+      "medium": "English"
+    },
+    "syllabus": ["Course-specific subjects based on department"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹500-1000 (varies by course)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer NCERT and relevant textbooks", "Practice past papers"],
+    "references": ["Department-specific guides", "Previous papers"],
+    "cutoff": "Varies by course",
+    "colleges": ["JNU, New Delhi"],
+    "careers": ["Researcher", "Lecturer", "Civil Services", "Academic Careers"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Are exams same for all courses? → No, varies by program"
+    ]
+  },
+  {
+    "id": "exam-011",
+    "name": "Institute of Chartered Accountants of India – CA Foundation",
+    "basic": {
+      "conductedBy": "ICAI",
+      "level": "National",
+      "type": "Professional",
+      "frequency": "Twice a year",
+      "mode": "Offline / Online",
+      "website": "https://www.icai.org/"
+    },
+    "overview": {
+      "description": "CA Foundation is the entry-level exam for pursuing Chartered Accountancy in India.",
+      "importance": "Mandatory for pursuing CA in India.",
+      "competition": "High",
+      "languages": ["English", "Hindi"]
+    },
+    "eligibility": {
+      "academic": "Class 12 or equivalent",
+      "percentage": "No minimum marks",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Dec 2025",
+      "last_date": "Jan 2026",
+      "admit_card": "Feb 2026",
+      "exam_date": "May 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Offline / Online",
+      "duration": "3 hours per paper",
+      "sections": "Accounting, Mercantile Laws, Economics, Quantitative Aptitude",
+      "questions": "Varies",
+      "marks": "100 per paper",
+      "marking": "+1 for correct, 0 for wrong",
+      "medium": "English / Hindi"
+    },
+    "syllabus": ["Accounting", "Mercantile Laws", "Economics", "Quantitative Aptitude"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹1500 approx.",
+      "correction": "Available"
+    },
+    "preparation": ["Study ICAI study material", "Practice mock tests", "Solve previous papers"],
+    "references": ["ICAI Study Material", "Suggested books by ICAI"],
+    "cutoff": "Pass marks 40% per paper, 50% aggregate",
+    "colleges": ["ICAI Institutes across India"],
+    "careers": ["Chartered Accountant", "Finance Analyst", "Auditor"],
+    "faqs": [
+      "Q: Can final year 12th students apply? → Yes",
+      "Q: How many papers? → 4"
+    ]
+  },
+  {
+    "id": "exam-012",
+    "name": "Indian Navy – INA (Indian Naval Academy) Entrance",
+    "basic": {
+      "conductedBy": "Union Public Service Commission (UPSC)",
+      "level": "National",
+      "type": "Undergraduate/Graduate",
+      "frequency": "Once a year",
+      "mode": "Online/Offline",
+      "website": "https://www.upsc.gov.in/"
+    },
+    "overview": {
+      "description": "INA entrance is for admission to the Indian Naval Academy for officer training.",
+      "importance": "Mandatory for joining the Indian Navy as officers.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "12th Pass (Science) for NDA/UG; Graduate for CDS/PG",
+      "percentage": "Minimum 60%",
+      "age": "16.5-19 years (UG), 19-25 years (Graduate entry)",
+      "nationality": "Indian",
+      "attempts": "2-3 depending on exam"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "May 2026"
+    },
+    "pattern": {
+      "mode": "Offline/Online",
+      "duration": "2-3 hours",
+      "sections": "Mathematics, General Ability Test (GAT), English",
+      "questions": "Varies",
+      "marks": "300+",
+      "marking": "+4 for correct, -1 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["Mathematics", "Physics", "Chemistry", "General Knowledge", "English"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹200-300 approx.",
+      "correction": "Available"
+    },
+    "preparation": ["Refer NCERTs", "Practice NDA/UPSC mock tests", "Solve previous papers"],
+    "references": ["NCERTs, NDA prep books", "UPSC previous papers"],
+    "cutoff": "Varies yearly; typically top 10-15 percentile",
+    "colleges": ["Indian Naval Academy, Ezhimala"],
+    "careers": ["Naval Officer", "Defense Services"],
+    "faqs": [
+      "Q: Is physical fitness required? → Yes, mandatory",
+      "Q: Can female candidates apply? → For specific entries only"
+    ]
+  },
+  {
+    "id": "exam-013",
+    "name": "Indian Administrative Service – UPSC Civil Services Exam (CSE)",
+    "basic": {
+      "conductedBy": "Union Public Service Commission (UPSC)",
+      "level": "National",
+      "type": "Professional",
+      "frequency": "Once a year",
+      "mode": "Offline/Online",
+      "website": "https://www.upsc.gov.in/"
+    },
+    "overview": {
+      "description": "CSE is the entrance exam for IAS, IPS, and other central services in India.",
+      "importance": "Highly prestigious government career in administration.",
+      "competition": "Very High",
+      "languages": ["English", "Hindi"]
+    },
+    "eligibility": {
+      "academic": "Graduate in any discipline",
+      "percentage": "No minimum marks",
+      "age": "21-32 years (General), relaxations for reserved categories",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "6 for General, more for reserved categories"
+    },
+    "dates": {
+      "application_start": "Feb 2026",
+      "last_date": "Mar 2026",
+      "admit_card": "May 2026",
+      "exam_date": "June 2026 (Prelims)",
+      "result": "Aug 2026"
+    },
+    "pattern": {
+      "mode": "Offline/Online",
+      "duration": "2 hours (Prelims), 3 hours (Mains per paper)",
+      "sections": "Prelims: GS + CSAT; Mains: 9 papers",
+      "questions": "Varies",
+      "marks": "Prelims: 200, Mains: 1750",
+      "marking": "+/- depending on exam",
+      "medium": "English/Hindi"
+    },
+    "syllabus": ["Current Affairs", "History", "Geography", "Polity", "Economy", "Science & Tech", "CSAT"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹100-200 (General), ₹0 for SC/ST/PwD",
+      "correction": "Available"
+    },
+    "preparation": ["Read NCERTs, newspapers, magazines", "Practice mock tests and previous papers"],
+    "references": ["Laxmikanth (Polity)", "Spectrum (History)", "Economic Survey", "Indian Year Book"],
+    "cutoff": "Prelims qualifying ~100-120 marks, varies by year",
+    "colleges": ["N/A – Professional Government Exam"],
+    "careers": ["IAS Officer", "IPS Officer", "IRS Officer", "Indian Defense Services"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: How many attempts for General category? → 6"
+    ]
+  },
+  {
+    "id": "exam-014",
+    "name": "Common Law Admission Test (CLAT)",
+    "basic": {
+      "conductedBy": "CLAT Consortium (NLUs)",
+      "level": "National",
+      "type": "Undergraduate/Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://clat.ac.in/"
+    },
+    "overview": {
+      "description": "CLAT is for admission to undergraduate (BA LLB) and postgraduate (LLM) courses in National Law Universities.",
+      "importance": "Mandatory for NLU admissions.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Class 12 (UG), LLB (PG)",
+      "percentage": "45% for General, 40% for reserved",
+      "age": "UG: ≤20 yrs (General), PG: No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "May 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "2 hours",
+      "sections": "English, GK, Maths, Legal Aptitude, Logical Reasoning",
+      "questions": "150",
+      "marks": "150",
+      "marking": "+1 for correct, -0.25 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["English Comprehension", "General Knowledge", "Mathematics", "Legal Aptitude", "Logical Reasoning"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹4000 (General), ₹3500 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Practice previous CLAT papers", "Mock tests", "Legal GK study"],
+    "references": ["Universal’s CLAT Guide", "Legal GK books", "Past year papers"],
+    "cutoff": "Varies by NLU; typically 90-120 marks for top NLUs",
+    "colleges": ["NLS Bangalore", "NLIU Bhopal", "NLU Delhi"],
+    "careers": ["Lawyer", "Judge", "Legal Advisor", "Corporate Lawyer"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is negative marking there? → Yes, 0.25 marks"
+    ]
+  },
+  {
+    "id": "exam-015",
+    "name": "Indian Space Research Organisation – ISRO Scientist/Engineer Exam",
+    "basic": {
+      "conductedBy": "ISRO",
+      "level": "National",
+      "type": "Professional",
+      "frequency": "Once a year",
+      "mode": "Online / Offline",
+      "website": "https://www.isro.gov.in/"
+    },
+    "overview": {
+      "description": "Exam for recruitment of Scientist/Engineer posts in ISRO across various disciplines.",
+      "importance": "Gateway to space research and technical government career.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "B.Tech/B.E in relevant branch",
+      "percentage": "Minimum 65%/First Class",
+      "age": "≤35 years",
+      "nationality": "Indian",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "May 2026"
+    },
+    "pattern": {
+      "mode": "Online / Offline",
+      "duration": "2-3 hours",
+      "sections": "Technical + General Aptitude",
+      "questions": "80-100",
+      "marks": "100-150",
+      "marking": "+1 for correct, 0 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["Branch-specific engineering subjects", "General aptitude", "Reasoning"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹500-1000 approx.",
+      "correction": "Available"
+    },
+    "preparation": ["Refer textbooks for technical subjects", "Practice previous ISRO papers", "Mock tests"],
+    "references": ["Standard Engineering textbooks", "ISRO previous papers"],
+    "cutoff": "Varies by discipline; typically top 10-15 percentile",
+    "colleges": ["ISRO Centers across India"],
+    "careers": ["Scientist/Engineer in ISRO", "Space Research", "Satellite Technology"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is age relaxation available? → Yes, for reserved categories"
+    ]
+  },
+  {
+    "id": "exam-016",
+    "name": "Birla Institute of Technology and Science Admission Test (BITSAT)",
+    "basic": {
+      "conductedBy": "BITS Pilani",
+      "level": "National",
+      "type": "Undergraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://www.bitsadmission.com/"
+    },
+    "overview": {
+      "description": "BITSAT is the entrance test for admission to engineering, pharmacy, and sciences programs at BITS campuses.",
+      "importance": "Mandatory for admission in BITS campuses.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Class 12 with Physics, Chemistry, Mathematics",
+      "percentage": "Minimum 75% in PCM, 60% in each subject",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Feb 2026",
+      "last_date": "Mar 2026",
+      "admit_card": "April 2026",
+      "exam_date": "May 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "Physics, Chemistry, Mathematics, English, Logical Reasoning",
+      "questions": "150",
+      "marks": "450",
+      "marking": "+3 for correct, -1 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["Physics (NCERT XI-XII)", "Chemistry (NCERT XI-XII)", "Mathematics (NCERT XI-XII)", "English", "Logical Reasoning"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹3400 (General), ₹1700 (SC/ST)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer NCERTs", "Practice BITSAT sample papers", "Mock tests"],
+    "references": ["NCERT textbooks", "BITSAT official sample papers"],
+    "cutoff": "Varies by campus and course; typically 310-350 marks for top branches",
+    "colleges": ["BITS Pilani", "BITS Goa", "BITS Hyderabad"],
+    "careers": ["Engineering", "Pharmacy", "Research Scientist"],
+    "faqs": [
+      "Q: Can I appear for multiple BITS campuses? → Yes",
+      "Q: Is there negative marking? → Yes, -1 per wrong answer"
+    ]
+  },
+  {
+    "id": "exam-017",
+    "name": "Indian Railway Recruitment Board – RRB NTPC",
+    "basic": {
+      "conductedBy": "Railway Recruitment Board (RRB)",
+      "level": "National",
+      "type": "Undergraduate/Professional",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://www.rrbcdg.gov.in/"
+    },
+    "overview": {
+      "description": "RRB NTPC exam is for recruitment of Non-Technical Popular Categories in Indian Railways.",
+      "importance": "Gateway to stable government jobs in Indian Railways.",
+      "competition": "Very High",
+      "languages": ["English", "Hindi", "Regional"]
+    },
+    "eligibility": {
+      "academic": "12th Pass or equivalent",
+      "percentage": "Minimum 50%",
+      "age": "18-33 years (varies by category)",
+      "nationality": "Indian",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "June 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "90 minutes",
+      "sections": "General Awareness, Mathematics, Reasoning, General Intelligence",
+      "questions": "100",
+      "marks": "100",
+      "marking": "+1 for correct, -0.25 for wrong",
+      "medium": "English/Hindi/Regional"
+    },
+    "syllabus": ["Mathematics", "Reasoning", "General Awareness", "General Intelligence"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹500 (General), ₹250 (SC/ST/OBC)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer RRB NTPC guidebooks", "Solve mock tests", "Practice previous papers"],
+    "references": ["Kiran’s RRB Guide", "Previous Years’ Papers", "Online Mock Tests"],
+    "cutoff": "Varies by category; generally 70-85 marks for General",
+    "colleges": ["N/A – Government recruitment exam"],
+    "careers": ["Railway Clerk", "Assistant Station Master", "Goods Guard", "Traffic Assistant"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is there negative marking? → Yes, 0.25 marks per wrong answer"
+    ]
+  },
+  {
+    "id": "exam-018",
+    "name": "Indian Air Force – AFCAT (Air Force Common Admission Test)",
+    "basic": {
+      "conductedBy": "Indian Air Force",
+      "level": "National",
+      "type": "Professional/Graduate",
+      "frequency": "Twice a year",
+      "mode": "Online (CBT)",
+      "website": "https://afcat.cdac.in/"
+    },
+    "overview": {
+      "description": "AFCAT is for recruitment of officers in Flying, Ground Duty (Technical & Non-Technical) branches of the Indian Air Force.",
+      "importance": "Mandatory for joining Indian Air Force as commissioned officers.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Graduate in any discipline (technical/ non-technical for respective branches)",
+      "percentage": "50-60% depending on branch",
+      "age": "20-24 years (Flying), 20-26 years (Technical/Non-Technical)",
+      "nationality": "Indian",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Jan 2026",
+      "last_date": "Feb 2026",
+      "admit_card": "March 2026",
+      "exam_date": "April 2026",
+      "result": "May 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "2 hours",
+      "sections": "General Awareness, Verbal Ability, Numerical Ability, Reasoning & Military Aptitude",
+      "questions": "100",
+      "marks": "300",
+      "marking": "+3 for correct, -1 for wrong",
+      "medium": "English"
+    },
+    "syllabus": ["General Awareness", "Verbal Ability", "Numerical Ability", "Reasoning & Military Aptitude"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹250 (General/OBC), ₹0 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Practice previous years’ papers", "Mock tests", "Refer standard IAF prep books"],
+    "references": ["AFCAT Guidebooks", "Online Mock Tests", "Military Aptitude Prep material"],
+    "cutoff": "Varies by branch; typically 150-180 marks for General category",
+    "colleges": ["Air Force Academy, Dundigal; Air Force Training Establishments"],
+    "careers": ["Flying Officer", "Ground Duty Officer", "Technical Officer"],
+    "faqs": [
+      "Q: Can female candidates apply? → Yes, for certain branches",
+      "Q: Is physical fitness mandatory? → Yes"
+    ]
+  },
+  {
+    "id": "exam-019",
+    "name": "Indian Institute of Technology – JAM (Joint Admission Test for M.Sc.)",
+    "basic": {
+      "conductedBy": "IITs (Rotating)",
+      "level": "National",
+      "type": "Postgraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "http://jam.iitkgp.ac.in/"
+    },
+    "overview": {
+      "description": "JAM is for admission to M.Sc., Joint M.Sc.-Ph.D., and other post-bachelor programs at IITs and IISc.",
+      "importance": "Mandatory for postgraduate science courses in IITs and IISc.",
+      "competition": "High",
+      "languages": ["English"]
+    },
+    "eligibility": {
+      "academic": "Bachelor’s degree in relevant discipline",
+      "percentage": "Minimum 55% for General, 50% for reserved",
+      "age": "No age limit",
+      "nationality": "Indian / OCI / NRI",
+      "attempts": "No limit"
+    },
+    "dates": {
+      "application_start": "Oct 2025",
+      "last_date": "Nov 2025",
+      "admit_card": "Jan 2026",
+      "exam_date": "Feb 2026",
+      "result": "March 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours",
+      "sections": "Mathematics, Physics, Chemistry, Biotechnology, Geology (depending on paper)",
+      "questions": "60",
+      "marks": "100",
+      "marking": "+1 for correct, -1/3 for wrong (depending on question type)",
+      "medium": "English"
+    },
+    "syllabus": ["B.Sc. level Mathematics, Physics, Chemistry, Biotechnology, Geology"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹1500 (General), ₹750 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer B.Sc. textbooks", "Practice previous years’ papers", "Mock tests"],
+    "references": ["NCERTs XI-XII", "B.Sc. Level reference books", "JAM Previous Year Papers"],
+    "cutoff": "Varies by program; typically 25-40 marks for qualifying",
+    "colleges": ["IIT Bombay", "IIT Delhi", "IISc Bangalore"],
+    "careers": ["M.Sc.", "Research Scientist", "PhD", "Lecturer"],
+    "faqs": [
+      "Q: Can final year students apply? → Yes",
+      "Q: Is there negative marking? → Yes"
+    ]
+  },
+  {
+    "id": "exam-020",
+    "name": "Indian Institute of Technology – JEE Advanced",
+    "basic": {
+      "conductedBy": "IITs (Rotating)",
+      "level": "National",
+      "type": "Undergraduate",
+      "frequency": "Once a year",
+      "mode": "Online (CBT)",
+      "website": "https://jeeadv.ac.in/"
+    },
+    "overview": {
+      "description": "JEE Advanced is for admission to undergraduate programs at the IITs after qualifying JEE Main.",
+      "importance": "Mandatory for IIT admission.",
+      "competition": "Very High",
+      "languages": ["English", "Hindi"]
+    },
+    "eligibility": {
+      "academic": "Top 2.5 lakh candidates from JEE Main",
+      "percentage": "N/A (Based on JEE Main rank)",
+      "age": "No upper age limit",
+      "nationality": "Indian / OCI / PIO",
+      "attempts": "2 consecutive years"
+    },
+    "dates": {
+      "application_start": "May 2026",
+      "last_date": "June 2026",
+      "admit_card": "June 2026",
+      "exam_date": "July 2026",
+      "result": "Aug 2026"
+    },
+    "pattern": {
+      "mode": "Computer-Based Test",
+      "duration": "3 hours per paper (Paper 1 & 2)",
+      "sections": "Physics, Chemistry, Mathematics",
+      "questions": "54-66 per paper (varies)",
+      "marks": "180 per paper",
+      "marking": "Varies by question type, includes +3, +4, -1, -2",
+      "medium": "English, Hindi"
+    },
+    "syllabus": ["Physics (NCERT XI-XII)", "Chemistry (NCERT XI-XII)", "Mathematics (NCERT XI-XII)"],
+    "application": {
+      "steps": "Register → Fill form → Upload documents → Pay fee → Submit",
+      "fee": "₹2800 (General), ₹1400 (SC/ST/PwD)",
+      "correction": "Available"
+    },
+    "preparation": ["Refer NCERTs", "Practice previous years’ papers", "Mock tests and coaching material"],
+    "references": ["HC Verma (Physics)", "OP Tandon (Chemistry)", "RD Sharma (Mathematics)"],
+    "cutoff": "Varies yearly; typically top 20,000 JEE Main candidates qualify",
+    "colleges": ["IIT Bombay", "IIT Delhi", "IIT Madras"],
+    "careers": ["B.Tech in Engineering", "Research", "Entrepreneurship"],
+    "faqs": [
+      "Q: Can I attempt both JEE Main and Advanced in same year? → Yes, if eligible",
+      "Q: Is negative marking there? → Yes"
+    ]
+  }
+]

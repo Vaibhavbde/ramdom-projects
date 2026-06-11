@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Buddy - Quiz</title>
+  <link rel="stylesheet" href="/css/style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content"></main>
+    <!-- Quiz Section -->
+    <section class="quiz-section">
+      <div class="quiz-header">
+        <h2> Career Aptitude Test</h2>
+        <p>Take a short quiz and discover which stream & career suits you best ðŸš€</p>
+      </div>
+
+      <div id="quiz-container">
+        <!-- Start Box -->
+        <div id="quiz-start" class="quiz-box">
+          <p>Answer a few questions and we'll recommend the best stream & careers for you </p>
+          <button id="quiz-begin-btn" class="btn-primary">Start Quiz</button>
+        </div>
+
+        <!-- Question Box -->
+        <div id="quiz-question" class="quiz-box hidden">
+          <p id="question-progress" class="quiz-progress"></p>
+          <h3 id="question-text"></h3>
+          <div id="options-list" class="options-list"></div>
+
+          <div class="quiz-nav">
+            <button id="prev-btn" class="btn-secondary hidden">Prev</button>
+            <button id="next-btn" class="btn-primary">Next</button>
+          </div>
+        </div>
+
+        <!-- Result Box -->
+        <div id="quiz-result" class="quiz-box hidden">
+          <h3>Your Quiz is Complete! ðŸŽ‰</h3>
+          <p id="result-summary"></p>
+          <a href="profile.html" class="btn-primary">View My Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <div id="modal-placeholder"></div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+
+  <script id="omnidimension-web-widget" async src="https://backend.omnidim.io/web_widget.js?secret_key=47c1909efec41f43899aa106773978ef" ></script>  <script src="/js/app.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/storage.js"></script>
+  <script src="/js/quiz.js"></script>
+</body>
+</html>

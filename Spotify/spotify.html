@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="web-logo">
+            <img src="assets/images/logo.svg">
+        </div>
+
+        <div class="icon-background">
+            <img src="assets/images/home.svg">
+        </div>
+
+        <div class="searchbar">
+            <div class="search-icon">
+                <img src="assets/images/search.svg">
+            </div>
+
+            <div class="input-wrapper">
+                <input type="text" id="searchInput">
+                <span class="typewriter" id="typing"></span>
+            </div>
+
+            <div class="partition"></div>
+
+            <div class="browse-logo">
+                <img src="assets/images/browser.svg">
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href=#>Premium</a>
+            <a href=#>Support</a>
+            <a href=#>Download</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="install-app">
+            <img src="assets/images/download.svg">
+            <a href="#">Install App</a>
+        </div>
+
+        <div class="signin">
+            <a href=#>Sign up</a>
+        </div>
+
+        <div class="login">
+            <a href=#>Log in</a>
+        </div>
+    </div>
+
+
+
+    <!-- MAIN LAYOUT -->
+    <div class="layout">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+
+            <div class="navbar">
+                <p>Your Library</p>
+
+                <div class="create-playlist">
+                    <img src="assets/images/createplaylist.svg">
+                    <button>Create</button>
+                </div>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="sidebar-box">
+                    <p class="line1">Create your first playlist</p>
+                    <p class="line2">It's easy, we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+
+                <div class="sidebar-box">
+                    <p class="line1">Let's find some podcasts to follow</p>
+                    <p class="line2">We'll keep you updated</p>
+                    <button>Browse podcasts</button>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="footer-links">
+                    <a class="footer-link">Legal</a>
+                    <a class="footer-link">Privacy Policy</a>
+                    <a class="footer-link">Cookies</a>
+                    <a class="footer-link">About Ads</a>
+                    <a class="footer-link">Accessibility</a>
+                    <a class="footer-link full">Cookies</a>
+                </div>
+
+                <button class="languages">
+                    <img src="assets/images/language.svg">
+                    English
+                </button>
+            </div>
+        </div>
+
+        <!-- MAINBAR -->
+        <div class="mainbar">
+            <div class="Trending-section">
+                <h2>Trending Songs</h2>
+                <p>Show All</p>
+            </div>
+            <div class="songs-wrapper">
+
+                <button class="scroll-btn left-btn">&#10094;</button>
+                <div class="songs-container">
+                    <div class="card">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                                color="currentColor" fill="none" stroke="#141B34" stroke-width="1.5"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                    fill="#000" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02dc2c3fc94a7a62af2eb91f83" alt="">
+                        <h2>Wavy</h2>
+                        <p>Karan Aujla</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02292341cd3e621d7f9171331f" alt="">
+                        <h2>Finding Her</h2>
+                        <p>Kushagra, Bharath, Saaheal</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02ccb8340447b428d8b4330720" alt="">
+                        <h2>Deva Deva</h2>
+                        <p>Pritam, Arjit Singh</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02e4855f57cf9ffcf827fdd6e2" alt="">
+                        <h2>HeadLights</h2>
+                        <p>Alan Walker, Alok, KIDDO</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36" alt="">
+                        <h2>BindingLights</h2>
+                        <p>The Weekend</p>
+                    </div>
+                </div>
+                <button class="scroll-btn right-btn">&#10095;</button>
+            </div>
+            <div class="mainbar-footer">
+                <div class="footer-left">
+                    <div class="song-info">
+                        <div class="song-img">
+
+                        </div>
+
+                        <div class="song-details">
+                            <div class="song-name">
+                                <p>Wavy</p>
+                            </div>
+                            <div class="singer-name">
+                                <p>Karan Aujla</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-center">
+                    <div class="visualizer">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="song-buttons">
+                        <img src="assets/images/previous.svg" class="prev-btn">
+                        <img src="assets/images/play.svg" class="play-btn">
+                        <img src="assets/images/next.svg" class="next-btn">
+                    </div>
+                </div>
+
+                <div class="footer-right">
+                    <div class="time-container">
+
+                        <span class="current-time">0:00</span>
+
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+
+                        <span class="total-time">0:00</span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="video-screen">
+
+                <div class="close-video">
+                    <img src="assets/images/close.png" alt="">
+                </div>
+
+                <video class="main-video" muted loop>
+                </video>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <p>Preview of Spotify — Sign up for unlimited songs</p>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+
+</html>

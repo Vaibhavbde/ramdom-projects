@@ -1,0 +1,65 @@
+<!-- auth-modal.html -->
+<div id="auth-modal" class="auth-modal hidden" role="dialog" aria-modal="true" aria-labelledby="auth-modal-title" aria-hidden="true">
+  <div class="auth-modal-overlay" tabindex="-1"></div>
+  <div class="auth-modal-content" role="document">
+    <button id="auth-close-btn" class="modal-close" aria-label="Close sign in dialog">✕</button>
+
+    <h2 id="auth-modal-title">👋 Welcome to Career Buddy</h2>
+    <p>Create your profile to unlock personalized guidance.</p>
+
+    <form id="auth-form" autocomplete="on">
+      <!-- Basic Info -->
+      <label for="input-name">Full Name *</label>
+      <input type="text" id="input-name" name="name" placeholder="Enter your name" required />
+
+      <label for="input-email">Email *</label>
+      <input type="email" id="input-email" name="email" placeholder="Enter your email" required />
+
+      <label for="input-gender">Gender *</label>
+      <select id="input-gender" name="gender" required>
+        <option value="">Select gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="input-age">Age *</label>
+      <input type="number" id="input-age" name="age" placeholder="Enter your age" min="10" max="30" required />
+
+      <label for="input-class">Class *</label>
+      <select id="input-class" name="class" required>
+        <option value="">Select class</option>
+        <option value="10">Class 10</option>
+        <option value="12">Class 12</option>
+        <option value="College">College</option>
+      </select>
+
+      <!-- Guidance Specific Fields -->
+      <label for="input-stream">Preferred Stream *</label>
+      <select id="input-stream" name="stream" required>
+        <option value="">Not decided</option>
+        <option value="Science">Science</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Arts">Arts</option>
+        <option value="Vocational">Vocational</option>
+      </select>
+
+      <label for="input-interests">Academic Interests</label>
+      <input type="text" id="input-interests" name="interests" placeholder="e.g. Coding, Biology, Economics" />
+
+      <label for="input-career-goal">Career Goal</label>
+      <input type="text" id="input-career-goal" name="careerGoal" placeholder="e.g. Doctor, Engineer, IAS" />
+
+      <label for="input-skills">Skills you want to learn</label>
+      <input type="text" id="input-skills" name="skills" placeholder="e.g. Python, Communication, Design" />
+
+      <label for="input-location">Location *</label>
+      <input type="text" id="input-location" name="location" placeholder="Enter your city/state" required />
+
+      <div class="modal-actions">
+        <button type="button" id="auth-save-btn" class="btn-primary">Save &amp; Continue →</button>
+        <button type="button" id="auth-cancel-btn" class="btn-secondary">Cancel</button>
+      </div>
+    </form>
+  </div>
+</div>

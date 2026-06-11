@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Buddy - Profile</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content">
+    <!-- Profile Section -->
+    <section class="profile-section">
+      <div class="profile-card">
+        <h2>My Profile</h2>
+        <p><strong>Name:</strong> <span id="profile-name"></span></p>
+        <p><strong>Email:</strong> <span id="profile-email"></span></p>
+        <p><strong>Gender:</strong> <span id="profile-gender"></span></p>
+        <p><strong>Age:</strong> <span id="profile-age"></span></p>
+        <p><strong>Class:</strong> <span id="profile-class"></span></p>
+        <p><strong>Preferred Stream:</strong> <span id="profile-stream"></span></p>
+        <p><strong>Academic Interests:</strong> <span id="profile-interests"></span></p>
+        <p><strong>Career Goal:</strong> <span id="profile-careerGoal"></span></p>
+        <p><strong>Skills to Learn:</strong> <span id="profile-skills"></span></p>
+        <p><strong>Location:</strong> <span id="profile-location"></span></p>
+
+        <button id="edit-profile-btn" class="btn-primary">Edit Profile</button>
+      </div>
+
+      <div class="result-card">
+        <h2> Quiz Result</h2>
+        <div id="quiz-result-box">
+          <p>Loading your result...</p>
+        </div>
+      </div>
+      <div class="chart-container" style="width: 400px; margin: 20px auto;">
+        <canvas id="careerChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <div id="modal-placeholder"></div>
+
+  <script id="omnidimension-web-widget" async
+    src="https://backend.omnidim.io/web_widget.js?secret_key=47c1909efec41f43899aa106773978ef"></script>
+
+  <script src="/js/careers.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/storage.js"></script>
+  <script src="/js/profile.js"></script>
+
+</body>
+
+</html>

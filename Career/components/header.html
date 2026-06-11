@@ -1,0 +1,85 @@
+<!-- header.html
+<header class="navbar" role="banner" aria-label="Main navigation">
+  <a href="/index.html">
+  <div class="logo">
+    <img src="/assets/logo.png" alt="Career Buddy Logo" class="logo-img" width="42" height="42">
+    <span class="logo-text">Career Buddy</span>
+  </div>
+  </a>
+
+  <button class="hamburger" id="hamburger-btn">
+    &#9776;
+  </button>
+  
+
+  <nav class="nav-links" role="navigation" aria-label="Primary">
+    <a href="/index.html" id="nav-home">Home</a>
+    <a href="/colleges.html" id="nav-colleges">Colleges</a>
+    <a href="/careers.html" id="nav-careers">Careers</a>
+    <a href="/scholarships.html" id="nav-scholarships">Scholarships</a>
+    <a href="/quiz.html" id="nav-quiz">Quiz</a>
+    <a href="/jobs.html" id="nav-jobs">Jobs</a>
+    <a href="/exam.html" id="nav-exam">Exams</a>
+    <a href="/skills.html">Skills</a>
+    <a href="/profile.html" id="nav-profile">Profile</a>
+  </nav>
+
+  <div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile menu">
+  <a href="/index.html">Home</a>
+  <a href="/colleges.html">Colleges</a>
+  <a href="/careers.html">Careers</a>
+  <a href="/scholarships.html">Scholarships</a>
+  <a href="/quiz.html">Quiz</a>
+  <a href="/jobs.html">Jobs</a>
+  <a href="/exam.html">Exams</a>
+  <a href="/skills.html">Skills</a>
+  <a href="/profile.html">Profile</a>
+  <button class="btn-primary" id="mobile-signout">Sign Out</button>
+</div>
+  Placeholder for dynamic user info (handled by app.js) 
+  <div id="user-info" class="nav-actions" aria-live="polite"></div>
+</header>-->
+
+
+<!-- header.html -->
+<header class="navbar" role="banner" aria-label="Main navigation">
+  <a href="/index.html" class="logo">
+    <img src="/assets/logo.png" alt="Career Buddy Logo" class="logo-img" width="42" height="42">
+    <span class="logo-text">Career Buddy</span>
+  </a>
+
+  <!-- Hamburger (mobile only) -->
+  <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+    &#9776;
+  </button>
+
+  <!-- Desktop Nav -->
+  <nav class="nav-links" role="navigation" aria-label="Primary">
+    <a href="/index.html" id="nav-home">Home</a>
+    <a href="/quiz.html" id="nav-quiz">Quiz</a>
+    <a href="/careers.html" id="nav-careers">Careers</a>
+    <a href="/colleges.html" id="nav-colleges">Colleges</a>
+    <a href="/scholarships.html" id="nav-scholarships">Scholarships</a>
+    <a href="/jobs.html" id="nav-jobs">Jobs</a>
+    <a href="/exam.html" id="nav-exam">Exams</a>
+    <a href="/skills.html">Skills</a>
+    <a href="/profile.html" id="nav-profile">Profile</a>
+  </nav>
+
+  <!-- Placeholder for dynamic user info (from app.js) -->
+  <div id="user-info" class="nav-actions" aria-live="polite"></div>
+</header>
+
+<!-- Mobile Menu (separate, hidden by default) -->
+<div class="mobile-menu" id="mobile-menu" role="navigation" aria-label="Mobile menu">
+  <a href="/index.html">Home</a>
+  <a href="/colleges.html">Colleges</a>
+  <a href="/careers.html">Careers</a>
+  <a href="/scholarships.html">Scholarships</a>
+  <a href="/quiz.html">Quiz</a>
+  <a href="/jobs.html">Jobs</a>
+  <a href="/exam.html">Exams</a>
+  <a href="/skills.html">Skills</a>
+  <a href="/profile.html">Profile</a>
+  <button class="btn-primary" id="mobile-signout">Sign Out</button>
+</div>

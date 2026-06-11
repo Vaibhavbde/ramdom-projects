@@ -1,0 +1,542 @@
+[
+  {
+    "id": "q1",
+    "text": "Which would you rather do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dedicate long hours to a project I'm passionate about",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 1,
+          "law": 1,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Optimize for short work hours in a day",
+        "score": {
+          "finance": 1,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "Which would you rather do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Building simple financial models, like budgets, to understand the drivers of a business",
+        "score": {
+          "finance": 1,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      },
+      {
+        "id": "b",
+        "text": "Organize community-driven, free educational workshops for a social cause",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 1,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "Which group would you prefer to interact with?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Research experts, PHDs and think tank leaders",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 1,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Venture capitalists, techexperts and entrepreneurs",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 1,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "Which would you rather do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Proactively pinpoint and address gaps in people's arguments during team discussions",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 1,
+          "business": 1
+        }
+      },
+      {
+        "id": "b",
+        "text": "Maintain harmony by mostly withholding opposing views during team discussions",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "What do you think you'd do better at?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Collaborating with field experts on writing a technical report about a specific global issue",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 1,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Collaborating with tech and marketing specialists on a product launch strategy",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 1,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "Which activity have you done or are you more likely to do in the future?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Take an online courses on development topics like public health, animal husbandry/agriculture",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Join a technical challenge like hackathon",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "text": "Which activity would you rather do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Creating technical products using coding, AI, hardware or other technologies",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Managing diverse stakeholder relationships, including with external partners or academics",
+        "score": {
+          "finance": 1,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "text": "Which article would you rather write?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An article delving into nuanced topics using qualitative research methods",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "An article using data science to draw insights from large databases",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "text": "Which would you prefer to do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Taking a high-paying job and donating",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      },
+      {
+        "id": "b",
+        "text": "Directly working on a high-imapact cause",
+        "score": {
+          "finance": 1,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "Do you prefer working with numbers & data or with people & ideas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Numbers & Data",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "People & Ideas",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 1,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "text": "Would you rather create something new or improve existing things?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Create something new",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 1,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Improve existing things",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "text": "Do you like solving technical problems or creative problems?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Technical",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Creative",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 1,
+          "law": 0,
+          "business": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "text": "Do you enjoy working indoors with computers/tools or outdoors with real-world activities?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Indoors",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 1,
+          "law": 0,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Outdoors",
+        "score": {
+          "finance": 1,
+          "research": 1,
+          "data analysis": 0,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 1,
+          "design": 0,
+          "law": 1,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "text": "Do you prefer making decisions based on logic or emotions/values?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Logic",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 1,
+          "entrepreneurship": 1,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 1,
+          "business": 0
+        }
+      },
+      {
+        "id": "b",
+        "text": "Emotions/Values",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 1,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 1,
+          "law": 0,
+          "business": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "text": "Would you rather lead a team or work independently?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lead a team",
+        "score": {
+          "finance": 0,
+          "research": 0,
+          "data analysis": 0,
+          "entrepreneurship": 1,
+          "tech": 1,
+          "Marketing": 0,
+          "design": 0,
+          "law": 0,
+          "business": 1
+        }
+      },
+      {
+        "id": "b",
+        "text": "Work independently",
+        "score": {
+          "finance": 0,
+          "research": 1,
+          "data analysis": 1,
+          "entrepreneurship": 0,
+          "tech": 0,
+          "Marketing": 0,
+          "design": 1,
+          "law": 1,
+          "business": 0
+        }
+      }
+    ]
+  }
+]

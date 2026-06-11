@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website - AI Chatbot</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+        <!-- <link rel="stylesheet" href="../../css/style.css"> -->
+
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Reset and Base Styles */
+        /* * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ */
+        /* body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        } */
+
+        /* Main Content Styling */
+        /* .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        } */
+
+        .hero-section {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: linear-gradient(135deg, #22c55e, #3b82f6, #facc15, #ec4899);
+            background-size: 300% 300%;
+            animation: gradientBG 12s ease infinite;
+            color: white;
+            border-radius: 20px 20px 0 0; /* ✅ top rounded */
+            box-shadow: inset 0 -4px 12px rgba(0,0,0,0.15);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 2px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .cta-button:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .content-section {
+            background: white;
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        /* Chatbot Widget Styling */
+        #omnidimension-web-widget,
+        [id^="omnidim"], 
+        .omnidim-widget {
+            /* Position and alignment */
+            position: fixed !important;
+            bottom: 20px !important;
+            right: 20px !important;
+            z-index: 9999 !important;
+            
+            /* Size and shape */
+            width: 65px !important;
+            height: 65px !important;
+            border-radius: 50% !important;
+            
+            /* Visual styling */
+            background: linear-gradient(135deg, #667eea, #764ba2) !important;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4) !important;
+            border: 3px solid rgba(255,255,255,0.2) !important;
+            
+            /* Animation */
+            transition: all 0.3s ease !important;
+            cursor: pointer !important;
+        }
+
+        /* Hover effects */
+        #omnidimension-web-widget:hover,
+        [id^="omnidim"]:hover,
+        .omnidim-widget:hover {
+            transform: scale(1.1) !important;
+            box-shadow: 0 6px 30px rgba(102, 126, 234, 0.6) !important;
+        }
+
+        /* Chat window when opened */
+        .omnidim-chat-window {
+            position: fixed !important;
+            bottom: 100px !important;
+            right: 20px !important;
+            width: 380px !important;
+            max-width: calc(100vw - 40px) !important;
+            height: 550px !important;
+            max-height: calc(100vh - 140px) !important;
+            
+            border-radius: 20px !important;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15) !important;
+            border: 1px solid #e0e0e0 !important;
+            background: white !important;
+            
+            overflow: hidden !important;
+            z-index: 9998 !important;
+        }
+
+        /* Icon styling */
+        .omnidim-widget-icon {
+            color: white !important;
+            font-size: 28px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+
+        /* Pulse animation */
+        @keyframes pulse {
+            0% { transform: scale(1); box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4); }
+            50% { transform: scale(1.05); box-shadow: 0 6px 25px rgba(102, 126, 234, 0.6); }
+            100% { transform: scale(1); box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4); }
+        }
+
+        .omnidim-widget.pulse {
+            animation: pulse 2s infinite !important;
+        }
+
+        /* Chat indicator */
+        .chat-indicator {
+            position: fixed;
+            bottom: 100px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            z-index: 9997;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s ease;
+        }
+
+        .chat-indicator.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .chat-indicator::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            right: 20px;
+            width: 0;
+            height: 0;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 6px solid #667eea;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .content-section {
+                margin: 20px 0;
+                padding: 20px;
+            }
+            
+            #omnidimension-web-widget,
+            [id^="omnidim"],
+            .omnidim-widget {
+                bottom: 15px !important;
+                right: 15px !important;
+                width: 60px !important;
+                height: 60px !important;
+            }
+            
+            .omnidim-chat-window {
+                bottom: 85px !important;
+                right: 15px !important;
+                left: 15px !important;
+                width: auto !important;
+                height: 450px !important;
+            }
+            
+            .chat-indicator {
+                bottom: 85px;
+                right: 25px;
+                font-size: 12px;
+                padding: 8px 12px;
+            }
+        }
+
+        /* Loading animation */
+        .loading {
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+
+        
+        }
+
+        .hero-logo {
+  width: 10pxpx;          /* thoda size adjust */
+  margin-bottom: 10px;   /* ✅ kam spacing headline ke saath */
+  animation: fadeInDown 1.5s ease;
+  filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8)) 
+          drop-shadow(0 0 24px rgba(255, 255, 255, 0.6)); /* ✅ glowing effect */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.08); /* hover par thoda bounce feel */
+  filter: drop-shadow(0 0 18px rgba(255, 255, 255, 0.9)) 
+          drop-shadow(0 0 28px rgba(255, 255, 255, 0.7));
+}
+
+    </style>
+</head>
+<body>
+
+    
+  <!-- Include Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <div class="container loading">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <!-- <img src="..//assets/logo2.png" alt="This is an Image"> -->
+            <h1>Welcome to Our AI-Powered Platform</h1>
+            <p>Experience intelligent conversations with our advanced chatbot</p>
+            <a href="#features" class="cta-button">Explore Features</a>
+        </section>
+        <!-- Content Section -->
+        <section class="content-section" id="features">
+            <h2 style="text-align: center; margin-bottom: 20px; color: #333;">Why Choose Our AI Assistant?</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 40px;">Our chatbot is designed to provide instant, intelligent responses to help you achieve your goals.</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Smart AI Responses</h3>
+                    <p>Get intelligent, context-aware answers to your questions instantly.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Experience rapid response times with our optimized AI system.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure & Private</h3>
+                    <p>Your conversations are protected with enterprise-grade security.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Content Section -->
+        <section class="content-section">
+            <h2 style="color: #333; margin-bottom: 20px;">Start Chatting Now</h2>
+            <p style="color: #666; margin-bottom: 20px;">
+                Click on the chat widget in the bottom-right corner to start a conversation with our AI assistant. 
+                Whether you have questions about our services, need technical support, or just want to chat, 
+                our AI is here to help 24/7.
+            </p>
+            <ul style="color: #666;">
+                <li>Get instant answers to your questions</li>
+                <li>Access our knowledge base</li>
+                <li>Available in multiple languages</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Chat Indicator (Optional) -->
+    <div class="chat-indicator" id="chatIndicator">
+        💬 Need help? Chat with us!
+    </div>
+
+    <!-- Your Chatbot Widget Script -->
+    <script id="omnidimension-web-widget" async src="https://backend.omnidim.io/web_widget.js?secret_key=47c1909efec41f43899aa106773978ef"></script>
+    <!-- Additional JavaScript for enhanced functionality -->
+    <script>
+        // Show chat indicator after page loads
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('chatIndicator').classList.add('show');
+            }, 3000);
+            
+            // Hide indicator after 10 seconds
+            setTimeout(function() {
+                document.getElementById('chatIndicator').classList.remove('show');
+            }, 13000);
+        });
+
+        // Add pulse animation to widget periodically
+        setInterval(function() {
+            const widget = document.querySelector('#omnidimension-web-widget, [id^="omnidim"], .omnidim-widget');
+            if (widget) {
+                widget.classList.add('pulse');
+                setTimeout(function() {
+                    widget.classList.remove('pulse');
+                }, 2000);
+            }
+        }, 15000);
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script src="/js/app.js"></script>
+    <script src="/js/storage.js"></script>
+    <script src="/js/home.js"></script>
+
+    <div id="footer-placeholder"></div>
+    <div id="modal-placeholder"></div>
+
+
+</body>
+</html>

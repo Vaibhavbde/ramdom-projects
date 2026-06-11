@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Buddy - Colleges</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- Header -->
+  <div id="header-placeholder"></div>
+
+  <main id="main-content">
+    <!-- Colleges Section -->
+    <section class="colleges-section">
+      <!--  Search Bar -->
+      <div class="college-search">
+        <input type="text" id="college-search-input" placeholder="Search colleges...">
+        <button id="college-search-btn">Search</button>
+      </div>
+
+      <div class="colleges-header">
+        <h2> Explore Colleges</h2>
+        <p>Select your location to see nearby government colleges.</p>
+      </div>
+
+      <div class="filter-box">
+        <label for="location-select">Choose Location:</label>
+        <select id="location-select">
+          <option value="">-- Select State --</option>
+          <option value="Jammu">Jammu</option>
+          <option value="Srinagar">Srinagar</option>
+          <option value="Pune">Pune</option>
+          <option value="Mumbai">Mumbai</option>
+        </select>
+      </div>
+
+      <div id="colleges-list" class="colleges-list"></div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <div id="modal-placeholder"></div>
+
+  <script id="omnidimension-web-widget" async src="https://backend.omnidim.io/web_widget.js?secret_key=47c1909efec41f43899aa106773978ef" ></script>  <script src="/js/app.js"></script>
+
+  <script src="/js/app.js"></script>
+  <script src="/js/storage.js"></script>
+  <script src="/js/colleges.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "sch-001",
+    "name": "National Scholarship Portal (NSP)",
+    "eligibility": "Students from Class 1 to PhD (different categories)",
+    "benefits": "Covers tuition fees, living expenses, exam fees.",
+    "website": "https://scholarships.gov.in/"
+  },
+  {
+    "id": "sch-002",
+    "name": "Prime Minister’s Scholarship Scheme (PMSS)",
+    "eligibility": "Children of Ex-Servicemen / CAPF & Assam Rifles personnel",
+    "benefits": "₹30,000 to ₹36,000 annually",
+    "website": "https://ksb.gov.in/"
+  },
+  {
+    "id": "sch-003",
+    "name": "AICTE Pragati Scholarship for Girls",
+    "eligibility": "Girls pursuing technical education (Diploma/Degree)",
+    "benefits": "₹50,000 per annum for tuition and other expenses",
+    "website": "https://aicte-pragati-saksham-gov.in/"
+  },
+  {
+    "id": "sch-004",
+    "name": "Post-Matric Scholarship (SC/ST/OBC)",
+    "eligibility": "Students belonging to SC/ST/OBC categories after Class 10",
+    "benefits": "Maintenance allowance, tuition fee, other allowances",
+    "website": "https://scholarships.gov.in/"
+  },
+  {
+    "id": "sch-005",
+    "name": "AICTE Saksham Scholarship",
+    "eligibility": "Differently-abled students pursuing technical education",
+    "benefits": "₹50,000 per year for tuition and related expenses.",
+    "website": "https://www.aicte-pragati-saksham-gov.in/"
+  },
+  {
+    "id": "sch-006",
+    "name": "INSPIRE Scholarship (DST)",
+    "eligibility": "Top 1% students in Class 12 Science or JEE/KVPY rank holders",
+    "benefits": "₹80,000 per year for higher education in Science.",
+    "website": "https://online-inspire.gov.in/"
+  },
+  {
+    "id": "sch-007",
+    "name": "NTSE (National Talent Search Examination)",
+    "eligibility": "Class 10 students across India",
+    "benefits": "₹1,250 per month (Class 11-12), ₹2,000 per month (UG/PG).",
+    "website": "https://ncert.nic.in/national-talent-examination.php"
+  },
+  {
+    "id": "sch-008",
+    "name": "Kishore Vaigyanik Protsahan Yojana (KVPY)",
+    "eligibility": "Class 11, 12, UG Science students",
+    "benefits": "₹5,000 per month + contingency grants.",
+    "website": "http://kvpy.iisc.ac.in/"
+  },
+  {
+    "id": "sch-009",
+    "name": "Maulana Azad National Fellowship",
+    "eligibility": "Minority students pursuing M.Phil/Ph.D",
+    "benefits": "₹25,000 to ₹28,000 per month.",
+    "website": "https://www.ugc.ac.in/"
+  },
+  {
+    "id": "sch-010",
+    "name": "Dr. Ambedkar Post Matric Scholarship",
+    "eligibility": "SC/ST/OBC/EBC students pursuing higher education",
+    "benefits": "₹10,000 - ₹50,000 annually.",
+    "website": "https://socialjustice.gov.in/"
+  },
+  {
+    "id": "sch-011",
+    "name": "Swami Vivekananda Merit-cum-Means Scholarship",
+    "eligibility": "Meritorious students from West Bengal",
+    "benefits": "₹12,000 to ₹60,000 annually.",
+    "website": "https://svmcm.wbhed.gov.in/"
+  },
+  {
+    "id": "sch-012",
+    "name": "Eklavya Scholarship (Maharashtra)",
+    "eligibility": "Graduates in Arts/Commerce/Science/Law with 60%+ marks",
+    "benefits": "₹5,000 annually.",
+    "website": "https://www.maharashtra.gov.in/"
+  },
+  {
+    "id": "sch-013",
+    "name": "JN Tata Endowment Loan Scholarship",
+    "eligibility": "Indian students pursuing higher studies abroad",
+    "benefits": "₹1,00,000 to ₹10,00,000 loan scholarship.",
+    "website": "https://www.jntataendowment.org/"
+  },
+  {
+    "id": "sch-014",
+    "name": "Aditya Birla Scholarship",
+    "eligibility": "Students of IITs, IIMs, BITS Pilani, XLRI",
+    "benefits": "₹1,80,000 annually.",
+    "website": "https://www.adityabirlascholars.net/"
+  },
+  {
+    "id": "sch-015",
+    "name": "Reliance Foundation Scholarships",
+    "eligibility": "UG/PG students in AI, Computer Science, Math, Science",
+    "benefits": "₹4,00,000 for UG, ₹6,00,000 for PG students.",
+    "website": "https://www.reliancefoundation.org/"
+  },
+  {
+    "id": "sch-016",
+    "name": "Google India Scholarship",
+    "eligibility": "Students in Computer Science/AI/ML courses",
+    "benefits": "Covers tuition + mentorship + stipend.",
+    "website": "https://buildyourfuture.withgoogle.com/"
+  },
+  {
+  "id": "sch-017",
+  "name": "HDFC Educational Crisis Scholarship",
+  "eligibility": "Students from Class 6 to UG/PG facing sudden financial crisis",
+  "benefits": "₹10,000 to ₹25,000 per year towards tuition and academic expenses.",
+  "website": "https://www.hdfcbank.com/scholarship"
+},
+{
+  "id": "sch-018",
+  "name": "Azim Premji Foundation Fellowship",
+  "eligibility": "Graduates and postgraduates aspiring to work in education and development sector",
+  "benefits": "Monthly stipend + training + fieldwork experience.",
+  "website": "https://azimpremjifoundation.org/fellowship"
+}
+]

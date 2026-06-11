@@ -1,0 +1,622 @@
+[
+  {
+    "id": "skill-001",
+    "name": "Python Programming",
+    "emoji": "🐍",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Data Science, AI",
+      "level": "Intermediate",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "Python is a versatile programming language used in web development, data science, automation, AI, and more.",
+      "importance": "Most in-demand programming skill worldwide.",
+      "use_cases": ["Data Analysis", "Web Development", "AI/ML", "Automation"]
+    },
+    "prerequisites": ["Basic computer knowledge", "Logical thinking"],
+    "roadmap": ["Learn syntax", "Control flow & functions", "OOP", "Libraries (NumPy, pandas)", "Projects"],
+    "topics": ["Basics", "Data Structures", "OOP", "Libraries", "APIs", "Projects"],
+    "learning": ["Books: Automate the Boring Stuff", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Hackathons"],
+    "assessment": ["Beginner: Calculator app", "Intermediate: Data scraper", "Advanced: ML model"],
+    "career": ["Software Engineer", "Data Analyst", "AI Engineer"],
+    "salary": ["Fresher: ₹6-8 LPA", "Mid-level: ₹12-18 LPA", "Senior: ₹25-40 LPA"],
+    "companies": ["Google", "Microsoft", "TCS", "Infosys", "Startups"],
+    "future": "Python is future-proof due to AI/ML dominance.",
+    "daily": "Automating tasks like file renaming or Excel data cleaning.",
+    "related": ["SQL", "Machine Learning", "R"],
+    "success": ["Guido van Rossum (Creator)", "Data analysts landing jobs with Python"],
+    "resources": ["VS Code", "Kaggle", "LeetCode", "Jupyter Notebook"],
+    "validation": ["Coursera Python Certification", "LinkedIn Skill Badge"],
+    "faqs": ["Q: Do I need coding background? → No", "Q: How long to learn? → 3-6 months"]
+  },
+  {
+    "id": "skill-002",
+    "name": "Communication Skills",
+    "emoji": "🗣️",
+    "basic": {
+      "type": "Soft Skill",
+      "industry": "All industries",
+      "level": "Advanced",
+      "mode": "Offline"
+    },
+    "overview": {
+      "description": "Ability to express ideas clearly and confidently in personal, professional, and academic settings.",
+      "importance": "Top 3 skills employers look for.",
+      "use_cases": ["Interviews", "Presentations", "Teamwork", "Negotiations"]
+    },
+    "prerequisites": ["Basic English proficiency", "Willingness to practice"],
+    "roadmap": ["Body language basics", "Public speaking", "Email etiquette", "Negotiation"],
+    "topics": ["Active listening", "Public speaking", "Email writing", "Presentation skills"],
+    "learning": ["Books: How to Win Friends & Influence People", "Toastmasters club", "Courses: Coursera, Udemy"],
+    "assessment": ["Beginner: Group discussion", "Intermediate: Presentation", "Advanced: Debate"],
+    "career": ["HR Manager", "Sales Executive", "Team Lead", "Entrepreneur"],
+    "salary": ["Boost of +20% in most jobs"],
+    "companies": ["All MNCs", "Consulting firms", "Startups"],
+    "future": "AI will automate tasks but communication remains core human skill.",
+    "daily": "Convincing friends, writing WhatsApp messages effectively.",
+    "related": ["Leadership", "Teamwork", "Negotiation"],
+    "success": ["Steve Jobs (Apple keynote)", "Sheryl Sandberg (Public speaking influence)"],
+    "resources": ["Grammarly", "Toastmasters", "TED Talks", "Canva for presentations"],
+    "validation": ["British Council English Certification", "IELTS Speaking"],
+    "faqs": ["Q: Can introverts improve? → Yes", "Q: Is English compulsory? → Not always, clarity matters"]
+  },
+  {
+  "id": "skill-003",
+  "name": "Web Development",
+  "emoji": "💻",
+  "basic": {
+    "type": "Technical",
+    "industry": "IT, Startups, E-commerce",
+    "level": "Beginner",
+    "mode": "Hybrid"
+  },
+  "overview": {
+    "description": "Web Development involves building websites and web applications using various programming languages and frameworks.",
+    "importance": "High demand due to increasing online presence of businesses.",
+    "use_cases": ["Frontend Development", "Backend Development", "Full-Stack Development", "E-commerce Websites"]
+  },
+  "prerequisites": ["Basic computer knowledge", "HTML/CSS familiarity"],
+  "roadmap": ["HTML & CSS", "JavaScript Basics", "Frontend Frameworks (React, Angular)", "Backend (Node.js, Django)", "Databases", "Projects"],
+  "topics": ["HTML/CSS", "JavaScript", "Frontend Frameworks", "Backend", "Databases", "APIs", "Projects"],
+  "learning": ["Books: Eloquent JavaScript", "YouTube tutorials", "Courses: Coursera, Udemy, FreeCodeCamp", "Hackathons"],
+  "assessment": ["Beginner: Portfolio website", "Intermediate: Blog platform", "Advanced: E-commerce website"],
+  "career": ["Frontend Developer", "Backend Developer", "Full Stack Developer"],
+  "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹8-15 LPA", "Senior: ₹20-35 LPA"],
+  "companies": ["Infosys", "TCS", "Wipro", "Startups", "Amazon"],
+  "future": "Web development continues to grow with new technologies like Progressive Web Apps and Web3.",
+  "daily": "Building and maintaining web pages, adding features, fixing bugs.",
+  "related": ["UI/UX Design", "Python", "JavaScript"],
+  "success": ["Tim Berners-Lee (Web Inventor)", "Developers building top startups"],
+  "resources": ["VS Code", "CodePen", "GitHub", "Figma"],
+  "validation": ["Coursera Web Development Certification", "LinkedIn Skill Badge"],
+  "faqs": ["Q: Do I need coding background? → No, start with basics", "Q: How long to learn? → 4-8 months"]
+},
+{
+  "id": "skill-004",
+  "name": "Data Science",
+  "emoji": "📊",
+  "basic": {
+    "type": "Technical",
+    "industry": "IT, Finance, Healthcare, AI",
+    "level": "Advanced",
+    "mode": "Online"
+  },
+  "overview": {
+    "description": "Data Science involves extracting insights from data using statistics, programming, and machine learning.",
+    "importance": "Critical skill for data-driven decision-making in industries.",
+    "use_cases": ["Data Analysis", "Predictive Analytics", "Machine Learning Models", "Business Intelligence"]
+  },
+  "prerequisites": ["Python or R basics", "Statistics knowledge", "Logical thinking"],
+  "roadmap": ["Python/R Basics", "Statistics & Probability", "Data Visualization", "Machine Learning", "Projects"],
+  "topics": ["Python/R", "Statistics", "Data Cleaning", "Data Visualization", "Machine Learning", "Projects"],
+  "learning": ["Books: Python for Data Analysis", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Kaggle Competitions"],
+  "assessment": ["Beginner: Data Cleaning project", "Intermediate: Predictive model", "Advanced: ML solution for business case"],
+  "career": ["Data Analyst", "Data Scientist", "Machine Learning Engineer"],
+  "salary": ["Fresher: ₹5-8 LPA", "Mid-level: ₹12-20 LPA", "Senior: ₹25-50 LPA"],
+  "companies": ["Google", "Amazon", "Infosys", "Startups", "Microsoft"],
+  "future": "Data science will remain crucial due to AI, Big Data, and automation trends.",
+  "daily": "Analyzing datasets, generating insights, building ML models.",
+  "related": ["Python", "SQL", "Machine Learning"],
+  "success": ["DJ Patil (Ex-US Chief Data Scientist)", "Professionals winning Kaggle competitions"],
+  "resources": ["Jupyter Notebook", "Kaggle", "Tableau", "Power BI"],
+  "validation": ["Coursera Data Science Certification", "IBM Data Science Professional Certificate"],
+  "faqs": ["Q: Do I need programming background? → Helpful but not mandatory", "Q: How long to learn? → 6-12 months"]
+},
+{
+  "id": "skill-005",
+  "name": "Cybersecurity",
+  "emoji": "🛡️",
+  "basic": {
+    "type": "Technical",
+    "industry": "IT, Finance, Government",
+    "level": "Intermediate",
+    "mode": "Offline"
+  },
+  "overview": {
+    "description": "Cybersecurity focuses on protecting systems, networks, and data from cyber threats.",
+    "importance": "High demand due to increasing cyber attacks and data breaches.",
+    "use_cases": ["Network Security", "Ethical Hacking", "Data Protection", "Threat Analysis"]
+  },
+  "prerequisites": ["Basic networking knowledge", "Linux/Windows familiarity", "Logical thinking"],
+  "roadmap": ["Networking Basics", "Operating Systems", "Security Protocols", "Ethical Hacking", "Certifications", "Projects"],
+  "topics": ["Networking", "Ethical Hacking", "Encryption", "Penetration Testing", "Incident Response", "Projects"],
+  "learning": ["Books: Hacking: The Art of Exploitation", "YouTube tutorials", "Courses: Coursera, Udemy, Cybrary", "CTFs"],
+  "assessment": ["Beginner: Vulnerability assessment", "Intermediate: Penetration testing lab", "Advanced: Full security audit"],
+  "career": ["Cybersecurity Analyst", "Ethical Hacker", "Security Engineer"],
+  "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹10-18 LPA", "Senior: ₹25-40 LPA"],
+  "companies": ["TCS", "Infosys", "IBM", "Startups", "Microsoft"],
+  "future": "Cybersecurity demand will grow exponentially with cloud and IoT expansion.",
+  "daily": "Monitoring security systems, patching vulnerabilities, testing networks.",
+  "related": ["Networking", "Python", "Cloud Security"],
+  "success": ["Kevin Mitnick (Famous Hacker turned Security Consultant)"],
+  "resources": ["Kali Linux", "Wireshark", "Burp Suite", "Metasploit"],
+  "validation": ["CEH Certification", "CompTIA Security+"],
+  "faqs": ["Q: Do I need programming knowledge? → Helpful but not mandatory", "Q: How long to learn? → 6-9 months"]
+},
+  {
+    "id": "skill-006",
+    "name": "Artificial Intelligence",
+    "emoji": "🤖",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Robotics, Healthcare, Finance",
+      "level": "Beginner",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "AI involves building intelligent systems that can simulate human behavior and decision-making.",
+      "importance": "AI is shaping the future of technology across industries.",
+      "use_cases": ["Chatbots", "Autonomous Vehicles", "Recommendation Systems", "Healthcare Diagnostics"]
+    },
+    "prerequisites": ["Python or R", "Mathematics (Linear Algebra, Probability)", "Logical thinking"],
+    "roadmap": ["Python Basics", "Statistics & Probability", "Machine Learning", "Deep Learning", "Projects"],
+    "topics": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "AI Projects"],
+    "learning": ["Books: Artificial Intelligence: A Modern Approach", "YouTube tutorials", "Courses: Coursera, Udemy, edX", "Kaggle Competitions"],
+    "assessment": ["Beginner: ML classification model", "Intermediate: Chatbot", "Advanced: Image recognition system"],
+    "career": ["AI Engineer", "Machine Learning Engineer", "Data Scientist"],
+    "salary": ["Fresher: ₹6-10 LPA", "Mid-level: ₹15-30 LPA", "Senior: ₹35-60 LPA"],
+    "companies": ["Google", "Amazon", "Microsoft", "Infosys", "Startups"],
+    "future": "AI will continue to dominate across automation, healthcare, finance, and more.",
+    "daily": "Training ML models, analyzing AI datasets, building intelligent systems.",
+    "related": ["Python", "Data Science", "Machine Learning"],
+    "success": ["Andrew Ng (AI Pioneer)", "OpenAI GPT Models"],
+    "resources": ["TensorFlow", "PyTorch", "Kaggle", "Google Colab"],
+    "validation": ["AI Certification by Coursera", "DeepLearning.AI Specialization"],
+    "faqs": ["Q: Do I need programming background? → Recommended", "Q: How long to learn? → 6-12 months"]
+  },
+  {
+    "id": "skill-007",
+    "name": "Machine Learning",
+    "emoji": "📈",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Finance, AI, Healthcare",
+      "level": "Beginner",
+      "mode": "Offline"
+    },
+    "overview": {
+      "description": "Machine Learning focuses on building algorithms that learn patterns from data and make predictions.",
+      "importance": "Key skill in AI and data-driven industries.",
+      "use_cases": ["Predictive Analytics", "Recommendation Engines", "Fraud Detection", "Healthcare Diagnostics"]
+    },
+    "prerequisites": ["Python", "Statistics & Probability", "Linear Algebra", "Logical thinking"],
+    "roadmap": ["Python Basics", "Data Preprocessing", "Supervised & Unsupervised Learning", "Deep Learning", "Projects"],
+    "topics": ["Regression", "Classification", "Clustering", "Neural Networks", "Projects"],
+    "learning": ["Books: Hands-On Machine Learning with Scikit-Learn", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Kaggle"],
+    "assessment": ["Beginner: Linear Regression project", "Intermediate: Classification model", "Advanced: Deep Learning model"],
+    "career": ["ML Engineer", "Data Scientist", "AI Developer"],
+    "salary": ["Fresher: ₹6-10 LPA", "Mid-level: ₹12-25 LPA", "Senior: ₹30-50 LPA"],
+    "companies": ["Google", "Microsoft", "Infosys", "TCS", "Startups"],
+    "future": "ML will remain crucial as AI adoption grows in all sectors.",
+    "daily": "Training models, cleaning datasets, improving model accuracy.",
+    "related": ["Python", "Data Science", "AI"],
+    "success": ["Geoffrey Hinton (Deep Learning Pioneer)"],
+    "resources": ["Scikit-learn", "TensorFlow", "PyTorch", "Kaggle"],
+    "validation": ["Coursera ML Specialization", "Google ML Certification"],
+    "faqs": ["Q: Do I need AI background? → Basic programming enough", "Q: How long to learn? → 6-12 months"]
+  },
+  {
+    "id": "skill-008",
+    "name": "Cloud Computing",
+    "emoji": "☁️",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Startups, E-commerce, Enterprise",
+      "level": "Intermediate",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "Cloud Computing provides on-demand computing resources over the internet.",
+      "importance": "Essential for scalable and cost-effective IT solutions.",
+      "use_cases": ["Web Hosting", "Storage Solutions", "SaaS Platforms", "Data Analytics"]
+    },
+    "prerequisites": ["Networking Basics", "Linux/Windows knowledge", "Logical thinking"],
+    "roadmap": ["Cloud Fundamentals", "AWS/Azure/Google Cloud", "Virtual Machines & Storage", "Security & Monitoring", "Projects"],
+    "topics": ["AWS", "Azure", "Google Cloud", "DevOps", "Security", "Projects"],
+    "learning": ["Books: Cloud Computing: Concepts, Technology & Architecture", "YouTube tutorials", "Courses: Coursera, Udemy, A Cloud Guru", "Hands-on Labs"],
+    "assessment": ["Beginner: Deploy a website", "Intermediate: Cloud-based app", "Advanced: Multi-cloud project"],
+    "career": ["Cloud Engineer", "DevOps Engineer", "Cloud Architect"],
+    "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹10-20 LPA", "Senior: ₹25-50 LPA"],
+    "companies": ["AWS", "Microsoft Azure", "Google Cloud", "Infosys", "Startups"],
+    "future": "Cloud adoption continues to grow with AI, IoT, and remote work trends.",
+    "daily": "Managing cloud infrastructure, deploying apps, monitoring costs and usage.",
+    "related": ["DevOps", "Python", "Networking"],
+    "success": ["Werner Vogels (AWS CTO)"],
+    "resources": ["AWS Console", "Azure Portal", "Google Cloud Console", "Terraform"],
+    "validation": ["AWS Certified Solutions Architect", "Azure Fundamentals", "Google Cloud Certification"],
+    "faqs": ["Q: Do I need coding? → Basic scripts helpful", "Q: How long to learn? → 3-6 months"]
+  },
+  {
+    "id": "skill-009",
+    "name": "DevOps",
+    "emoji": "🔧",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Startups, SaaS",
+      "level": "Advanced",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "DevOps combines software development and IT operations to deliver apps faster and reliably.",
+      "importance": "High demand due to automation and agile practices.",
+      "use_cases": ["CI/CD Pipelines", "Infrastructure Automation", "Monitoring & Logging", "Cloud Deployment"]
+    },
+    "prerequisites": ["Linux/Windows Basics", "Programming Basics", "Networking Knowledge"],
+    "roadmap": ["Linux & Scripting", "Version Control (Git)", "CI/CD Tools (Jenkins, GitHub Actions)", "Containers (Docker, Kubernetes)", "Projects"],
+    "topics": ["CI/CD", "Containers", "Cloud Deployment", "Monitoring", "Automation", "Projects"],
+    "learning": ["Books: The Phoenix Project", "YouTube tutorials", "Courses: Udemy, Coursera, A Cloud Guru", "Hands-on Labs"],
+    "assessment": ["Beginner: Simple CI/CD pipeline", "Intermediate: Dockerized app deployment", "Advanced: Multi-cloud automation"],
+    "career": ["DevOps Engineer", "Site Reliability Engineer", "Cloud Engineer"],
+    "salary": ["Fresher: ₹5-8 LPA", "Mid-level: ₹12-25 LPA", "Senior: ₹25-50 LPA"],
+    "companies": ["Infosys", "TCS", "Amazon", "Microsoft", "Startups"],
+    "future": "DevOps is critical for agile development and cloud-native applications.",
+    "daily": "Automating deployments, monitoring apps, managing cloud infrastructure.",
+    "related": ["Cloud Computing", "Python", "Linux"],
+    "success": ["Gene Kim (DevOps Pioneer)"],
+    "resources": ["Jenkins", "Docker", "Kubernetes", "GitHub Actions"],
+    "validation": ["AWS DevOps Certification", "Docker Certified Associate"],
+    "faqs": ["Q: Do I need programming? → Basic scripting sufficient", "Q: How long to learn? → 4-6 months"]
+  },
+  {
+    "id": "skill-010",
+    "name": "Blockchain",
+    "emoji": "⛓️",
+    "basic": {
+      "type": "Technical",
+      "industry": "Finance, IT, Supply Chain, Startups",
+      "level": "Beginner",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "Blockchain is a distributed ledger technology used to create secure and transparent systems.",
+      "importance": "Increasingly used in finance, logistics, and decentralized applications.",
+      "use_cases": ["Cryptocurrency", "Smart Contracts", "Supply Chain Tracking", "Decentralized Apps"]
+    },
+    "prerequisites": ["Programming Basics", "Cryptography basics", "Logical thinking"],
+    "roadmap": ["Blockchain Basics", "Ethereum & Smart Contracts", "Solidity Programming", "DApps Development", "Projects"],
+    "topics": ["Cryptography", "Ethereum", "Smart Contracts", "DApps", "NFTs", "Projects"],
+    "learning": ["Books: Mastering Blockchain", "YouTube tutorials", "Courses: Coursera, Udemy, edX", "Hackathons"],
+    "assessment": ["Beginner: Simple blockchain app", "Intermediate: Smart contract", "Advanced: Full DApp"],
+    "career": ["Blockchain Developer", "Smart Contract Developer", "Crypto Analyst"],
+    "salary": ["Fresher: ₹5-8 LPA", "Mid-level: ₹12-20 LPA", "Senior: ₹25-50 LPA"],
+    "companies": ["IBM", "Wipro", "Infosys", "Startups", "Ethereum Projects"],
+    "future": "Blockchain adoption is expanding in finance, logistics, and Web3 applications.",
+    "daily": "Writing smart contracts, testing blockchain apps, auditing security.",
+    "related": ["Cryptography", "Python", "Cloud Computing"],
+    "success": ["Satoshi Nakamoto (Bitcoin Creator)"],
+    "resources": ["Ethereum", "Solidity", "Ganache", "Truffle Suite"],
+    "validation": ["Blockchain Developer Certification", "Ethereum Developer Badge"],
+    "faqs": ["Q: Do I need coding? → Yes, basic required", "Q: How long to learn? → 6-9 months"]
+  },
+  {
+    "id": "skill-011",
+    "name": "UI/UX Design",
+    "emoji": "🎨",
+    "basic": {
+      "type": "Design",
+      "industry": "IT, Startups, Product Design, Web & App Development",
+      "level": "Advanced",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "UI/UX Design focuses on creating user-friendly, visually appealing interfaces for web and mobile apps.",
+      "importance": "Crucial for product success and user retention.",
+      "use_cases": ["Websites", "Mobile Apps", "Software Products", "E-commerce Platforms"]
+    },
+    "prerequisites": ["Creativity", "Basic Design Knowledge", "Logical thinking"],
+    "roadmap": ["Design Principles", "Wireframing & Prototyping", "UI Tools (Figma, Adobe XD)", "UX Research", "Portfolio Projects"],
+    "topics": ["UI Design", "UX Research", "Wireframing", "Prototyping", "Design Systems", "Projects"],
+    "learning": ["Books: Don't Make Me Think", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Design Challenges"],
+    "assessment": ["Beginner: Landing page design", "Intermediate: App prototype", "Advanced: Complete product redesign"],
+    "career": ["UI Designer", "UX Designer", "Product Designer"],
+    "salary": ["Fresher: ₹3-6 LPA", "Mid-level: ₹8-15 LPA", "Senior: ₹18-30 LPA"],
+    "companies": ["TCS", "Infosys", "Microsoft", "Startups", "Google"],
+    "future": "UI/UX design remains critical as user experience becomes central to product success.",
+    "daily": "Creating wireframes, prototypes, conducting user testing.",
+    "related": ["Graphic Design", "Web Development", "Human-Computer Interaction"],
+    "success": ["Don Norman (UX Pioneer)"],
+    "resources": ["Figma", "Adobe XD", "Sketch", "InVision"],
+    "validation": ["UI/UX Certification", "LinkedIn Design Badge"],
+    "faqs": ["Q: Do I need coding? → Not required", "Q: How long to learn? → 3-6 months"]
+  },
+  {
+    "id": "skill-012",
+    "name": "Digital Marketing",
+    "emoji": "📣",
+    "basic": {
+      "type": "Marketing",
+      "industry": "IT, Startups, E-commerce, Media",
+      "level": "Intermediate",
+      "mode": "Offline"
+    },
+    "overview": {
+      "description": "Digital Marketing uses online platforms to promote products and services.",
+      "importance": "High demand due to online business growth.",
+      "use_cases": ["SEO", "Social Media Marketing", "Email Marketing", "PPC Advertising"]
+    },
+    "prerequisites": ["Basic computer skills", "Creativity", "Communication Skills"],
+    "roadmap": ["SEO Basics", "Social Media Marketing", "Email & Content Marketing", "Analytics", "Campaign Projects"],
+    "topics": ["SEO", "Content Marketing", "Social Media", "PPC", "Email Marketing", "Analytics", "Projects"],
+    "learning": ["Books: Digital Marketing for Dummies", "YouTube tutorials", "Courses: Coursera, Udemy, HubSpot Academy", "Internships"],
+    "assessment": ["Beginner: Blog promotion", "Intermediate: Social media campaign", "Advanced: Multi-channel marketing strategy"],
+    "career": ["Digital Marketing Executive", "SEO Specialist", "Content Strategist"],
+    "salary": ["Fresher: ₹2-5 LPA", "Mid-level: ₹6-12 LPA", "Senior: ₹15-25 LPA"],
+    "companies": ["Startups", "Wipro Digital", "Infosys Digital", "HubSpot", "Amazon"],
+    "future": "Digital marketing will keep growing with social media and e-commerce expansion.",
+    "daily": "Managing campaigns, analyzing metrics, content creation.",
+    "related": ["SEO", "Content Writing", "Social Media"],
+    "success": ["Neil Patel (Digital Marketing Expert)"],
+    "resources": ["Google Analytics", "HubSpot", "Canva", "Hootsuite"],
+    "validation": ["Google Digital Marketing Certification", "HubSpot Academy Badge"],
+    "faqs": ["Q: Do I need coding? → Not required", "Q: How long to learn? → 3-6 months"]
+  },
+  {
+    "id": "skill-013",
+    "name": "Mobile App Development",
+    "emoji": "📱",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Startups, Gaming, E-commerce",
+      "level": "Intermediate",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "Mobile App Development focuses on building apps for Android and iOS devices.",
+      "importance": "High demand due to smartphone growth worldwide.",
+      "use_cases": ["Games", "Productivity Apps", "Social Media Apps", "E-commerce Apps"]
+    },
+    "prerequisites": ["Programming Basics", "Logical thinking", "Basic UI/UX knowledge"],
+    "roadmap": ["Java/Kotlin (Android) or Swift (iOS)", "App UI Design", "APIs & Backend", "Testing & Deployment", "Projects"],
+    "topics": ["Android/iOS", "UI/UX", "APIs", "Database Integration", "Testing", "Projects"],
+    "learning": ["Books: Android Programming for Beginners", "YouTube tutorials", "Courses: Udemy, Coursera", "Hackathons"],
+    "assessment": ["Beginner: To-do app", "Intermediate: Social media app", "Advanced: E-commerce app"],
+    "career": ["Android Developer", "iOS Developer", "Mobile App Developer"],
+    "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹10-18 LPA", "Senior: ₹20-35 LPA"],
+    "companies": ["Infosys", "TCS", "Startups", "Google", "Microsoft"],
+    "future": "Mobile app development will grow as mobile usage expands globally.",
+    "daily": "Writing code, testing apps, deploying updates, fixing bugs.",
+    "related": ["UI/UX Design", "Web Development", "Backend Development"],
+    "success": ["Kevin Systrom (Instagram Co-founder)"],
+    "resources": ["Android Studio", "Xcode", "Firebase", "GitHub"],
+    "validation": ["Google Android Developer Certification", "Apple iOS Developer Program"],
+    "faqs": ["Q: Do I need prior programming? → Recommended", "Q: How long to learn? → 4-8 months"]
+  },
+  {
+    "id": "skill-014",
+    "name": "SQL & Databases",
+    "emoji": "🗄️",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Finance, Data Science, E-commerce",
+      "level": "Advanced",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "SQL and Databases involve storing, retrieving, and managing data efficiently.",
+      "importance": "Core skill for data-driven roles and backend development.",
+      "use_cases": ["Data Analysis", "Web Applications", "Inventory Systems", "Reporting"]
+    },
+    "prerequisites": ["Basic computer knowledge", "Logical thinking"],
+    "roadmap": ["SQL Basics", "Joins & Subqueries", "Database Design", "Stored Procedures", "Projects"],
+    "topics": ["SQL Queries", "Database Design", "Normalization", "Joins", "Stored Procedures", "Projects"],
+    "learning": ["Books: SQL For Dummies", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Practice on LeetCode/SQLZoo"],
+    "assessment": ["Beginner: Simple database", "Intermediate: Query-based report", "Advanced: Complex database design"],
+    "career": ["Database Developer", "Data Analyst", "Backend Developer"],
+    "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹8-15 LPA", "Senior: ₹18-30 LPA"],
+    "companies": ["TCS", "Infosys", "Wipro", "Startups", "Amazon"],
+    "future": "Database skills remain essential as data grows exponentially.",
+    "daily": "Querying, maintaining databases, optimizing performance.",
+    "related": ["Python", "Data Science", "Web Development"],
+    "success": ["Michael Stonebraker (Database Pioneer)"],
+    "resources": ["MySQL", "PostgreSQL", "Oracle DB", "MongoDB"],
+    "validation": ["Microsoft SQL Certification", "Oracle SQL Certification"],
+    "faqs": ["Q: Do I need coding? → SQL basics enough", "Q: How long to learn? → 2-4 months"]
+  },
+  {
+    "id": "skill-015",
+    "name": "Robotics",
+    "emoji": "🤖",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Manufacturing, AI, Automation",
+      "level": "Beginner",
+      "mode": "Offline"
+    },
+    "overview": {
+      "description": "Robotics combines mechanical engineering, electronics, and programming to build robots.",
+      "importance": "Growing demand in automation, manufacturing, and AI applications.",
+      "use_cases": ["Industrial Robots", "Service Robots", "AI Robotics", "Automation"]
+    },
+    "prerequisites": ["Basic Electronics", "Python/C++", "Mechanical Knowledge", "Logical thinking"],
+    "roadmap": ["Basic Electronics", "Arduino/Raspberry Pi", "Sensors & Motors", "Programming Robots", "Projects"],
+    "topics": ["Mechanical Design", "Electronics", "Programming", "Control Systems", "Robotics Projects"],
+    "learning": ["Books: Robotics: Modelling, Planning & Control", "YouTube tutorials", "Courses: Coursera, Udemy", "Maker Labs"],
+    "assessment": ["Beginner: Line-following robot", "Intermediate: Obstacle-avoiding robot", "Advanced: AI-enabled robot"],
+    "career": ["Robotics Engineer", "Automation Engineer", "AI Robotics Developer"],
+    "salary": ["Fresher: ₹4-7 LPA", "Mid-level: ₹10-20 LPA", "Senior: ₹25-40 LPA"],
+    "companies": ["ABB", "KUKA", "Startups", "Infosys Robotics", "TCS"],
+    "future": "Robotics will expand in automation, AI integration, and service industries.",
+    "daily": "Building, programming, and testing robots.",
+    "related": ["AI", "Python", "Electronics"],
+    "success": ["Rodney Brooks (Robotics Pioneer)"],
+    "resources": ["Arduino", "Raspberry Pi", "ROS", "MATLAB"],
+    "validation": ["Robotics Certification by Coursera", "MIT Robotics Badge"],
+    "faqs": ["Q: Do I need programming? → Yes, basics required", "Q: How long to learn? → 6-12 months"]
+  },
+  {
+    "id": "skill-016",
+    "name": "Graphic Design",
+    "emoji": "🖌️",
+    "basic": {
+      "type": "Design",
+      "industry": "Marketing, Media, IT, Startups",
+      "level": "Intermediate",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "Graphic Design is creating visual content to communicate messages effectively.",
+      "importance": "High demand for branding, marketing, and content creation.",
+      "use_cases": ["Social Media Content", "Marketing Materials", "Web Graphics", "Branding"]
+    },
+    "prerequisites": ["Creativity", "Basic Design Knowledge", "Visual Thinking"],
+    "roadmap": ["Design Basics", "Color Theory & Typography", "Tools (Photoshop, Illustrator)", "Projects & Portfolio"],
+    "topics": ["Photoshop", "Illustrator", "Branding", "Typography", "Color Theory", "Projects"],
+    "learning": ["Books: Graphic Design School", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Design Challenges"],
+    "assessment": ["Beginner: Logo design", "Intermediate: Social media graphics", "Advanced: Branding project"],
+    "career": ["Graphic Designer", "Visual Designer", "Brand Designer"],
+    "salary": ["Fresher: ₹2-5 LPA", "Mid-level: ₹6-12 LPA", "Senior: ₹15-25 LPA"],
+    "companies": ["Startups", "Marketing Agencies", "TCS Digital", "Infosys Digital", "Freelance"],
+    "future": "Graphic design continues to grow with digital marketing and content creation demand.",
+    "daily": "Designing logos, social posts, marketing materials.",
+    "related": ["UI/UX Design", "Digital Marketing", "Animation"],
+    "success": ["Paula Scher (Design Pioneer)"],
+    "resources": ["Adobe Photoshop", "Illustrator", "Canva", "Figma"],
+    "validation": ["Adobe Certified Expert", "LinkedIn Design Badge"],
+    "faqs": ["Q: Do I need coding? → No", "Q: How long to learn? → 3-6 months"]
+  },
+  {
+    "id": "skill-017",
+    "name": "Internet of Things (IoT)",
+    "emoji": "🌐",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Manufacturing, Smart Homes, Healthcare",
+      "level": "Beginner",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "IoT involves connecting devices and sensors to the internet to collect, exchange, and analyze data.",
+      "importance": "IoT is growing rapidly in smart devices, automation, and industrial systems.",
+      "use_cases": ["Smart Homes", "Industrial Automation", "Wearables", "Healthcare Monitoring"]
+    },
+    "prerequisites": ["Basic Electronics", "Python/C Programming", "Networking Knowledge"],
+    "roadmap": ["IoT Basics", "Sensors & Actuators", "Microcontrollers (Arduino/Raspberry Pi)", "Data Collection & Analysis", "Projects"],
+    "topics": ["Microcontrollers", "Sensors", "Communication Protocols", "Cloud Integration", "IoT Projects"],
+    "learning": ["Books: Internet of Things: A Hands-On Approach", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Maker Labs"],
+    "assessment": ["Beginner: Temperature monitoring system", "Intermediate: Smart home automation", "Advanced: Industrial IoT project"],
+    "career": ["IoT Developer", "Embedded Systems Engineer", "IoT Analyst"],
+    "salary": ["Fresher: ₹4-6 LPA", "Mid-level: ₹10-18 LPA", "Senior: ₹20-35 LPA"],
+    "companies": ["Infosys", "TCS", "Siemens", "Bosch", "Startups"],
+    "future": "IoT is expanding in smart homes, healthcare, and industry 4.0.",
+    "daily": "Monitoring IoT devices, programming microcontrollers, analyzing sensor data.",
+    "related": ["Python", "Cloud Computing", "Embedded Systems"],
+    "success": ["Kevin Ashton (Coined IoT term)"],
+    "resources": ["Arduino", "Raspberry Pi", "MQTT", "Node-RED"],
+    "validation": ["IoT Specialization by Coursera", "AWS IoT Certification"],
+    "faqs": ["Q: Do I need coding? → Yes, basic programming required", "Q: How long to learn? → 4-8 months"]
+  },
+  {
+    "id": "skill-018",
+    "name": "Cyber Physical Systems",
+    "emoji": "⚙️",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Robotics, Manufacturing, IoT",
+      "level": "Advanced",
+      "mode": "Online"
+    },
+    "overview": {
+      "description": "Cyber Physical Systems integrate computation, networking, and physical processes for intelligent automation.",
+      "importance": "Crucial for modern robotics, smart grids, and industrial automation.",
+      "use_cases": ["Smart Grids", "Industrial Automation", "Robotics Systems", "Autonomous Vehicles"]
+    },
+    "prerequisites": ["Programming Basics", "Electronics", "Control Systems", "Mathematics"],
+    "roadmap": ["CPS Fundamentals", "Sensors & Actuators", "Embedded Systems", "Networking & Communication", "Projects"],
+    "topics": ["Embedded Systems", "Sensors & Actuators", "Control Systems", "Networking", "CPS Projects"],
+    "learning": ["Books: Cyber-Physical Systems: From Theory to Practice", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Labs & Projects"],
+    "assessment": ["Beginner: Simple sensor integration", "Intermediate: CPS simulation", "Advanced: Autonomous system project"],
+    "career": ["CPS Engineer", "Embedded Systems Engineer", "Robotics Developer"],
+    "salary": ["Fresher: ₹5-7 LPA", "Mid-level: ₹12-20 LPA", "Senior: ₹25-40 LPA"],
+    "companies": ["Siemens", "ABB", "Infosys", "TCS", "Startups"],
+    "future": "CPS is key for Industry 4.0, autonomous systems, and smart infrastructure.",
+    "daily": "Designing, programming, and testing integrated cyber-physical systems.",
+    "related": ["IoT", "Robotics", "Automation"],
+    "success": ["Edward Lee (CPS Pioneer)"],
+    "resources": ["MATLAB/Simulink", "Arduino", "Raspberry Pi", "ROS"],
+    "validation": ["CPS Specialization by Coursera", "Embedded Systems Certification"],
+    "faqs": ["Q: Do I need coding? → Yes, required", "Q: How long to learn? → 6-12 months"]
+  },
+  {
+    "id": "skill-019",
+    "name": "Big Data",
+    "emoji": "📚",
+    "basic": {
+      "type": "Technical",
+      "industry": "IT, Finance, Healthcare, E-commerce",
+      "level": "Intermediate",
+      "mode": "Hybrid"
+    },
+    "overview": {
+      "description": "Big Data involves processing and analyzing massive datasets to extract actionable insights.",
+      "importance": "Essential for data-driven decision making in enterprises and AI applications.",
+      "use_cases": ["Data Warehousing", "Predictive Analytics", "Customer Insights", "Fraud Detection"]
+    },
+    "prerequisites": ["Basic programming (Python/Java)", "SQL", "Statistics", "Logical thinking"],
+    "roadmap": ["Big Data Basics", "Hadoop & Spark", "NoSQL Databases", "Data Analysis & Visualization", "Projects"],
+    "topics": ["Hadoop", "Spark", "NoSQL", "Data Lakes", "ETL", "Projects"],
+    "learning": ["Books: Hadoop: The Definitive Guide", "YouTube tutorials", "Courses: Coursera, Udemy, NPTEL", "Kaggle Datasets"],
+    "assessment": ["Beginner: Simple data processing", "Intermediate: Batch analytics project", "Advanced: Real-time analytics solution"],
+    "career": ["Big Data Engineer", "Data Analyst", "Data Scientist"],
+    "salary": ["Fresher: ₹5-8 LPA", "Mid-level: ₹12-25 LPA", "Senior: ₹30-50 LPA"],
+    "companies": ["TCS", "Infosys", "Amazon", "Google", "Startups"],
+    "future": "Big Data skills will remain critical as data continues to grow exponentially.",
+    "daily": "Processing datasets, building pipelines, analyzing trends.",
+    "related": ["Data Science", "Python", "Cloud Computing"],
+    "success": ["Doug Cutting (Hadoop Creator)"],
+    "resources": ["Hadoop", "Apache Spark", "NoSQL Databases", "Kafka"],
+    "validation": ["Cloudera Big Data Certification", "Hortonworks Certification"],
+    "faqs": ["Q: Do I need coding? → Yes, basic required", "Q: How long to learn? → 6-9 months"]
+  },
+  {
+    "id": "skill-020",
+    "name": "Augmented & Virtual Reality (AR/VR)",
+    "emoji": "🕶️",
+    "basic": {
+      "type": "Technical",
+      "industry": "Gaming, Entertainment, Education, Healthcare",
+      "level": "Beginner",
+      "mode": "Offline"
+    },
+    "overview": {
+      "description": "AR/VR involves creating immersive digital experiences that blend or replace the real world.",
+      "importance": "High demand in gaming, training, simulations, and interactive experiences.",
+      "use_cases": ["Gaming", "Education & Training", "Healthcare Simulations", "Virtual Tours"]
+    },
+    "prerequisites": ["Programming Basics (C#, Unity)", "3D Modeling basics", "Logical thinking"],
+    "roadmap": ["AR/VR Fundamentals", "Unity/Unreal Engine", "3D Modeling & Animation", "AR/VR App Development", "Projects"],
+    "topics": ["Unity/Unreal", "C# Programming", "3D Modeling", "VR/AR Interactions", "Projects"],
+    "learning": ["Books: Learning Augmented Reality Development", "YouTube tutorials", "Courses: Coursera, Udemy, Pluralsight", "Hackathons & Projects"],
+    "assessment": ["Beginner: Simple AR app", "Intermediate: VR simulation", "Advanced: Interactive AR/VR experience"],
+    "career": ["AR/VR Developer", "3D Designer", "Game Developer"],
+    "salary": ["Fresher: ₹4-7 LPA", "Mid-level: ₹10-20 LPA", "Senior: ₹25-40 LPA"],
+    "companies": ["Oculus (Meta)", "Niantic", "Unity Technologies", "Startups", "Microsoft"],
+    "future": "AR/VR is growing rapidly in gaming, metaverse, training, and healthcare applications.",
+    "daily": "Designing 3D environments, coding interactions, testing immersive experiences.",
+    "related": ["3D Modeling", "Game Development", "UI/UX Design"],
+    "success": ["John Carmack (VR Pioneer)"],
+    "resources": ["Unity", "Unreal Engine", "Blender", "ARKit/ARCore"],
+    "validation": ["Unity Certified Developer", "AR/VR Certification by Coursera"],
+    "faqs": ["Q: Do I need programming? → Yes, basic required", "Q: How long to learn? → 6-9 months"]
+  }
+]
