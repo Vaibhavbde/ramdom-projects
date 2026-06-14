@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #242424;
+  --text: rgba(255, 255, 255, 0.87);
+  --muted: rgba(255, 255, 255, 0.65);
+  --accent: #646cff;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --text: #213547;
+    --muted: #4b5966;
+    --accent: #646cff;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+button {
+  @apply rounded-md border-transparent px-4 py-2 text-base font-medium;
+}
+
+/* Theme presets for children: each theme is a class applied on documentElement */
+.theme-sunny {
+  --bg: #fff7e6;
+  --text: #2b2b2b;
+  --muted: #6b6b6b;
+  --accent: #ffb703; /* warm yellow */
+}
+.theme-ocean {
+  --bg: #e6f7ff;
+  --text: #022b3a;
+  --muted: #3b7a91;
+  --accent: #0077b6; /* ocean blue */
+}
+.theme-forest {
+  --bg: #edf7ed;
+  --text: #0b3d2e;
+  --muted: #3f6b52;
+  --accent: #2a9d8f; /* green */
+}
+.theme-candy {
+  --bg: #fff0f6;
+  --text: #3b0b2a;
+  --muted: #7a4a6b;
+  --accent: #ff6bcb; /* pink */
+}
+
+.kid-btn {
+  @apply px-6 py-3 text-lg rounded-xl font-semibold;
+}
+.kid-input {
+  @apply p-4 text-lg rounded-lg border;
+}

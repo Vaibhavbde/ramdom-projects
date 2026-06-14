@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #FAFAF8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  height: 80px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  padding: 0 20px;
+}
+
+header > img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+header > h1 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+main {
+  padding: 20px 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.addingredientform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.addingredientform > input {
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  padding: 10px 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  flex-grow: 1;
+  min-width: 200px;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.addingredientform > button {
+  font-family: 'Inter', sans-serif;
+  border-radius: 6px;
+  border: none;
+  background-color: #141413;
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addingredientform > button::before {
+  content: "+";
+  margin-right: 6px;
+}
+
+.addingredientform > button:hover {
+  background-color: #2d2d2d;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredients-list li {
+  background-color: white;
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.ingredients-list li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #dc2626;
+  transition: color 0.2s ease;
+}
+
+.ingredients-list li button:hover {
+  color: #b91c1c;
+}
+
+.getrecipe-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.getrecipe-container h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.getrecipe-container p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.getrecipe-container button {
+  margin-top: 10px;
+  background-color: #141413;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.getrecipe-container button:hover {
+  background-color: #2d2d2d;
+}
+
+.suggested-recipe-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+  line-height: 1.6;
+}
+.suggested-recipe-container {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+  margin-top: 25px;
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #333;
+}
+
+.suggested-recipe-container h3 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.suggested-recipe-container ul,
+.suggested-recipe-container ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.suggested-recipe-container li {
+  margin-bottom: 8px;
+}
+
+.suggested-recipe-container p {
+  margin-bottom: 1rem;
+}

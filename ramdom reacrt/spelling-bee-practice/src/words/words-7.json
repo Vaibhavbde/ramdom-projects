@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w121",
+    "word": "parliament",
+    "difficulty": "medium",
+    "category": "government",
+    "definition": "The highest legislative authority in a country"
+  },
+  {
+    "id": "w122",
+    "word": "particular",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Used to single out an individual member of a specified group or class"
+  },
+  {
+    "id": "w123",
+    "word": "perceive",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Become aware or conscious of (something); come to realize or understand"
+  },
+  {
+    "id": "w124",
+    "word": "persevere",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Continue in a course of action even in the face of difficulty"
+  },
+  {
+    "id": "w125",
+    "word": "persuade",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Cause (someone) to do something through reasoning or argument"
+  },
+  {
+    "id": "w126",
+    "word": "phenomenon",
+    "difficulty": "medium",
+    "category": "science",
+    "definition": "A fact or situation that is observed to exist or happen"
+  },
+  {
+    "id": "w127",
+    "word": "philanthropy",
+    "difficulty": "hard",
+    "category": "social",
+    "definition": "The desire to promote the welfare of others, expressed especially by the generous donation of money to good causes"
+  },
+  {
+    "id": "w128",
+    "word": "picturesque",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Visually attractive, especially in a quaint or charming way"
+  },
+  {
+    "id": "w129",
+    "word": "plausible",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Seeming reasonable or probable"
+  },
+  {
+    "id": "w130",
+    "word": "plentiful",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Existing in or yielding great quantities; abundant"
+  },
+  {
+    "id": "w131",
+    "word": "portray",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Depict (someone or something) in a work of art or literature"
+  },
+  {
+    "id": "w132",
+    "word": "pragmatic",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Dealing with things sensibly and realistically"
+  },
+  {
+    "id": "w133",
+    "word": "prejudice",
+    "difficulty": "medium",
+    "category": "social",
+    "definition": "Preconceived opinion not based on reason or actual experience"
+  },
+  {
+    "id": "w134",
+    "word": "prevalent",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Widespread in a particular area or at a particular time"
+  },
+  {
+    "id": "w135",
+    "word": "priority",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "A thing that is regarded as more important than another"
+  },
+  {
+    "id": "w136",
+    "word": "procrastinate",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Delay or postpone action; put off doing something"
+  },
+  {
+    "id": "w137",
+    "word": "proficient",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Competent or skilled in doing or using something"
+  },
+  {
+    "id": "w138",
+    "word": "profound",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Very great or intense"
+  },
+  {
+    "id": "w139",
+    "word": "prologue",
+    "difficulty": "medium",
+    "category": "writing",
+    "definition": "A separate introductory section of a literary or musical work"
+  },
+  {
+    "id": "w140",
+    "word": "protocol",
+    "difficulty": "easy",
+    "category": "rules",
+    "definition": "The official procedure or system of rules"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w161",
+    "word": "spontaneous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Performed or occurring as a result of a sudden inner impulse or inclination"
+  },
+  {
+    "id": "w162",
+    "word": "stance",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "The way in which someone stands, especially when deliberately adopted"
+  },
+  {
+    "id": "w163",
+    "word": "stereotype",
+    "difficulty": "medium",
+    "category": "social",
+    "definition": "A widely held but fixed and oversimplified image or idea of a particular type of person or thing"
+  },
+  {
+    "id": "w164",
+    "word": "strategy",
+    "difficulty": "easy",
+    "category": "planning",
+    "definition": "A plan of action designed to achieve a long-term or overall aim"
+  },
+  {
+    "id": "w165",
+    "word": "stimulate",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Raise levels of physiological or nervous activity in (the body or any biological system)"
+  },
+  {
+    "id": "w166",
+    "word": "stupendous",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Extremely impressive"
+  },
+  {
+    "id": "w167",
+    "word": "substantial",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Of considerable importance, size, or worth"
+  },
+  {
+    "id": "w168",
+    "word": "succinct",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Briefly and clearly expressed"
+  },
+  {
+    "id": "w169",
+    "word": "suffice",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Be enough or adequate"
+  },
+  {
+    "id": "w170",
+    "word": "superfluous",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Unnecessary, especially through being more than enough"
+  },
+  {
+    "id": "w171",
+    "word": "suppress",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Forcibly put an end to"
+  },
+  {
+    "id": "w172",
+    "word": "surveillance",
+    "difficulty": "hard",
+    "category": "security",
+    "definition": "Close observation, especially of a suspected spy or criminal"
+  },
+  {
+    "id": "w173",
+    "word": "symmetry",
+    "difficulty": "easy",
+    "category": "math",
+    "definition": "The quality of being made up of exactly similar parts facing each other"
+  },
+  {
+    "id": "w174",
+    "word": "synthesis",
+    "difficulty": "medium",
+    "category": "science",
+    "definition": "The combination of components or elements to form a connected whole"
+  },
+  {
+    "id": "w175",
+    "word": "tangible",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Perceptible by touch"
+  },
+  {
+    "id": "w176",
+    "word": "tactic",
+    "difficulty": "easy",
+    "category": "planning",
+    "definition": "An action or strategy carefully planned to achieve a specific end"
+  },
+  {
+    "id": "w177",
+    "word": "tenacious",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Tending to keep a firm hold of something; clinging or adhering closely"
+  },
+  {
+    "id": "w178",
+    "word": "tentative",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Not certain or fixed; provisional"
+  },
+  {
+    "id": "w179",
+    "word": "terrain",
+    "difficulty": "easy",
+    "category": "places",
+    "definition": "A stretch of land, especially with regard to its physical features"
+  },
+  {
+    "id": "w180",
+    "word": "theology",
+    "difficulty": "hard",
+    "category": "religion",
+    "definition": "The study of the nature of God and religious belief"
+  }
+]

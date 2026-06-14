@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sora', sans-serif;
+  background: radial-gradient(circle at top left, #fdeff9 10%,  #a18cd1 40%, #fdeff9 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #ffffffcc;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}

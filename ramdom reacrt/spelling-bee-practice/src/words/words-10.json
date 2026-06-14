@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w181",
+    "word": "timetable",
+    "difficulty": "easy",
+    "category": "planning",
+    "definition": "A plan of events or activities with the times they are intended to happen"
+  },
+  {
+    "id": "w182",
+    "word": "tolerate",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Allow the existence, occurrence, or practice of (something that one dislikes or disagrees with) without interference"
+  },
+  {
+    "id": "w183",
+    "word": "trajectory",
+    "difficulty": "hard",
+    "category": "science",
+    "definition": "The path followed by a projectile flying or an object moving under the action of given forces"
+  },
+  {
+    "id": "w184",
+    "word": "tranquil",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Free from disturbance; calm"
+  },
+  {
+    "id": "w185",
+    "word": "transcend",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Be or go beyond the range or limits of (something abstract, typically a conceptual field or division)"
+  },
+  {
+    "id": "w186",
+    "word": "ubiquitous",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Present, appearing, or found everywhere"
+  },
+  {
+    "id": "w187",
+    "word": "unanimous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "(of two or more people) fully in agreement"
+  },
+  {
+    "id": "w188",
+    "word": "unprecedented",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Never done or known before"
+  },
+  {
+    "id": "w189",
+    "word": "validate",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Check or prove the validity or accuracy of (something)"
+  },
+  {
+    "id": "w190",
+    "word": "vanish",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Disappear suddenly and completely"
+  },
+  {
+    "id": "w191",
+    "word": "vigilant",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Keeping careful watch for possible danger or difficulties"
+  },
+  {
+    "id": "w192",
+    "word": "vocabulary",
+    "difficulty": "easy",
+    "category": "language",
+    "definition": "The body of words used in a particular language"
+  },
+  {
+    "id": "w193",
+    "word": "voracious",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Wanting or devouring great quantities of food"
+  },
+  {
+    "id": "w194",
+    "word": "whimsical",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Playfully quaint or fanciful"
+  },
+  {
+    "id": "w195",
+    "word": "withhold",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Refuse to give (something that is due to or is desired by another)"
+  },
+  {
+    "id": "w196",
+    "word": "witty",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Showing quick and inventive verbal humor"
+  },
+  {
+    "id": "w197",
+    "word": "worship",
+    "difficulty": "easy",
+    "category": "religion",
+    "definition": "Show reverence and adoration for (a deity)"
+  },
+  {
+    "id": "w198",
+    "word": "zealous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Having or showing zeal"
+  },
+  {
+    "id": "w199",
+    "word": "zenith",
+    "difficulty": "hard",
+    "category": "nouns",
+    "definition": "The time at which something is most powerful or successful"
+  },
+  {
+    "id": "w200",
+    "word": "zodiac",
+    "difficulty": "medium",
+    "category": "astronomy",
+    "definition": "A circle of twelve 30° divisions of celestial longitude"
+  }
+]

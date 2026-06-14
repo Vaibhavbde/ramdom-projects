@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w041",
+    "word": "diplomacy",
+    "difficulty": "medium",
+    "category": "government",
+    "definition": "The art of dealing with people in a sensitive and effective way"
+  },
+  {
+    "id": "w042",
+    "word": "disastrous",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Causing great damage or hardship"
+  },
+  {
+    "id": "w043",
+    "word": "discrepancy",
+    "difficulty": "hard",
+    "category": "nouns",
+    "definition": "A lack of compatibility or similarity between two or more facts"
+  },
+  {
+    "id": "w044",
+    "word": "dissipate",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Disperse or scatter"
+  },
+  {
+    "id": "w045",
+    "word": "distinctive",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Characteristic of one person or thing, and so serving to distinguish it"
+  },
+  {
+    "id": "w046",
+    "word": "diversity",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "The state of being diverse; variety"
+  },
+  {
+    "id": "w047",
+    "word": "eclectic",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Deriving ideas, style, or taste from a broad and diverse range of sources"
+  },
+  {
+    "id": "w048",
+    "word": "effervescent",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Vivacious and enthusiastic"
+  },
+  {
+    "id": "w049",
+    "word": "elaborate",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "To develop or present (a theory, policy, or system) in detail"
+  },
+  {
+    "id": "w050",
+    "word": "eloquent",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Fluent or persuasive in speaking or writing"
+  },
+  {
+    "id": "w051",
+    "word": "embarrass",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Cause (someone) to feel awkward, self-conscious, or ashamed"
+  },
+  {
+    "id": "w052",
+    "word": "emphasize",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Give special importance or prominence to something in speaking or writing"
+  },
+  {
+    "id": "w053",
+    "word": "enthusiastic",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Having or showing intense and eager enjoyment"
+  },
+  {
+    "id": "w054",
+    "word": "entrepreneur",
+    "difficulty": "hard",
+    "category": "jobs",
+    "definition": "A person who sets up a business or businesses, taking on financial risks in the hope of profit"
+  },
+  {
+    "id": "w055",
+    "word": "equilibrium",
+    "difficulty": "hard",
+    "category": "science",
+    "definition": "A state in which opposing forces or influences are balanced"
+  },
+  {
+    "id": "w056",
+    "word": "equivalent",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Equal in value, amount, function, meaning, etc."
+  },
+  {
+    "id": "w057",
+    "word": "evacuate",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Remove (someone) from a place of danger to a safer place"
+  },
+  {
+    "id": "w058",
+    "word": "exaggerate",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Represent (something) as being larger, better, or worse than it really is"
+  },
+  {
+    "id": "w059",
+    "word": "exasperate",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Irritate and frustrate (someone) intensely"
+  },
+  {
+    "id": "w060",
+    "word": "exhilarate",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Make (someone) feel very happy, animated, or elated"
+  }
+]

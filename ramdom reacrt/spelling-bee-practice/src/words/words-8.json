@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w141",
+    "word": "quarantine",
+    "difficulty": "medium",
+    "category": "health",
+    "definition": "A state of enforced isolation to prevent spread of disease"
+  },
+  {
+    "id": "w142",
+    "word": "questionnaire",
+    "difficulty": "hard",
+    "category": "forms",
+    "definition": "A set of printed or written questions with a choice of answers"
+  },
+  {
+    "id": "w143",
+    "word": "quixotic",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Extremely idealistic; unrealistic and impractical"
+  },
+  {
+    "id": "w144",
+    "word": "rational",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Based on or in accordance with reason or logic"
+  },
+  {
+    "id": "w145",
+    "word": "reciprocal",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Given, felt, or done in return"
+  },
+  {
+    "id": "w146",
+    "word": "recluse",
+    "difficulty": "hard",
+    "category": "people",
+    "definition": "A person who lives a solitary life and tends to avoid other people"
+  },
+  {
+    "id": "w147",
+    "word": "reliable",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Consistently good in quality or performance; able to be trusted"
+  },
+  {
+    "id": "w148",
+    "word": "reminisce",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Indulge in enjoyable recollection of past events"
+  },
+  {
+    "id": "w149",
+    "word": "resilient",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Able to withstand or recover quickly from difficult conditions"
+  },
+  {
+    "id": "w150",
+    "word": "retrospect",
+    "difficulty": "medium",
+    "category": "nouns",
+    "definition": "A survey or review of a past course of events or period of time"
+  },
+  {
+    "id": "w151",
+    "word": "rhetoric",
+    "difficulty": "hard",
+    "category": "writing",
+    "definition": "The art of effective or persuasive speaking or writing"
+  },
+  {
+    "id": "w152",
+    "word": "rigorous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Extremely thorough and careful"
+  },
+  {
+    "id": "w153",
+    "word": "satellite",
+    "difficulty": "easy",
+    "category": "science",
+    "definition": "An object that orbits a planet or other body"
+  },
+  {
+    "id": "w154",
+    "word": "scarce",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Insufficient for the demand"
+  },
+  {
+    "id": "w155",
+    "word": "scholarship",
+    "difficulty": "medium",
+    "category": "education",
+    "definition": "Academic study or achievement; learning of a high level"
+  },
+  {
+    "id": "w156",
+    "word": "scintillating",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Sparkling or shining brightly; brilliantly and excitingly clever or skillful"
+  },
+  {
+    "id": "w157",
+    "word": "scrutinize",
+    "difficulty": "hard",
+    "category": "verbs",
+    "definition": "Examine or inspect closely and thoroughly"
+  },
+  {
+    "id": "w158",
+    "word": "serendipity",
+    "difficulty": "hard",
+    "category": "nouns",
+    "definition": "The occurrence and development of events by chance in a happy or beneficial way"
+  },
+  {
+    "id": "w159",
+    "word": "shorthand",
+    "difficulty": "easy",
+    "category": "skills",
+    "definition": "A method of rapid writing by using symbols or abbreviations"
+  },
+  {
+    "id": "w160",
+    "word": "sophisticated",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Developed to a high degree of complexity"
+  }
+]

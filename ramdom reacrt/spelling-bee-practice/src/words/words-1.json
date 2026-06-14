@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w001",
+    "word": "accommodate",
+    "difficulty": "hard",
+    "category": "general",
+    "definition": "To provide with something desired, needed, or suited"
+  },
+  {
+    "id": "w002",
+    "word": "acknowledge",
+    "difficulty": "medium",
+    "category": "general",
+    "definition": "Accept or admit the existence or truth of"
+  },
+  {
+    "id": "w003",
+    "word": "acquaintance",
+    "difficulty": "medium",
+    "category": "people",
+    "definition": "A person one knows slightly"
+  },
+  {
+    "id": "w004",
+    "word": "aesthetic",
+    "difficulty": "hard",
+    "category": "arts",
+    "definition": "Concerned with beauty or the appreciation of beauty"
+  },
+  {
+    "id": "w005",
+    "word": "ambiguous",
+    "difficulty": "medium",
+    "category": "vocabulary",
+    "definition": "Open to more than one interpretation"
+  },
+  {
+    "id": "w006",
+    "word": "anonymous",
+    "difficulty": "medium",
+    "category": "people",
+    "definition": "Not identified by name"
+  },
+  {
+    "id": "w007",
+    "word": "apprentice",
+    "difficulty": "easy",
+    "category": "jobs",
+    "definition": "A person learning a trade from a skilled employer"
+  },
+  {
+    "id": "w008",
+    "word": "argument",
+    "difficulty": "easy",
+    "category": "vocabulary",
+    "definition": "An exchange of diverging or opposite views"
+  },
+  {
+    "id": "w009",
+    "word": "astonish",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Shock or greatly surprise"
+  },
+  {
+    "id": "w010",
+    "word": "attendance",
+    "difficulty": "easy",
+    "category": "school",
+    "definition": "The action or state of going regularly to or being present at a place"
+  },
+  {
+    "id": "w011",
+    "word": "belligerent",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Hostile and aggressive"
+  },
+  {
+    "id": "w012",
+    "word": "benevolent",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Well meaning and kindly"
+  },
+  {
+    "id": "w013",
+    "word": "boulevard",
+    "difficulty": "medium",
+    "category": "places",
+    "definition": "A wide street in a city, typically one lined with trees"
+  },
+  {
+    "id": "w014",
+    "word": "bureaucracy",
+    "difficulty": "hard",
+    "category": "government",
+    "definition": "A system of government in which most of the important decisions are made by state officials"
+  },
+  {
+    "id": "w015",
+    "word": "camouflage",
+    "difficulty": "medium",
+    "category": "nature",
+    "definition": "Hide or disguise the presence of"
+  },
+  {
+    "id": "w016",
+    "word": "capricious",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Given to sudden and unaccountable changes of mood or behavior"
+  },
+  {
+    "id": "w017",
+    "word": "catastrophe",
+    "difficulty": "hard",
+    "category": "events",
+    "definition": "An event causing great and often sudden damage or suffering"
+  },
+  {
+    "id": "w018",
+    "word": "celebrate",
+    "difficulty": "easy",
+    "category": "verbs",
+    "definition": "Acknowledge (a significant or happy day or event) with a social gathering or enjoyable activity"
+  },
+  {
+    "id": "w019",
+    "word": "charismatic",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Exercising a compelling charm which inspires devotion in others"
+  },
+  {
+    "id": "w020",
+    "word": "chronicle",
+    "difficulty": "medium",
+    "category": "writing",
+    "definition": "A factual written account of important or historical events in the order of their occurrence"
+  }
+]

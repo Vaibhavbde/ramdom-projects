@@ -1,0 +1,129 @@
+/* .news-item {
+    display: flex;
+    justify-content: center;
+}
+
+.page2_card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page2_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+}
+
+.card-body {
+    padding: 1.25rem;
+    background-color: #f8f9fa;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.badge {
+    font-size: 0.875rem;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+} */
+
+.news-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.page2_card {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure the card uses the full height available */
+    max-height: 500px; /* Set a max-height for uniformity */
+}
+
+.page2_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px; /* Fixed height for images */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+}
+
+.card-body {
+    padding: 1.25rem;
+    background-color: #f8f9fa;
+    flex: 1; /* Ensures the body takes up available space */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+    color: #555;
+    flex-grow: 1; /* Allows the text to take up remaining space */
+}
+
+.card-footer {
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-footer .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.card-footer .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.badge {
+    font-size: 0.875rem;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+}

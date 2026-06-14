@@ -1,0 +1,170 @@
+.app {
+  width: 100%;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.password-input {
+  width: 100%;
+  padding: 15px 50px 15px 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.password-input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: opacity 0.3s ease;
+}
+
+.toggle-btn:hover {
+  opacity: 0.7;
+}
+
+.strength-bar-container {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.strength-bar {
+  height: 100%;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.strength-label {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.requirements {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.requirements h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.requirements ul {
+  list-style: none;
+}
+
+.requirements li {
+  padding: 8px 0;
+  color: #666;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.requirements li.met {
+  color: #2ed573;
+  font-weight: 500;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(135deg, #2ed573 0%, #1abc9c 100%);
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+  animation: bounceIn 0.5s ease;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.85rem;
+  }
+
+  .password-input {
+    font-size: 14px;
+  }
+}

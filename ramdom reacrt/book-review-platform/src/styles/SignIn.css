@@ -1,0 +1,177 @@
+/* SignIn Page Styles */
+.signin-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #7ba89a 0%, #6b9686 100%);
+  padding: 1rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.signin-card {
+  background: #fdfffe;
+  border-radius: 1.25rem;
+  padding: 2rem 2.5rem;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.signin-header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.signin-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  margin-bottom: 0.75rem;
+}
+
+.signin-logo-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  background: #7ba89a;
+  border-radius: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signin-book-icon {
+  width: 1.625rem;
+  height: 1.625rem;
+  color: #fdfffe;
+}
+
+.signin-logo-text {
+  font-family: "Pacifico", cursive;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #7ba89a;
+  margin: 0;
+  letter-spacing: -0.025em;
+}
+
+.signin-subtitle {
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.125rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 0.8125rem;
+  color: #2c3e50;
+}
+
+.form-input {
+  padding: 0.75rem 0.875rem;
+  border: 2px solid #e9ecef;
+  border-radius: 0.625rem;
+  font-size: 0.9375rem;
+  color: #2c3e50;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #7ba89a;
+  background: #fdfffe;
+  box-shadow: 0 0 0 3px rgba(123, 168, 154, 0.1);
+}
+
+.form-input::placeholder {
+  color: #adb5bd;
+}
+
+.form-input.error {
+  border-color: #dc3545;
+  background: #fff5f5;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 0.75rem;
+  margin-top: -0.25rem;
+}
+
+.signin-button {
+  padding: 0.875rem;
+  background: #7ba89a;
+  color: #fdfffe;
+  border: none;
+  border-radius: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.25rem;
+}
+
+.signin-button:hover {
+  background: #6b9686;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(123, 168, 154, 0.3);
+}
+
+.signin-button:active {
+  transform: translateY(0);
+}
+
+.signin-footer {
+  text-align: center;
+  color: #6c757d;
+  font-size: 0.6875rem;
+  margin-top: 1.125rem;
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .signin-card {
+    padding: 1.75rem 1.5rem;
+    max-width: 95%;
+  }
+
+  .signin-logo-text {
+    font-size: 1.75rem;
+  }
+
+  .signin-logo-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .signin-book-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .signin-form {
+    gap: 1rem;
+  }
+}

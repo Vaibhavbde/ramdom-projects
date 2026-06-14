@@ -1,0 +1,117 @@
+main {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 5;
+}
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.bg_video {
+    position: absolute;
+    width: 100vw;
+    top: 0;
+}
+.page {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    flex-direction: column;
+    min-height: calc(100vh - 100px);
+}
+
+.home_card_container {
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+.home_card_container:nth-child(even) .home_head {
+    justify-content: flex-end;
+    /* background-color: blue; */
+}
+
+.home_head {
+    width: 100%;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.home_para {
+    font-family: "Gruppo", sans-serif;
+    text-align: justify;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: none;
+}
+
+::-webkit-scrollbar-thumb {
+background: white;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgb(228, 228, 228);
+}
+
+.head_divide {
+    width: 85%;
+    height: 3px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.slide_page {
+    height: 100%;
+}
+
+.card {
+    margin: 0 8px;
+    border-radius: 0;
+}
+
+.card_text {
+    color: black;
+}
+
+.page2_card {
+    position: relative;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.page2_card:hover {
+    z-index: 500;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgb(35, 35, 255);
+}
+.dff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.df-ai {
+    display: flex;
+    align-items: center;
+}
+.df-jc {
+    display: flex;
+    justify-content: center;
+}
+.df {
+    display: flex;
+}

@@ -1,0 +1,134 @@
+.card {
+    width: 100%;
+    background-image: url("../assets/milky-way-67504_1280.jpg");
+    color: beige;
+}
+
+.upper_container {
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin: 20px 30px;
+    width: 40%;
+    /* height: 100%; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upper_container h1 {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.upper_container span {
+    width: 95%;
+    height: 2px;
+}
+
+.upper_container p {
+    padding: 10px 35px;
+}
+
+.timeline_initiate_parent_container {
+    width: 100%;
+    min-height: 400px;
+    padding: 30px 0;
+    /* background-color: red; */
+    margin: 5px 0;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.timeline_initiate_container {
+    height: 300px;
+    width: 28%;
+    margin: 20px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+    box-shadow: 0 0 10px rgb(226, 226, 255);
+    transition: 0.6s;
+}
+
+.timeline_initiate_container:hover {
+    width: 80%;
+}
+
+
+.timeline_initiate_parent_container:nth-child(even) {
+    justify-content: flex-end;
+}
+
+.timeline_card_img_container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+    /* background-color: blue; */
+}
+
+.timeline_initiate_container:hover .timeline_card_img_container {
+    width: 30%;
+}
+
+.timeline_card {
+    width: 90%;
+    height: 90%;
+    border-radius: 7px;
+    aspect-ratio: inherit;
+    background-color: rgb(191, 191, 191);
+}
+
+.description_container {
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+    transition: 0.6s;
+    /* background-color: red; */
+}
+
+.timeline_initiate_container:hover .description_container {
+    width: 70%;
+}
+
+.description_container p {
+    padding: 30px;
+    font-size: 1.2rem;
+}
+
+
+
+.timeline_initiate_parent_container {
+    opacity: 1;
+    /* transform: translateY(100px); Initially move the container down */
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out; /* Smooth transition */
+}
+
+.timeline_initiate_parent_container.show {
+    opacity: 1;
+    transform: translateY(0); /* Move it to its original position */
+}
+
+.close_button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close_button:hover {
+    color: red;
+}
+
+.timeline_initiate_container.expanded {
+    width: 80%;
+}

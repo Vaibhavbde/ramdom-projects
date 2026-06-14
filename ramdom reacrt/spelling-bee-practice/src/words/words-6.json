@@ -1,0 +1,142 @@
+[
+  {
+    "id": "w101",
+    "word": "knowledgeable",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Intelligent and well informed"
+  },
+  {
+    "id": "w102",
+    "word": "labyrinth",
+    "difficulty": "hard",
+    "category": "places",
+    "definition": "A complicated irregular network of passages or paths"
+  },
+  {
+    "id": "w103",
+    "word": "leisure",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "Free time"
+  },
+  {
+    "id": "w104",
+    "word": "liaison",
+    "difficulty": "hard",
+    "category": "people",
+    "definition": "Communication or cooperation that facilitates a close working relationship between people or organizations"
+  },
+  {
+    "id": "w105",
+    "word": "lucrative",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Producing a great deal of profit"
+  },
+  {
+    "id": "w106",
+    "word": "magnificent",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Impressively beautiful, elaborate, or extravagant"
+  },
+  {
+    "id": "w107",
+    "word": "malicious",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Intending or intended to do harm"
+  },
+  {
+    "id": "w108",
+    "word": "maneuver",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "A movement or series of moves requiring skill and care"
+  },
+  {
+    "id": "w109",
+    "word": "metamorphosis",
+    "difficulty": "hard",
+    "category": "science",
+    "definition": "A change of the form or nature of a thing or person into a completely different one"
+  },
+  {
+    "id": "w110",
+    "word": "meticulous",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Showing great attention to detail; very careful and precise"
+  },
+  {
+    "id": "w111",
+    "word": "mischievous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Causing or showing a fondness for causing trouble in a playful way"
+  },
+  {
+    "id": "w112",
+    "word": "monotonous",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Dull, tedious, and repetitious; lacking in variety and interest"
+  },
+  {
+    "id": "w113",
+    "word": "negotiate",
+    "difficulty": "medium",
+    "category": "verbs",
+    "definition": "Try to reach an agreement or compromise by discussion"
+  },
+  {
+    "id": "w114",
+    "word": "nuisance",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "A person or thing causing inconvenience or annoyance"
+  },
+  {
+    "id": "w115",
+    "word": "oblivious",
+    "difficulty": "medium",
+    "category": "adjectives",
+    "definition": "Not aware of or not concerned about what is happening around one"
+  },
+  {
+    "id": "w116",
+    "word": "obscure",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Not discovered or known about; uncertain"
+  },
+  {
+    "id": "w117",
+    "word": "obsolete",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Out of date"
+  },
+  {
+    "id": "w118",
+    "word": "omniscient",
+    "difficulty": "hard",
+    "category": "adjectives",
+    "definition": "Knowing everything"
+  },
+  {
+    "id": "w119",
+    "word": "opportunity",
+    "difficulty": "easy",
+    "category": "nouns",
+    "definition": "A set of circumstances that makes it possible to do something"
+  },
+  {
+    "id": "w120",
+    "word": "optimistic",
+    "difficulty": "easy",
+    "category": "adjectives",
+    "definition": "Hopeful and confident about the future"
+  }
+]
