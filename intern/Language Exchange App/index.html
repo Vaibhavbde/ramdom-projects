@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BhashaBandhu - Indian Language Exchange App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Decorative Background Elements -->
+    <div class="bg-decoration">
+        <div class="decoration-circle circle-1"></div>
+        <div class="decoration-circle circle-2"></div>
+        <div class="decoration-circle circle-3"></div>
+        <div class="decoration-mandala mandala-1"></div>
+        <div class="decoration-mandala mandala-2"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">BhashaBandhu</span>
+                        <span class="logo-tagline">भाषा सीखो, दोस्त बनाओ</span>
+                    </div>
+                </div>
+                <nav class="nav-desktop">
+                    <button class="nav-btn active" data-page="discover">
+                        <i class="fas fa-compass"></i>
+                        <span>Discover</span>
+                    </button>
+                    <button class="nav-btn" data-page="messages">
+                        <i class="fas fa-comments"></i>
+                        <span>Messages</span>
+                        <span class="badge">3</span>
+                    </button>
+                    <button class="nav-btn" data-page="sessions">
+                        <i class="fas fa-video"></i>
+                        <span>Sessions</span>
+                    </button>
+                    <button class="nav-btn" data-page="profile">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Profile</span>
+                    </button>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <nav class="nav-mobile">
+                <button class="nav-btn" data-page="discover">
+                    <i class="fas fa-compass"></i>
+                    <span>Discover</span>
+                </button>
+                <button class="nav-btn" data-page="messages">
+                    <i class="fas fa-comments"></i>
+                    <span>Messages</span>
+                </button>
+                <button class="nav-btn" data-page="sessions">
+                    <i class="fas fa-video"></i>
+                    <span>Sessions</span>
+                </button>
+                <button class="nav-btn" data-page="profile">
+                    <i class="fas fa-user-circle"></i>
+                    <span>Profile</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Discover Page -->
+        <div id="discover-page" class="page active">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="animated-gradient-text">Discover Language Partners</h1>
+                    <p>Connect with learners across India and master new languages together</p>
+                </div>
+
+                <div class="search-filters">
+                    <div class="filter-group">
+                        <label><i class="fas fa-search"></i> Search</label>
+                        <input type="text" id="search-input" placeholder="Search by name or city...">
+                    </div>
+                    <div class="filter-group">
+                        <label><i class="fas fa-language"></i> Native Language</label>
+                        <select id="language-filter">
+                            <option value="all">All Indian Languages</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="tamil">Tamil</option>
+                            <option value="telugu">Telugu</option>
+                            <option value="bengali">Bengali</option>
+                            <option value="marathi">Marathi</option>
+                            <option value="gujarati">Gujarati</option>
+                            <option value="kannada">Kannada</option>
+                            <option value="malayalam">Malayalam</option>
+                            <option value="punjabi">Punjabi</option>
+                            <option value="english">English</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label><i class="fas fa-chart-line"></i> Level</label>
+                        <select id="level-filter">
+                            <option>All Levels</option>
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="users-grid" class="users-grid"></div>
+            </div>
+        </div>
+
+        <!-- Messages Page -->
+        <div id="messages-page" class="page">
+            <div class="container-full">
+                <div class="messages-container">
+                    <div class="chat-list">
+                        <div class="chat-list-header">
+                            <h2>Messages</h2>
+                            <button class="icon-btn pulse-btn">
+                                <i class="fas fa-bell"></i>
+                            </button>
+                        </div>
+                        <div id="chat-list-content"></div>
+                    </div>
+                    <div class="chat-window">
+                        <div id="chat-empty" class="chat-empty">
+                            <div class="empty-state-animation">
+                                <i class="fas fa-comments"></i>
+                                <div class="ripple"></div>
+                                <div class="ripple"></div>
+                                <div class="ripple"></div>
+                            </div>
+                            <h3>Select a conversation</h3>
+                            <p>Choose a chat to start your language exchange journey</p>
+                        </div>
+                        <div id="chat-active" class="chat-active" style="display: none;">
+                            <div class="chat-header">
+                                <div class="chat-user-info">
+                                    <div class="avatar" id="chat-avatar"></div>
+                                    <div>
+                                        <h3 id="chat-name"></h3>
+                                        <p class="status"><span class="status-dot"></span>Online</p>
+                                    </div>
+                                </div>
+                                <div class="chat-actions">
+                                    <button class="icon-btn">
+                                        <i class="fas fa-phone"></i>
+                                    </button>
+                                    <button class="icon-btn">
+                                        <i class="fas fa-video"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="chat-messages" id="chat-messages"></div>
+                            <div class="chat-input">
+                                <button class="icon-btn">
+                                    <i class="fas fa-paperclip"></i>
+                                </button>
+                                <input type="text" id="message-input" placeholder="Type your message...">
+                                <button class="icon-btn">
+                                    <i class="fas fa-smile"></i>
+                                </button>
+                                <button class="btn-send" id="send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sessions Page -->
+        <div id="sessions-page" class="page">
+            <div class="container">
+                <div class="page-header">
+                    <h1 class="animated-gradient-text">My Learning Sessions</h1>
+                    <p>Track your progress and manage upcoming language exchange sessions</p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card stat-orange">
+                        <div class="stat-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="counter" data-target="42">0</h3>
+                            <p>Total Sessions</p>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+                    <div class="stat-card stat-green">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3><span class="counter" data-target="28">0</span>h</h3>
+                            <p>Learning Time</p>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+                    <div class="stat-card stat-blue">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="counter" data-target="12">0</h3>
+                            <p>Learning Partners</p>
+                        </div>
+                        <div class="stat-decoration"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-calendar-alt"></i> Upcoming Sessions</h2>
+                        <button class="btn-primary btn-gradient">
+                            <i class="fas fa-plus"></i> Schedule New
+                        </button>
+                    </div>
+                    <div id="sessions-list" class="sessions-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Page -->
+        <div id="profile-page" class="page">
+            <div class="container">
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="profile-cover">
+                            <div class="profile-pattern"></div>
+                        </div>
+                        <div class="profile-main">
+                            <div class="profile-avatar-section">
+                                <div class="profile-avatar">
+                                    <div class="avatar-inner">RS</div>
+                                    <div class="avatar-ring"></div>
+                                </div>
+                                <button class="btn-edit-avatar">
+                                    <i class="fas fa-camera"></i>
+                                </button>
+                            </div>
+                            <div class="profile-info">
+                                <h1>Ravi Sharma</h1>
+                                <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra</p>
+                                <div class="profile-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span>4.8</span>
+                                    <span class="text-muted">(42 sessions)</span>
+                                </div>
+                                <div class="profile-badges">
+                                    <span class="badge-item">
+                                        <i class="fas fa-certificate"></i> Verified
+                                    </span>
+                                    <span class="badge-item">
+                                        <i class="fas fa-crown"></i> Top Learner
+                                    </span>
+                                </div>
+                            </div>
+                            <button class="btn-primary btn-gradient">
+                                <i class="fas fa-edit"></i> Edit Profile
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="profile-grid">
+                        <div class="card card-hover">
+                            <h3><i class="fas fa-language"></i> Languages</h3>
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <strong>Native:</strong>
+                                    <span>Hindi, Marathi</span>
+                                </div>
+                                <span class="language-flag">🇮🇳</span>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <strong>Learning:</strong>
+                                    <span>Tamil</span>
+                                </div>
+                                <span class="badge-level badge-intermediate">Intermediate</span>
+                            </div>
+                            <div class="language-item">
+                                <div class="language-info">
+                                    <strong>Also Learning:</strong>
+                                    <span>Telugu</span>
+                                </div>
+                                <span class="badge-level badge-beginner">Beginner</span>
+                            </div>
+                        </div>
+
+                        <div class="card card-hover">
+                            <h3><i class="fas fa-user"></i> About Me</h3>
+                            <p>Software engineer passionate about learning Indian languages and exploring diverse cultures. Love discussing technology, cricket, Bollywood, and Indian cuisine. Looking forward to meaningful language exchanges!</p>
+                        </div>
+
+                        <div class="card card-hover">
+                            <h3><i class="fas fa-heart"></i> Interests</h3>
+                            <div class="tags">
+                                <span class="tag">🏏 Cricket</span>
+                                <span class="tag">🎬 Bollywood</span>
+                                <span class="tag">💻 Technology</span>
+                                <span class="tag">🍛 Cooking</span>
+                                <span class="tag">📚 Books</span>
+                                <span class="tag">✈️ Travel</span>
+                                <span class="tag">🎵 Music</span>
+                                <span class="tag">📸 Photography</span>
+                            </div>
+                        </div>
+
+                        <div class="card card-hover">
+                            <h3><i class="fas fa-clock"></i> Availability</h3>
+                            <div class="availability-info">
+                                <p><strong>Timezone:</strong> IST (UTC+5:30)</p>
+                                <div class="availability-schedule">
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar-week"></i>
+                                        <span>Weekdays: 7:00 PM - 10:00 PM</span>
+                                    </div>
+                                    <div class="schedule-item">
+                                        <i class="fas fa-calendar-day"></i>
+                                        <span>Weekends: 10:00 AM - 8:00 PM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">Action completed!</span>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

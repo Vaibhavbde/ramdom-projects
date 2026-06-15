@@ -1,1 +1,0 @@
-This folder will containe the trained model named recommendation_model.pkl obtained after running the knn_model_train.py

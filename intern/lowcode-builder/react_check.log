@@ -1,0 +1,138 @@
+
+> lowcode-builder@0.1.0 build
+> react-scripts build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Creating an optimized production build...
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 2:123:   'ChevronRight' is defined but never used                                                                                                                 no-unused-vars
+  Line 2:137:   'ChevronDown' is defined but never used                                                                                                                  no-unused-vars
+  Line 218:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 219:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 226:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 227:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 255:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 281:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 282:11:  'weightClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 283:11:  'alignClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 304:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 305:11:  'gapClasses' is assigned a value but never used                                                                                                          no-unused-vars
+  Line 306:11:  'directionClasses' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 307:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 351:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 376:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 377:11:  'shadowClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 398:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 399:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 421:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 428:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 454:11:  'spacingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 455:11:  'styleClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 579:6:   React Hook useEffect has missing dependencies: 'deleteComponent', 'redo', 'saveProject', and 'undo'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  70.14 kB  build/static/js/main.05ed858e.js
+  4.17 kB   build/static/css/main.3524d920.css
+  1.77 kB   build/static/js/453.c08882fb.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+> lowcode-builder@0.1.0 start
+> react-scripts start
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:315266) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:315266) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src/App.js
+  Line 2:123:   'ChevronRight' is defined but never used                                                                                                                 no-unused-vars
+  Line 2:137:   'ChevronDown' is defined but never used                                                                                                                  no-unused-vars
+  Line 218:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 219:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 226:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 227:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 255:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 281:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 282:11:  'weightClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 283:11:  'alignClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 304:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 305:11:  'gapClasses' is assigned a value but never used                                                                                                          no-unused-vars
+  Line 306:11:  'directionClasses' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 307:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 351:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 376:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 377:11:  'shadowClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 398:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 399:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 421:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 428:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 454:11:  'spacingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 455:11:  'styleClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 579:6:   React Hook useEffect has missing dependencies: 'deleteComponent', 'redo', 'saveProject', and 'undo'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.js
+  Line 2:123:   'ChevronRight' is defined but never used                                                                                                                 no-unused-vars
+  Line 2:137:   'ChevronDown' is defined but never used                                                                                                                  no-unused-vars
+  Line 218:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 219:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 226:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 227:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 255:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 281:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 282:11:  'weightClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 283:11:  'alignClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 304:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 305:11:  'gapClasses' is assigned a value but never used                                                                                                          no-unused-vars
+  Line 306:11:  'directionClasses' is assigned a value but never used                                                                                                    no-unused-vars
+  Line 307:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 351:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 376:11:  'paddingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 377:11:  'shadowClasses' is assigned a value but never used                                                                                                       no-unused-vars
+  Line 398:11:  'widthClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 399:11:  'roundedClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 421:11:  'colorClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 428:11:  'sizeClasses' is assigned a value but never used                                                                                                         no-unused-vars
+  Line 454:11:  'spacingClasses' is assigned a value but never used                                                                                                      no-unused-vars
+  Line 455:11:  'styleClasses' is assigned a value but never used                                                                                                        no-unused-vars
+  Line 579:6:   React Hook useEffect has missing dependencies: 'deleteComponent', 'redo', 'saveProject', and 'undo'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.

@@ -1,0 +1,208 @@
+
+> kastore@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled with warnings.
+
+[eslint] 
+src/App.tsx
+  Line 1:27:  'useEffect' is defined but never used    @typescript-eslint/no-unused-vars
+  Line 2:40:  'useNavigate' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/HeaderTop.tsx
+  Line 51:19:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/MainPage/Footer.tsx
+  Line 41:21:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 92:19:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 102:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 109:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 116:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/MainPage/Index.tsx
+  Line 16:10:  'ratedMovies' is assigned a value but never used                                                              @typescript-eslint/no-unused-vars
+  Line 77:6:   React Hook useEffect has a missing dependency: 'FetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/MainPage/Main.tsx
+  Line 28:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 46:7:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 65:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Movies.tsx
+  Line 161:6:  React Hook useEffect has a missing dependency: 'fetchMoviesUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/Movies/MoviesGrid.tsx
+  Line 78:15:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Sidebar.tsx
+  Line 15:3:  'InputLabel' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  Line 16:3:  'Select' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  Line 17:3:  'MenuItem' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  Line 99:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/Sidebar.tsx
+  Line 94:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/TvShows.tsx
+  Line 15:10:  'allTVShows' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+  Line 158:6:  React Hook useEffect has a missing dependency: 'fetchTVShowsUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+
+  148.96 kB  build/static/js/main.94d66ddf.js
+  5.22 kB    build/static/css/main.aa3463c7.css
+  1.78 kB    build/static/js/453.3bf41f6f.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+
+> kastore@0.1.0 start
+> react-scripts start
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:313268) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:313268) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+  
+Compiled with warnings.
+
+[eslint] 
+src/App.tsx
+  Line 1:27:  'useEffect' is defined but never used    @typescript-eslint/no-unused-vars
+  Line 2:40:  'useNavigate' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/HeaderTop.tsx
+  Line 51:19:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/MainPage/Footer.tsx
+  Line 41:21:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 92:19:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 102:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 109:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 116:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/MainPage/Index.tsx
+  Line 16:10:  'ratedMovies' is assigned a value but never used                                                              @typescript-eslint/no-unused-vars
+  Line 77:6:   React Hook useEffect has a missing dependency: 'FetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/MainPage/Main.tsx
+  Line 28:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 46:7:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 65:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Movies.tsx
+  Line 161:6:  React Hook useEffect has a missing dependency: 'fetchMoviesUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/Movies/MoviesGrid.tsx
+  Line 78:15:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Sidebar.tsx
+  Line 15:3:  'InputLabel' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  Line 16:3:  'Select' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  Line 17:3:  'MenuItem' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  Line 99:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/Sidebar.tsx
+  Line 94:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/TvShows.tsx
+  Line 15:10:  'allTVShows' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+  Line 158:6:  React Hook useEffect has a missing dependency: 'fetchTVShowsUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+WARNING in [eslint] 
+src/App.tsx
+  Line 1:27:  'useEffect' is defined but never used    @typescript-eslint/no-unused-vars
+  Line 2:40:  'useNavigate' is defined but never used  @typescript-eslint/no-unused-vars
+
+src/components/HeaderTop.tsx
+  Line 51:19:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/MainPage/Footer.tsx
+  Line 41:21:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images                                                                              jsx-a11y/alt-text
+  Line 92:19:   Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 102:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 109:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 116:19:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src/components/MainPage/Index.tsx
+  Line 16:10:  'ratedMovies' is assigned a value but never used                                                              @typescript-eslint/no-unused-vars
+  Line 77:6:   React Hook useEffect has a missing dependency: 'FetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/MainPage/Main.tsx
+  Line 28:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 46:7:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+  Line 65:3:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Movies.tsx
+  Line 161:6:  React Hook useEffect has a missing dependency: 'fetchMoviesUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/Movies/MoviesGrid.tsx
+  Line 78:15:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+src/components/Movies/Sidebar.tsx
+  Line 15:3:  'InputLabel' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  Line 16:3:  'Select' is defined but never used                                                                               @typescript-eslint/no-unused-vars
+  Line 17:3:  'MenuItem' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  Line 99:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/Sidebar.tsx
+  Line 94:6:  React Hook useEffect has a missing dependency: 'handleScroll'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src/components/TVshows/TvShows.tsx
+  Line 15:10:  'allTVShows' is assigned a value but never used                                                                         @typescript-eslint/no-unused-vars
+  Line 158:6:  React Hook useEffect has a missing dependency: 'fetchTVShowsUntil20'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
+No issues found.
+The build failed because the process exited too early. This probably means the system ran out of memory or someone called `kill -9` on the process.
