@@ -1,0 +1,16 @@
+version: "1.1"
+
+project:
+  id: demo-project
+  name: Demo Project
+
+stories:
+  - id: US-01
+    title: User can sign up
+    description: New users can create an account with email and password
+    section: Authentication
+    status: not-implemented
+    acceptance_criteria:
+      - Email field validates format before submission
+      - Password must be at least 8 characters
+      - Successful signup redirects to dashboard
