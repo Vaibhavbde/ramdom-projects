@@ -1,0 +1,7 @@
+{
+  "name": "MediXplain",
+  "description": "An AI-powered healthcare application for symptom checking, image diagnosis, health record scanning, and personal health management. This tool is for informational purposes and is not a substitute for professional medical advice.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
