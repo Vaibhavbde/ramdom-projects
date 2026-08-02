@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Friendship Day Greetings 💝 | Create Personalized Greeting Cards</title>
+    <meta name="title" content="Friendship Day Greetings 💝 | Create Personalized Greeting Cards">
+    <meta name="description" content="Create beautiful, personalized friendship day greeting cards with animations, effects, and photo uploads. Share heartfelt messages with your best friends. Free online greeting card maker.">
+    <meta name="keywords" content="friendship day, greeting cards, personalized greetings, friendship quotes, online card maker, friendship messages, custom cards, photo upload, animations, web app, celebration, friends">
+    <meta name="author" content="Friendship Day Greetings App">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sunmughan.github.io/friendshipday/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sunmughan.github.io/friendshipday/">
+    <meta property="og:title" content="Friendship Day Greetings 💝 | Create Personalized Greeting Cards">
+    <meta property="og:description" content="Create beautiful, personalized friendship day greeting cards with animations, effects, and photo uploads. Share heartfelt messages with your best friends.">
+    <meta property="og:image" content="https://sunmughan.github.io/friendshipday/preview.png">
+    <meta property="og:site_name" content="Friendship Day Greetings">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://sunmughan.github.io/friendshipday/">
+    <meta property="twitter:title" content="Friendship Day Greetings 💝 | Create Personalized Greeting Cards">
+    <meta property="twitter:description" content="Create beautiful, personalized friendship day greeting cards with animations, effects, and photo uploads. Share heartfelt messages with your best friends.">
+    <meta property="twitter:image" content="https://sunmughan.github.io/friendshipday/preview.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#667eea">
+    <meta name="msapplication-TileColor" content="#667eea">
+    <meta name="application-name" content="Friendship Day Greetings">
+    <meta name="apple-mobile-web-app-title" content="Friendship Day Greetings">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Friendship Day Greetings",
+      "description": "Create beautiful, personalized friendship day greeting cards with animations, effects, and photo uploads",
+      "url": "https://sunmughan.github.io/friendshipday/",
+      "applicationCategory": "Entertainment",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Friendship Day Greetings Team"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <i class="fas fa-heart"></i>
+                Friendship Day Greetings
+                <i class="fas fa-heart"></i>
+            </h1>
+            <p class="subtitle">Create beautiful memories with your best friends! 🌟</p>
+        </header>
+
+        <main class="main-content">
+            <div class="form-section">
+                <div class="form-card">
+                    <h2><i class="fas fa-user-friends"></i> Create Your Greeting</h2>
+                    
+                    <div class="input-group">
+                        <label for="friendName">Friend's Name</label>
+                        <input type="text" id="friendName" placeholder="Enter your friend's name...">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="memories">Special Memories</label>
+                        <textarea id="memories" placeholder="Share your favorite memories together..."></textarea>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Personal Message</label>
+                        <textarea id="message" placeholder="Write a heartfelt message..."></textarea>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="photoUpload">Add Photos/Videos</label>
+                        <input type="file" id="photoUpload" accept="image/*,video/*" multiple>
+                        <div class="upload-preview" id="uploadPreview"></div>
+                    </div>
+
+                    <div class="effects-section">
+                        <h3><i class="fas fa-magic"></i> Choose Effects & Animations</h3>
+                        
+                        <div class="effect-category">
+                            <h4>Background Effects</h4>
+                            <div class="effect-options">
+                                <button class="effect-btn" data-effect="hearts">💕 Floating Hearts</button>
+                                <button class="effect-btn" data-effect="sparkles">✨ Sparkles</button>
+                                <button class="effect-btn" data-effect="confetti">🎊 Confetti</button>
+                                <button class="effect-btn" data-effect="bubbles">🫧 Bubbles</button>
+                            </div>
+                        </div>
+
+                        <div class="effect-category">
+                            <h4>Card Styles</h4>
+                            <div class="effect-options">
+                                <button class="style-btn" data-style="classic">🌸 Classic</button>
+                                <button class="style-btn" data-style="modern">🎨 Modern</button>
+                                <button class="style-btn" data-style="vintage">📜 Vintage</button>
+                                <button class="style-btn" data-style="neon">💫 Neon</button>
+                            </div>
+                        </div>
+
+                        <div class="effect-category">
+                            <h4>Text Animations</h4>
+                            <div class="effect-options">
+                                <button class="animation-btn" data-animation="bounce">🎈 Bounce</button>
+                                <button class="animation-btn" data-animation="glow">🌟 Glow</button>
+                                <button class="animation-btn" data-animation="typewriter">⌨️ Typewriter</button>
+                                <button class="animation-btn" data-animation="rainbow">🌈 Rainbow</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="create-btn" id="createGreeting">
+                        <i class="fas fa-gift"></i>
+                        Create Greeting Card
+                    </button>
+                </div>
+            </div>
+
+            <div class="preview-section">
+                <div class="greeting-card" id="greetingCard">
+                    <div class="card-background" id="cardBackground">
+                        <div class="effects-container" id="effectsContainer"></div>
+                        
+                        <div class="card-content">
+                            <div class="friend-name" id="displayName">Your Friend's Name</div>
+                            
+                            <div class="media-container" id="mediaContainer">
+                                <div class="placeholder-media">
+                                    <i class="fas fa-images"></i>
+                                    <p>Photos/Videos will appear here</p>
+                                </div>
+                            </div>
+                            
+                            <div class="memories-section" id="displayMemories">
+                                <h3>Our Special Memories</h3>
+                                <p>Your memories will appear here...</p>
+                            </div>
+                            
+                            <div class="message-section" id="displayMessage">
+                                <h3>A Message for You</h3>
+                                <p>Your message will appear here...</p>
+                            </div>
+                            
+                            <div class="friendship-quote">
+                                "Friendship is the only cement that will ever hold the world together." 💕
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="action-btn" id="downloadBtn">
+                        <i class="fas fa-download"></i>
+                        Download
+                    </button>
+                    <button class="action-btn" id="shareBtn">
+                        <i class="fas fa-share"></i>
+                        Share
+                    </button>
+                    <button class="action-btn" id="resetBtn">
+                        <i class="fas fa-refresh"></i>
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-credits">
+                <p>Created with VB</p>
+            </div>
+            
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
